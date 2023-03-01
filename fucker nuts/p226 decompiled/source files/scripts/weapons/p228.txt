@@ -1,0 +1,69 @@
+"Weapon_P228.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"ATTN_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"^weapons/p228/p228-1.wav"
+}
+
+"Weapon_P228.Magout"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"98,102"
+
+	"wave"			"weapons/p228/magout.wav" 
+}
+
+"Weapon_P228.Magin"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"98,102"
+
+	"wave"			"weapons/p228/magin.wav" 
+}
+
+"Weapon_P228.MagShove"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"98,102"
+
+	"wave"			"weapons/p228/magshove.wav" 
+}
+
+"Weapon_P228.Sliderelease"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"98,102"
+	
+	"wave"			"weapons/p228/sliderelease.wav"
+}
+
+"Weapon_P228.Cloth"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.5"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"90,110"
+	
+	"wave"			"weapons/p228/cloth.wav"
+}
+
+"Weapon_P228.Shift"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"90,110"
+	
+	"wave"			"weapons/p228/shift.wav"
+}

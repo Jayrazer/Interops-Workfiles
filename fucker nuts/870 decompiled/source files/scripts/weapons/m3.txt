@@ -1,0 +1,9 @@
+"Weapon_M3.FoldStock"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.40"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/stock-fold.wav"
+}

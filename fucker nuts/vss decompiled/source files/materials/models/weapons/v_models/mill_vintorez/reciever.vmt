@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\Weapons\v_Models\mill_vintorez\reciever"
+"$bumpmap" 	"models\Weapons\v_Models\mill_vintorez\rec_normal"
+"$halflambert" 	"1"
+"$phong" 		"1"
+"$phongexponent" 	"30"
+"$phongboost" "0.2"
+"$phongfresnelranges" "[1 3 6]"
+"$phongalbedotint" "1"
+}
+
+
+
+
+

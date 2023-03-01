@@ -1,0 +1,8 @@
+REMINGTON 870 MARINE MAGNUM
+
+Model: Twinke Masta
+UV Maps: Flamshmizer
+Textures: Millenia
+Animations: Jennifer!!
+Sounds: Vunsunta, xLongWayHome
+Compiles: Skladfin

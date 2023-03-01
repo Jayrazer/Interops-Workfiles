@@ -1,0 +1,33 @@
+--------------
+SIG Sauer P226
+--------------
+Model
+  Soul_Slayer
+
+UV
+  Soul_Slayer
+  Thanez
+
+Textures
+  Thanez
+
+Normal Maps
+  FxDarkloki
+
+Animations
+  Sporkeh
+
+Sounds
+  DMG
+  Anders
+  FxDarkloki
+  Thanez	
+
+Compile/Buy Pic/Wees
+  vagrant
+
+----------
+DISCLAIMER
+----------
+Don't charge money for this. Don't redistribute without permission. Don't claim any of the work contained within this archive 
+as your own. Unless it actually is yours.

@@ -1,0 +1,40 @@
+"Weapon_AK47.Clipin1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\ak47.snip\clipin1.wav"
+	
+}
+"Weapon_AK47.Clipin2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\ak47.snip\clipin2.wav"
+	
+}
+"Weapon_AK47.BoltPull"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\ak47.snip\boltpull.wav"
+	
+}
+"Weapon_AK47.Clipout"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".7"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\ak47.snip\clipout.wav"
+	
+}
