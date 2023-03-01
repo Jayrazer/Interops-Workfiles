@@ -1,0 +1,81 @@
+"Weapon_CAR15.magout"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\car-15\magout.wav"
+	
+}
+"Weapon_CAR15.magin"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\car-15\magin.wav"
+	
+}
+"Weapon_CAR15.boltpull"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\car-15\boltpull.wav"
+	
+}
+"Weapon_CAR15.boltcatch"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".7"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\car-15\boltcatch.wav"
+	
+}
+"Weapon_CAR15.draw"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.5"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\car-15\draw.wav"
+	
+}
+"Weapon_CAR15.reload_start"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.5"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons\car-15\reload_start.wav"
+	
+}
+"Weapon_mp5navy.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.52"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\car-15\car-151.wav"
+	
+}
+
+"3rd_Weapon_mp5navy.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"0.52"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\car-15\car-151.wav"
+	
+}
