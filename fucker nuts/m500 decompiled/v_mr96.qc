@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\v_mr96.mdl"
+$modelname "weapons\tacint_shark\v_500mag.mdl"
 
 $bodygroup "gun"
 {
-	studio "v_mr96_reference.smd"
+	studio "v_sw500_reference.smd"
 }
 $bodygroup "silencer"
 {
@@ -34,6 +34,7 @@ $contents "solid"
 $illumposition -1.553 -9.13 -5.469
 
 $cdmaterials "models\tacint\weapons\v_models\mr96\"
+$cdmaterials "models\tacint_shark\500mag\"
 $cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\frag\"
 $cdmaterials "models\tacint\weapons\v_models\flashbang\"
@@ -259,10 +260,10 @@ $sequence "halt2" {
 $sequence "reload" {
 	"v_mr96_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 7 "tacint_MR96.Release_Cylinder" }
-	{ event 5004 21 "tacint_MR96.Eject_Shells" }
-	{ event 5004 41 "tacint_MR96.Insert_Bullets" }
-	{ event 5004 67 "tacint_MR96.Shut_Cylinder" }
+	{ event 5004 7 "tacint_m500.Release_Cylinder" }
+	{ event 5004 21 "tacint_m500.Eject_Shells" }
+	{ event 5004 41 "tacint_m500.Insert_Bullets" }
+	{ event 5004 67 "tacint_m500.Shut_Cylinder" }
 	fadein 0.2
 	fadeout 0.2
 	fps 37
@@ -271,8 +272,8 @@ $sequence "reload" {
 $sequence "midreload" {
 	"v_mr96_anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 0 "tacint_MR96.Insert_Bullets-Mid" }
-	{ event 5004 22 "tacint_MR96.Shut_Cylinder" }
+	{ event 5004 0 "tacint_m500.Insert_Bullets-Mid" }
+	{ event 5004 22 "tacint_m500.Shut_Cylinder" }
 	fadein 0.2
 	fadeout 0.2
 	fps 37
@@ -281,7 +282,7 @@ $sequence "midreload" {
 $sequence "draw" {
 	"v_mr96_anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
-	{ event 5004 8 "tacint_MR96.Deploy" }
+	{ event 5004 8 "tacint_m500.Deploy" }
 	fadein 0.2
 	fadeout 0.2
 	fps 35
@@ -400,10 +401,10 @@ $sequence "sh_idle" {
 $sequence "sh_reload" {
 	"v_mr96_anims\sh_reload.smd"
 	activity "ACT_VM_SINGLEHAND_RELOAD" 1
-	{ event 5004 7 "tacint_MR96.Release_Cylinder" }
-	{ event 5004 21 "tacint_MR96.Eject_Shells" }
-	{ event 5004 41 "tacint_MR96.Insert_Bullets" }
-	{ event 5004 67 "tacint_MR96.Shut_Cylinder" }
+	{ event 5004 7 "tacint_m500.Release_Cylinder" }
+	{ event 5004 21 "tacint_m500.Eject_Shells" }
+	{ event 5004 41 "tacint_m500.Insert_Bullets" }
+	{ event 5004 67 "tacint_m500.Shut_Cylinder" }
 	fadein 0.2
 	fadeout 0.2
 	fps 37
@@ -412,8 +413,8 @@ $sequence "sh_reload" {
 $sequence "sh_midreload" {
 	"v_mr96_anims\sh_midreload.smd"
 	activity "ACT_VM_SINGLEHAND_MIDRELOAD" 1
-	{ event 5004 0 "tacint_MR96.Insert_Bullets-Mid" }
-	{ event 5004 22 "tacint_MR96.Shut_Cylinder" }
+	{ event 5004 0 "tacint_m500.Insert_Bullets-Mid" }
+	{ event 5004 22 "tacint_m500.Shut_Cylinder" }
 	fadein 0.2
 	fadeout 0.2
 	fps 37
@@ -422,7 +423,7 @@ $sequence "sh_midreload" {
 $sequence "sh_draw" {
 	"v_mr96_anims\sh_draw.smd"
 	activity "ACT_VM_SINGLEHAND_DRAW" 1
-	{ event 5004 6 "tacint_MR96.Cock_Hammer" }
+	{ event 5004 6 "tacint_m500.Cock_Hammer" }
 	fadein 0.2
 	fadeout 0.2
 	fps 35
