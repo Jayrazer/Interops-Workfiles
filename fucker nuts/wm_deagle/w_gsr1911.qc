@@ -4,7 +4,7 @@ $modelname "weapons\tacint_extras\w_deagle.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_gsr1911.smd"
+	studio "deglew.smd"
 }
 $bodygroup "silencer"
 {
