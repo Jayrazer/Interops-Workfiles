@@ -1,0 +1,43 @@
+CREDITS : 
+
+Enron Thompson M1A1
+
+-------------------------- 
+
+Models: Enron
+
+------------------------- 
+
+UV-Maps: Enron
+
+-------------------------
+
+Textures: Enron
+
+------------------------- 
+
+Animations: KingFriday
+
+--------------------------
+
+Render: Syco
+
+--------------------------
+
+Compile: Smith
+
+--------------------------
+
+============== 
+Installation: 
+============== 
+
+
+Unzip to C:\Program Files\Valve\Steam\SteamApps\YourSteamName\counter-strike source\cstrike folder and enjoy!
+
+============== 
+Notes: 
+============== 
+
+If i've forgotten anyone in the credits, lemme know.
+_________________
