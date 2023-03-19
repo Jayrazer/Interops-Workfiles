@@ -1,6 +1,6 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_extras\v_rpk.mdl"
+$modelname "weapons\tacint_shark\v_rpk.mdl"
 
 $bodygroup "gun"
 {
@@ -25,7 +25,7 @@ $contents "solid"
 $illumposition -5.75 -22.784 -1.717
 
 $cdmaterials "models\tacint\weapons\v_models\ak47\"
-$cdmaterials "models\tacint_extras\rpk\"
+$cdmaterials "models\tacint_shark\rpk\"
 $cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 $cdmaterials "models\tacint\weapons\v_models\frag\"
