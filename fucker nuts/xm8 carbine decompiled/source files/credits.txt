@@ -1,0 +1,8 @@
+Compile-Bushmasta101
+Animations: Sick420
+Sounds: XLongWayHome, modderfreak, TOC Team, KingFriday
+Script: TheStealthyOne
+Models: End Of Days, Copkiller, Twinke Masta
+Textures: Wangchung, Copkiller, Thanez
+UV-Maps: Flamshmizer
+vgui: Smith
