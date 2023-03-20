@@ -1,20 +1,20 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_extras\v_xm8lmg.mdl"
+$modelname "weapons\tacint_shark\v_xm8car.mdl"
 
 $bodygroup "gun"
 {
-	studio "xm8lmg.smd"
+	studio "xm8carb.smd"
 }
 $bodygroup "stock"
 {
-	studio "xm8stockout.smd"
-	studio "xm8stockin.smd"
+	studio "stockout.smd"
+	studio "stockin.smd"
 }
 $bodygroup "tacrail"
 {
 	blank
-	studio "v_g36k_tacrail.smd"
+	blank
 }
 
 
@@ -25,7 +25,7 @@ $contents "solid"
 $illumposition -6.576 -19.003 -1.446
 
 $cdmaterials "models\tacint\weapons\v_models\g36k\"
-$cdmaterials "models\tacint_extras\xm8\"
+$cdmaterials "models\tacint_shark\xm8car\"
 $cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 $cdmaterials "models\tacint\weapons\v_models\frag\"
@@ -251,9 +251,9 @@ $sequence "reload" {
 	"v_g36k_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 8 "tacint_xm8.Remove_Clip" }
-	{ event 5004 37 "tacint_xm8.Insert_Clip" }
-	{ event 5004 66 "tacint_xm8.Bolt_Action" }
+	{ event 5004 8 "tacint_xm8c.Remove_Clip" }
+	{ event 5004 37 "tacint_xm8c.Insert_Clip" }
+	{ event 5004 66 "tacint_xm8c.Bolt_Action" }
 	fadein 0.2
 	fadeout 0.2
 	fps 35
@@ -262,7 +262,7 @@ $sequence "reload" {
 $sequence "midreload" {
 	"v_g36k_anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 15 "tacint_xm8.Bolt_Action" }
+	{ event 5004 15 "tacint_xm8c.Bolt_Action" }
 	fadein 0.2
 	fadeout 0.2
 	fps 33
@@ -272,8 +272,8 @@ $sequence "deploy" {
 	"v_g36k_anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 10 "tacint_xm8.Buttstock_Back" }
-	{ event 5004 28 "tacint_xm8.Fire_Select" }
+	{ event 5004 10 "tacint_xm8c.Buttstock_Back" }
+	{ event 5004 28 "tacint_xm8c.Fire_Select" }
 	fadein 0.2
 	fadeout 0.2
 	fps 31
