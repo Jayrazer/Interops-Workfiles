@@ -6,9 +6,10 @@ $bodygroup "gun"
 {
 	studio "v_rpk_reference.smd"
 }
-$bodygroup "stock"
+$bodygroup "bipod"
 {
-	blank
+	studio "bipod_up.smd"
+	studio "bipod_down.smd"
 	blank
 }
 $bodygroup "tacrail"
@@ -244,12 +245,12 @@ $sequence "hal2" {
 }
 
 $sequence "reload" {
-	"v_ak47_anims\reload.smd"
+	"anims\reload2.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 11 "tacint_rpk.Remove_Clip" }
-	{ event 5004 43 "tacint_rpk.Insert_Clip" }
-	{ event 5004 69 "tacint_rpk.BoltAction" }
+	{ event 5004 46 "tacint_rpk.Insert_Clip" }
+	{ event 5004 70 "tacint_rpk.BoltAction" }
 	fadein 0.2
 	fadeout 0.2
 	fps 32
