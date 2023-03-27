@@ -6,26 +6,10 @@ $bodygroup "gun"
 {
 	studio "v_af2011a1_reference.smd"
 }
-$bodygroup "silencer"
+$bodygroup "sights"
 {
+	studio "sights.smd"
 	blank
-	studio "v_sphinx_reference_silencer.smd"
-}
-$bodygroup "flashlight"
-{
-	blank
-	studio "v_sphinx_reference_flashlight.smd"
-}
-$bodygroup "optics"
-{
-	blank
-}
-$bodygroup "grenade"
-{
-	blank
-	studio "v_ak47_frag_reference.smd"
-	studio "v_ak47_flashbang_reference.smd"
-	studio "v_ak47_smoke_reference.smd"
 }
 
 
@@ -37,11 +21,6 @@ $illumposition -5.29 -9.925 -1.445
 
 $cdmaterials "models\tacint\weapons\v_models\sphinx\"
 $cdmaterials "models\tacint_shark\af2011\"
-$cdmaterials "models\tacint\weapons\v_models\hands\"
-$cdmaterials "models\tacint\weapons\v_models\_accessories2\"
-$cdmaterials "models\tacint\weapons\v_models\frag\"
-$cdmaterials "models\tacint\weapons\v_models\flashbang\"
-$cdmaterials "models\tacint\weapons\v_models\smoke\"
 
 $attachment "muzzleflash" "ValveBiped.Bip01" -4.45 -4.5 26 rotate -90 0 0
 $attachment "bolt" "magazine" 0 3.2 11 rotate 0 80 -15
