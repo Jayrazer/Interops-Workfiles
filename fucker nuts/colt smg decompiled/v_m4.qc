@@ -4,7 +4,7 @@ $modelname "weapons\tacint_shark\v_coltsmg.mdl"
 
 $bodygroup "gun"
 {
-	studio "colt9mm.smd"
+	studio "colt9mm_edit.smd"
 }
 $bodygroup "stock"
 {
@@ -38,7 +38,7 @@ $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
 $attachment "muzzle" "ValveBiped.m4_rootbone" -4 0 21 rotate -90 90 0
-$attachment "bolt" "ValveBiped.bolt" 1.5 0.9 0.5 rotate -15 0 90
+$attachment "bolt" "ValveBiped.bolt" 1.5 -4 0.5 rotate -15 0 90
 $attachment "muzzle_silencer" "ValveBiped.m4_rootbone" -4 0 27.5 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
 
