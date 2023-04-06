@@ -4,7 +4,7 @@ $modelname "weapons\tacint_extras\w_vss.mdl"
 
 $bodygroup "studio"
 {
-	studio "vss.smd"
+	studio "vss_new.smd"
 }
 $bodygroup "stock"
 {

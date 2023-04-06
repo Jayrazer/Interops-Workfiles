@@ -4,7 +4,7 @@ $modelname "weapons\tacint_extras\w_xm8lmg.mdl"
 
 $bodygroup "gun"
 {
-	studio "xm8lmg.smd"
+	studio "xm8lmg_new.smd"
 }
 $bodygroup "stock"
 {
