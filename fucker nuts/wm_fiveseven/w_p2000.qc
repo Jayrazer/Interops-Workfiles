@@ -23,7 +23,7 @@ $contents "solid"
 
 $illumposition -0.04 -4.971 0.474
 
-$cdmaterials "models\tacint\weapons\w_models\p2000\"
+$cdmaterials "models\tacint_shark\57\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories2\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 10.7 -1.2 -4.3 rotate 0 0 -90
