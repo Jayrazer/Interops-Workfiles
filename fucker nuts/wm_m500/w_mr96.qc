@@ -7,26 +7,6 @@ $bodygroup "studio"
 	studio "w_sw500_ref.smd"
 }
 
-$lod 24
-{
-	replacemodel "w_sw500_ref.smd" "w_sw500_lod1.smd"
-	nofacial
-}
-$lod 180
-{
-	replacemodel "w_sw500_ref.smd" "w_sw500_lod2.smd"
-	replacebone "Box01" "ValveBiped.Bip01_R_Hand"
-	replacebone "ak47_bolt" "Box01"
-	nofacial
-}
-$shadowlod
-{
-	replacemodel "w_sw500_ref.smd" "w_sw500_lod3.smd"
-	replacebone "Box01" "ValveBiped.Bip01_R_Hand"
-	replacebone "ak47_bolt" "Box01"
-	nofacial
-}
-
 $surfaceprop "Pistol_Metal"
 
 $contents "solid"
