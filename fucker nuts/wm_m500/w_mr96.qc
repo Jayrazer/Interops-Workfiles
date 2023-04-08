@@ -84,7 +84,7 @@ $sequence "attack1" {
 	fps 30
 }
 
-$collisionmodel "w_mr96_physics.smd"
+$collisionmodel "w_sw500_ref.smd"
 {
 	$mass 1.7
 	$inertia 1

@@ -106,7 +106,7 @@ $sequence "attack2" {
 	fps 13
 }
 
-$collisionmodel "w_p2000_physics.smd"
+$collisionmodel "w_57_ref.smd"
 {
 	$mass 1.3
 	$inertia 1
