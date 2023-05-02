@@ -4,7 +4,7 @@ $modelname "weapons\tacint_extras\w_glock18.mdl"
 
 $bodygroup "studio"
 {
-	studio "glock18.smd"
+	studio "glock18_new.smd"
 }
 
 

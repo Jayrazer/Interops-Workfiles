@@ -1,47 +1,45 @@
-// Created by Crowbar 0.68
+// Created by Crowbar 0.71
 
-$modelname "weapons\tacint_extras\w_vss.mdl"
+$modelname "weapons\tacint_shark\w_57.mdl"
 
 $bodygroup "studio"
 {
-	studio "vss_new.smd"
+	studio "w_57_ref.smd"
 }
-$bodygroup "stock"
+$bodygroup "silencer"
 {
 	blank
-	blank
+	studio "w_p2000_silencer.smd"
 }
-$bodygroup "tacrail"
+$bodygroup "flashlight"
 {
-	studio "vssscope.smd"
-	studio "v_ak47_tacrail.smd"
 	blank
+	studio "w_p2000_flashlight.smd"
 }
 
-$surfaceprop "weapon"
+$surfaceprop "Pistol_Metal"
 
 $contents "solid"
 
-$illumposition 0 0 0
+$illumposition -0.04 -4.971 0.474
 
-$cdmaterials "models\tacint\weapons\v_models\ak47\"
-$cdmaterials "models\tacint_extras\vss\"
-$cdmaterials "models\tacint\weapons\w_models\_accessories1\"
+$cdmaterials "models\tacint_shark\57\"
+$cdmaterials "models\tacint\weapons\w_models\_accessories2\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 29.4 -1.1 -4.4 rotate 0 0 -90
-$attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
+$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 10.7 -1.2 -4.3 rotate 0 0 -90
+$attachment "bolt" "ValveBiped.Bip01_R_Hand" 6 -1.3 -4 rotate 77 90 -90
 
 $cbox 0 0 0 0 0 0
 
-$bbox 0 0 0 0 0 0
+$bbox -3.893 -1.187 -3.733 13.834 1.107 4.682
 
 $definebone "ValveBiped.Bip01_R_Hand" "" -1.187493 3.856107 -0.925095 0.820232 -90.000016 -180.000005 0 0 0 0 0 0
-$definebone "Box01" "ValveBiped.Bip01_R_Hand" 5.216261 -1.175498 -5.60718 -0.000019 -90.000016 179.179754 0 0 0 0 0 0
+$definebone "Box01" "ValveBiped.Bip01_R_Hand" 5.216261 -1.175498 -5.607179 -0.000019 -90.000016 179.179754 0 0 0 0 0 0
 $definebone "ak47_bolt" "Box01" 0.079702 -2.0397 -0.787757 -1.126075 -90.000016 90.000016 0 0 0 0 0 0
 
 
 $sequence "vm_idle" {
-	"w_ak47_anims\vm_idle.smd"
+	"w_p2000_anims\vm_idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -49,7 +47,7 @@ $sequence "vm_idle" {
 }
 
 $sequence "vm_reload" {
-	"w_ak47_anims\vm_reload.smd"
+	"w_p2000_anims\vm_reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -57,7 +55,7 @@ $sequence "vm_reload" {
 }
 
 $sequence "vm_draw" {
-	"w_ak47_anims\vm_draw.smd"
+	"w_p2000_anims\vm_draw.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -65,7 +63,7 @@ $sequence "vm_draw" {
 }
 
 $sequence "idle" {
-	"w_ak47_anims\idle.smd"
+	"w_p2000_anims\idle.smd"
 	activity "ACT_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -73,7 +71,7 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"w_ak47_anims\reload.smd"
+	"w_p2000_anims\reload.smd"
 	activity "ACT_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -81,7 +79,7 @@ $sequence "reload" {
 }
 
 $sequence "draw" {
-	"w_ak47_anims\draw.smd"
+	"w_p2000_anims\draw.smd"
 	activity "ACT_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -89,34 +87,34 @@ $sequence "draw" {
 }
 
 $sequence "attack1" {
-	"w_ak47_anims\attack1.smd"
+	"w_p2000_anims\attack1.smd"
 	activity "ACT_RANGE_ATTACK1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
-	{ event 6010 0 "1" }
+	{ event 6010 0 "0" }
 	fadein 0.2
 	fadeout 0.2
-	fps 22
+	fps 13
 }
 
 $sequence "attack2" {
-	"w_ak47_anims\attack2.smd"
+	"w_p2000_anims\attack2.smd"
 	activity "ACT_RANGE_ATTACK2" 1
 	{ event 9001 0 "TI_Silenced" }
-	{ event 6010 0 "1" }
+	{ event 6010 0 "0" }
 	fadein 0.2
 	fadeout 0.2
-	fps 22
+	fps 13
 }
 
-$collisionmodel "vss.smd"
+$collisionmodel "w_57_ref.smd"
 {
-	$mass 5
+	$mass 1.3
 	$inertia 1
 	$damping 0
 	$rotdamping 0
 	$rootbone " "
 	$concave
-	$maxconvexpieces 10
+	$maxconvexpieces 3
 
 }
 
@@ -126,5 +124,5 @@ $keyvalues
 	{
 		"base"		"Metal.Small"
 	}
-	qc_path models\weapons\w_models\w_ak47.qc
+	qc_path models\weapons\w_models\w_p2000.qc
 }
