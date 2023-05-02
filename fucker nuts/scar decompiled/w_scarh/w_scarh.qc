@@ -28,14 +28,14 @@ $bodygroup "grenade"
 	blank
 }
 
-$surfaceprop "item"
+$surfaceprop "weapon"
 
 $contents "solid"
 
 $cdmaterials "models\tacint_shark\scarh\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 27.4 -1.2 -4.4 rotate 0 0 -90
-$attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
+$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 26.4 -1 -4.4 rotate 0 0 -90
+$attachment "bolt" "ValveBiped.Bip01_R_Hand" 8 -1 -5 rotate 25 90 -90
 
 $sequence "vm_idle" {
 	"w_dsa58_anims\vm_idle.smd"

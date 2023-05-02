@@ -29,8 +29,8 @@ $cdmaterials "models\tacint\weapons\w_models\m4\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 $cdmaterials "models\tacint_shark\coltsmg\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 25.1 -2.5 -5.5 rotate 0 -2 -90
-$attachment "bolt" "ValveBiped.Bip01_R_Hand" 9.5 -1 -5.7 rotate 25 90 -90
+$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 22.5 -2.5 -5.5 rotate 0 -2 -90
+$attachment "bolt" "ValveBiped.Bip01_R_Hand" 8.5 -1 -5.7 rotate 25 90 -90
 
 $sequence "vm_idle" {
 	"w_m4_anims\vm_idle.smd"
