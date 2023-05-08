@@ -7,7 +7,7 @@ $bodygroup "studio"
 	studio "w_sw500_ref.smd"
 }
 
-$surfaceprop "Pistol_Metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -90,17 +90,4 @@ $collisionmodel "w_sw500_ref.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
-	$concave
-	$maxconvexpieces 10
-
-}
-
-$keyvalues
-{
-	prop_data 
-	{
-		"base"		"Metal.Small"
-	}
-	qc_path models\weapons\w_models\w_mr96.qc
 }

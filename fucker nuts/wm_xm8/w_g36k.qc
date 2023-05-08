@@ -114,17 +114,4 @@ $collisionmodel "xm8lmg.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
-	$concave
-	$maxconvexpieces 17
-
-}
-
-$keyvalues
-{
-	prop_data 
-	{
-		"base"		"Metal.Small"
-	}
-	qc_path models\weapons\w_models\w_g36k.qc
 }

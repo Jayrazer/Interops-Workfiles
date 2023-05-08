@@ -7,8 +7,7 @@ $bodygroup "studio"
 	studio "glock18_new.smd"
 }
 
-
-$surfaceprop "Pistol_Metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -104,17 +103,4 @@ $collisionmodel "glock18.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
-	$concave
-	$maxconvexpieces 15
-
-}
-
-$keyvalues
-{
-	prop_data 
-	{
-		"base"		"Metal.Small"
-	}
-	qc_path models\weapons\w_models\w_p2000.qc
 }

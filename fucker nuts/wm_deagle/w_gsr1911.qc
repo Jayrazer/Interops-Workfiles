@@ -17,7 +17,7 @@ $bodygroup "flashlight"
 	studio "w_gsr1911_flashlight.smd"
 }
 
-$surfaceprop "Pistol_Metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -112,17 +112,4 @@ $collisionmodel "deglew.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
-	$concave
-	$maxconvexpieces 22
-
-}
-
-$keyvalues
-{
-	prop_data 
-	{
-		"base"		"Metal.Small"
-	}
-	qc_path models\weapons\w_models\w_gsr1911.qc
 }

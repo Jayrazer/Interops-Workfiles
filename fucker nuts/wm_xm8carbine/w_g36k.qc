@@ -1,6 +1,6 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons\tacint_extras\w_xm8car.mdl"
+$modelname "weapons\tacint_shark\w_xm8car.mdl"
 
 $bodygroup "gun"
 {
@@ -110,21 +110,8 @@ $sequence "attack2" {
 
 $collisionmodel "xm8carb_wm.smd"
 {
-	$mass 4
+	$mass 3
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
-	$concave
-	$maxconvexpieces 17
-
-}
-
-$keyvalues
-{
-	prop_data 
-	{
-		"base"		"Metal.Small"
-	}
-	qc_path models\weapons\w_models\w_g36k.qc
 }

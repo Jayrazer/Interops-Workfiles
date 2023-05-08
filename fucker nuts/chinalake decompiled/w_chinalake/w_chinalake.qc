@@ -80,6 +80,4 @@ $collisionmodel "w_chinalake.smd"
 	$damping 0
 	$rotdamping 0
 	$rootbone " "
-	$concave
-	$maxconvexpieces 12
 }

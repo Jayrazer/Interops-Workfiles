@@ -106,7 +106,4 @@ $collisionmodel "w_colt9mm.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
-	$concave
-	$maxconvexpieces 31
 }

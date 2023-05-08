@@ -17,7 +17,7 @@ $bodygroup "flashlight"
 	studio "w_p250_flashlight.smd"
 }
 
-$surfaceprop "Pistol_Metal"
+$surfaceprop "weapon"
 
 $contents "solid"
 
@@ -114,14 +114,4 @@ $collisionmodel "ref2.smd"
 	$damping 0
 	$rotdamping 0
 	$rootbone " "
-
-}
-
-$keyvalues
-{
-	prop_data 
-	{
-		"base"		"Metal.Small"
-	}
-	qc_path models\weapons\w_models\w_p250.qc
 }
