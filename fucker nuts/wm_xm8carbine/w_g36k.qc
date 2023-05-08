@@ -108,7 +108,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "xm8carb_wm.smd"
+$collisionmodel "xm8carb_phys.smd"
 {
 	$mass 3
 	$inertia 1

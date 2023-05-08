@@ -22,8 +22,6 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 0 0
-
 $cdmaterials "models\tacint\weapons\v_models\g36k\"
 $cdmaterials "models\tacint_extras\xm8\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
@@ -31,14 +29,9 @@ $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 27.5 -1 -4.7 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 9.5 -1 -4.6 rotate 25 90 -90
 
-$cbox 0 0 0 0 0 0
-
-$bbox 0 0 0 0 0 0
-
 $definebone "ValveBiped.Bip01_R_Hand" "" -1.187493 3.856107 -0.925095 0.820232 -90.000016 -180.000005 0 0 0 0 0 0
 $definebone "Box01" "ValveBiped.Bip01_R_Hand" 5.216261 -1.175498 -5.60718 -0.000019 -90.000016 179.179754 0 0 0 0 0 0
 $definebone "ak47_bolt" "Box01" 0.079702 -2.0397 -0.787757 -1.126075 -90.000016 90.000016 0 0 0 0 0 0
-
 
 $sequence "vm_idle" {
 	"w_g36k_anims\vm_idle.smd"
@@ -108,9 +101,9 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "xm8lmg.smd"
+$collisionmodel "xm8lmg_phys.smd"
 {
-	$mass 4
+	$mass 5
 	$inertia 1
 	$damping 0
 	$rotdamping 0

@@ -248,7 +248,7 @@ $sequence "hal2" {
 }
 
 $sequence "reload" {
-	"v_g36k_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 8 "tacint_xm8.Remove_Clip" }
