@@ -26,6 +26,13 @@ $bodygroup "grenade"
 $bodygroup "bullets"
 {
 	blank
+	studio "pkm_belt1.smd"
+	studio "pkm_belt2.smd"
+	studio "pkm_belt3.smd"
+	studio "pkm_belt4.smd"
+	studio "pkm_belt5.smd"
+	studio "pkm_belt6.smd"
+	studio "pkm_belt7.smd"
 }
 
 
@@ -43,8 +50,8 @@ $cdmaterials "models\tacint\weapons\v_models\frag\"
 $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
-$attachment "muzzle" "ValveBiped.MG4_root" -5.4 0 28 rotate -90 90 0
-$attachment "bolt" "ValveBiped.magazine" -3.6 3.8 0 rotate -20 140 0
+$attachment "muzzle" "ValveBiped.MG4_root" -5.4 0 40 rotate -90 90 0
+$attachment "bolt" "ValveBiped.magazine" -1.60 2 -1.20 rotate 20 -25 0
 $attachment "muzzle_silencer" "ValveBiped.MG4_root" 5 0 41.4 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
 
