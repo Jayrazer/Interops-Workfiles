@@ -217,23 +217,23 @@ $sequence "throw_grenade_underhand" {
 	fps 41
 }
 
-//$sequence "melee1" {
-	//"v_db_anims\melee1.smd"
-	//activity "ACT_VM_SECONDARYATTACK" 1
-	//{ event 5004 2 "Weapon.Swing" }
-	//fadein 0.2
-	//fadeout 0.2
-	//fps 36
-//}
+$sequence "melee1" {
+	"v_db_anims\melee1.smd"
+	activity "ACT_VM_SECONDARYATTACK" 1
+	{ event 5004 2 "Weapon.Swing" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
 
-//$sequence "melee2" {
-	//"v_db_anims\melee2.smd"
-	//activity "ACT_VM_SECONDARYATTACK2" 1
-	//{ event 5004 2 "Weapon.Swing" }
-	//fadein 0.2
-	//fadeout 0.2
-	//fps 36
-//}
+$sequence "melee2" {
+	"v_db_anims\melee2.smd"
+	activity "ACT_VM_SECONDARYATTACK2" 1
+	{ event 5004 2 "Weapon.Swing" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
 
 $sequence "fire1" {
 	"v_db_anims\fire1.smd"
