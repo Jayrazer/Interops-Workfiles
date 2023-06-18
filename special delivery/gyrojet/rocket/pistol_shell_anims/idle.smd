@@ -1,0 +1,9 @@
+// Created by Crowbar 0.71
+version 1
+nodes
+  0 "pistol shell" -1
+end
+skeleton
+  time 0
+    0 -0.004559 0.677246 0.297852 1.570788 0.000007 -0.000007
+end
