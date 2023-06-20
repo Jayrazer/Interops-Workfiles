@@ -1,0 +1,92 @@
+"Weapon_Awp.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+	
+	"rndwave"
+	{
+		"wave"			"weapons/g2contender/awp-1.wav"
+		"wave"			"weapons/g2contender/awp-2.wav"
+		"wave"			"weapons/g2contender/awp-3.wav"
+	}
+}
+
+"Weapon_Awp.Draw"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/g2contender/Draw.wav"
+}
+
+"Weapon_Awp.Hammer"
+{
+	"channel"		"CHAN_USER_BASE+1"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+	
+	"rndwave"
+	{
+		"wave"			"weapons/g2contender/Cock-1.wav"
+		"wave"			"weapons/g2contender/Cock-2.wav"
+	}
+}
+
+"Weapon_Awp.Open"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/g2contender/open_chamber.wav"
+}
+
+"Weapon_Awp.Shellout"
+{
+	"channel"		"CHAN_USER_BASE+1"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/g2contender/Bullet_out.wav"
+}
+
+"Weapon_Awp.Shellin"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/g2contender/Bullet_in.wav"
+}
+
+"Weapon_Awp.Close"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/g2contender/close_chamber.wav"
+}
+
+"Weapon_Awp.Shell"
+{
+	"channel"		"CHAN_USER_BASE+2"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/g2contender/pl_shell1.wav"
+	"wave"			"weapons/g2contender/pl_shell2.wav"
+	"wave"			"weapons/g2contender/pl_shell3.wav"
+	"wave"			"weapons/g2contender/pl_shell4.wav"
+
+}
