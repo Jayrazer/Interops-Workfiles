@@ -6,22 +6,7 @@ $bodygroup "gun"
 {
 	studio "db_ref.smd"
 }
-$bodygroup "silencer"
-{
-	blank
-}
-$bodygroup "flashlight"
-{
-	blank
-}
-$bodygroup "optics"
-{
-	blank
-}
-$bodygroup "grenade"
-{
-	blank
-}
+
 
 $surfaceprop "default"
 
@@ -29,13 +14,7 @@ $contents "solid"
 
 $illumposition -5.782 -10.195 -1.729
 
-$cdmaterials "models\tacint\weapons\v_models\vertec\"
 $cdmaterials "models\tacint_shark\weapons\db\"
-$cdmaterials "models\tacint\weapons\v_models\hands\"
-$cdmaterials "models\tacint\weapons\v_models\_accessories2\"
-$cdmaterials "models\tacint\weapons\v_models\frag\"
-$cdmaterials "models\tacint\weapons\v_models\flashbang\"
-$cdmaterials "models\tacint\weapons\v_models\smoke\"
 
 $attachment "muzzleflash" "db_root" 0 1 17 rotate -90 0 0
 
@@ -218,7 +197,7 @@ $sequence "throw_grenade_underhand" {
 }
 
 $sequence "melee1" {
-	"v_db_anims\melee1.smd"
+	"anims\melee1.smd"
 	activity "ACT_VM_SECONDARYATTACK" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
@@ -227,7 +206,7 @@ $sequence "melee1" {
 }
 
 $sequence "melee2" {
-	"v_db_anims\melee2.smd"
+	"anims\melee2.smd"
 	activity "ACT_VM_SECONDARYATTACK2" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
@@ -236,7 +215,7 @@ $sequence "melee2" {
 }
 
 $sequence "fire1" {
-	"v_db_anims\fire1.smd"
+	"anims\fire3.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 2 "0" }
@@ -247,7 +226,7 @@ $sequence "fire1" {
 }
 
 $sequence "fire2" {
-	"v_db_anims\fire2.smd"
+	"anims\fire4.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 2 "0" }
