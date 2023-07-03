@@ -6,22 +6,10 @@ $bodygroup "studio"
 {
 	studio "ref2.smd"
 }
-$bodygroup "silencer"
-{
-	blank
-	studio "w_p250_silencer.smd"
-}
-$bodygroup "flashlight"
-{
-	blank
-	studio "w_p250_flashlight.smd"
-}
 
 $surfaceprop "weapon"
 
 $contents "solid"
-
-$illumposition 0 0 0
 
 $cdmaterials "models\tacint\weapons\v_models\p250\"
 $cdmaterials "models\tacint_extras\p226\"
@@ -29,10 +17,6 @@ $cdmaterials "models\tacint\weapons\w_models\_accessories2\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 10.8 -1.2 -4.2 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 6 -1.3 -4 rotate 77 90 -90
-
-$cbox 0 0 0 0 0 0
-
-$bbox 0 0 0 0 0 0
 
 $definebone "ValveBiped.Bip01_R_Hand" "" -1.187493 3.856107 -0.925095 0.820232 -90.000016 -180.000005 0 0 0 0 0 0
 $definebone "Box01" "ValveBiped.Bip01_R_Hand" 5.216261 -1.175498 -5.60718 -0.000019 -90.000016 179.179754 0 0 0 0 0 0

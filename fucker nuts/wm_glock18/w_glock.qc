@@ -11,18 +11,12 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 0 0
-
 $cdmaterials "models\tacint_extras\glock\"
 $cdmaterials "models\tacint\weapons\w_models\p2000\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories2\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 10.7 -1.2 -4.3 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 6 -1.3 -4 rotate 77 90 -90
-
-$cbox 0 0 0 0 0 0
-
-$bbox 0 0 0 0 0 0
 
 $definebone "ValveBiped.Bip01_R_Hand" "" -1.187493 3.856107 -0.925095 0.820232 -90.000016 180.000005 0 0 0 0 0 0
 $definebone "Box01" "ValveBiped.Bip01_R_Hand" 5.216261 -1.175498 -5.607179 -0.000019 -90.000016 179.179754 0 0 0 0 0 0

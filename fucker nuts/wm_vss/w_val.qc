@@ -27,18 +27,12 @@ $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0 0 0
-
 $cdmaterials "models\tacint\weapons\v_models\ak47\"
 $cdmaterials "models\tacint_extras\vss\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 29.4 -1.1 -4.4 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
-
-$cbox 0 0 0 0 0 0
-
-$bbox 0 0 0 0 0 0
 
 $definebone "ValveBiped.Bip01_R_Hand" "" -1.187493 3.856107 -0.925095 0.820232 -90.000016 -180.000005 0 0 0 0 0 0
 $definebone "Box01" "ValveBiped.Bip01_R_Hand" 5.216261 -1.175498 -5.60718 -0.000019 -90.000016 179.179754 0 0 0 0 0 0
