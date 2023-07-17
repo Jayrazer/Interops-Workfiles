@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\v_cz52.mdl"
+$modelname "weapons\tacint_shark\v_tt33.mdl"
 
 $bodygroup "gun"
 {
-	studio "v_cz52.smd"
+	studio "v_tokarev.smd"
 }
 $bodygroup "silencer"
 {
@@ -36,7 +36,7 @@ $contents "solid"
 $illumposition -5.782 -10.195 -1.729
 
 $cdmaterials "models\tacint\weapons\v_models\vertec\"
-$cdmaterials "models\tacint_shark\weapons\cz52\"
+$cdmaterials "models\tacint_shark\weapons\tt33\"
 $cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories2\"
 $cdmaterials "models\tacint\weapons\v_models\frag\"
@@ -246,9 +246,9 @@ $sequence "halt2" {
 $sequence "reload" {
 	"v_vertec_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 6 "tacint_cz52.Clip_Out" }
-	{ event 5004 25 "tacint_cz52.Clip_In" }
-	{ event 5004 47 "tacint_cz52.Slide_Shut" }
+	{ event 5004 6 "tacint_tt33.Clip_Out" }
+	{ event 5004 25 "tacint_tt33.Clip_In" }
+	{ event 5004 47 "tacint_tt33.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
@@ -257,8 +257,8 @@ $sequence "reload" {
 $sequence "midreload" {
 	"v_vertec_anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 0 "tacint_cz52.Clip_In-Mid" }
-	{ event 5004 18 "tacint_cz52.Slide_Shut" }
+	{ event 5004 0 "tacint_tt33.Clip_In-Mid" }
+	{ event 5004 18 "tacint_tt33.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
@@ -267,7 +267,7 @@ $sequence "midreload" {
 $sequence "draw" {
 	"v_vertec_anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
-	{ event 5004 11 "tacint_cz52.Slide_Action" }
+	{ event 5004 11 "tacint_tt33.Slide_Action" }
 	fadein 0.2
 	fadeout 0.2
 	fps 70
@@ -432,9 +432,9 @@ $sequence "sh_idle" {
 $sequence "sh_reload" {
 	"v_vertec_anims\sh_reload.smd"
 	activity "ACT_VM_SINGLEHAND_RELOAD" 1
-	{ event 5004 6 "tacint_cz52.Clip_Out" }
-	{ event 5004 25 "tacint_cz52.Clip_In" }
-	{ event 5004 47 "tacint_cz52.Slide_Shut" }
+	{ event 5004 6 "tacint_tt33.Clip_Out" }
+	{ event 5004 25 "tacint_tt33.Clip_In" }
+	{ event 5004 47 "tacint_tt33.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
@@ -443,8 +443,8 @@ $sequence "sh_reload" {
 $sequence "sh_midreload" {
 	"v_vertec_anims\sh_midreload.smd"
 	activity "ACT_VM_SINGLEHAND_MIDRELOAD" 1
-	{ event 5004 0 "tacint_cz52.Clip_In-Mid" }
-	{ event 5004 18 "tacint_cz52.Slide_Shut" }
+	{ event 5004 0 "tacint_tt33.Clip_In-Mid" }
+	{ event 5004 18 "tacint_tt33.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
@@ -453,7 +453,7 @@ $sequence "sh_midreload" {
 $sequence "sh_draw" {
 	"v_vertec_anims\sh_draw.smd"
 	activity "ACT_VM_SINGLEHAND_DRAW" 1
-	{ event 5004 13 "tacint_cz52.Cock_Hammer" }
+	{ event 5004 13 "tacint_tt33.Cock_Hammer" }
 	fadein 0.2
 	fadeout 0.2
 	fps 70
