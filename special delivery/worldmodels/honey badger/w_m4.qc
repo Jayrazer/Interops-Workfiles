@@ -1,20 +1,20 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_m4.mdl"
+$modelname "weapons\tacint_shark\w_aac_hb.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_m4.smd"
+	studio "w_honeybadger.smd"
 }
-$bodygroup "silencer"
+$bodygroup "foldstock"
 {
-	blank
-	studio "w_m4_silencer.smd"
+	studio "w_stock_out.smd"
+	studio "w_stock_in.smd"
 }
-$bodygroup "flashlight"
+$bodygroup "irons"
 {
+	studio "w_sights.smd"
 	blank
-	studio "w_m4_flashlight.smd"
 }
 $bodygroup "optics"
 {
@@ -25,44 +25,8 @@ $bodygroup "optics"
 }
 $bodygroup "magazine"
 {
-	studio "w_m4_magazine.smd"
 	blank
-}
-
-$lod 24
-{
-	replacemodel "w_m4.smd" "w_m4_lod1.smd"
-	replacemodel "w_m4_silencer.smd" "w_m4_silencer_lod1.smd"
-	replacemodel "w_m4_flashlight.smd" "w_m4_flashlight_lod1.smd"
-	replacemodel "w_m4_holosight.smd" "w_m4_holosight_lod1.smd"
-	replacemodel "w_m4_reddot.smd" "w_m4_reddot_lod1.smd"
-	replacemodel "w_m4_ACOG.smd" "w_m4_ACOG_lod1.smd"
-	replacemodel "w_m4_magazine.smd" "w_m4_magazine_lod1.smd"
-	nofacial
-}
-$lod 70
-{
-	replacemodel "w_m4.smd" "w_m4_lod2.smd"
-	replacemodel "w_m4_silencer.smd" "w_m4_silencer_lod2.smd"
-	replacemodel "w_m4_flashlight.smd" "w_m4_flashlight_lod2.smd"
-	replacemodel "w_m4_holosight.smd" "w_m4_holosight_lod2.smd"
-	replacemodel "w_m4_reddot.smd" "w_m4_reddot_lod2.smd"
-	replacemodel "w_m4_ACOG.smd" "w_m4_ACOG_lod2.smd"
-	replacemodel "w_m4_magazine.smd" "w_m4_magazine_lod2.smd"
-	nofacial
-}
-$lod 200
-{
-	replacemodel "w_m4.smd" "w_m4_lod3.smd"
-	replacemodel "w_m4_silencer.smd" "w_m4_silencer_lod3.smd"
-	replacemodel "w_m4_flashlight.smd" "w_m4_flashlight_lod3.smd"
-	replacemodel "w_m4_holosight.smd" "w_m4_holosight_lod3.smd"
-	replacemodel "w_m4_reddot.smd" "w_m4_reddot_lod3.smd"
-	replacemodel "w_m4_ACOG.smd" "w_m4_ACOG_lod3.smd"
-	replacemodel "w_m4_magazine.smd" "w_m4_magazine_lod3.smd"
-	replacebone "Box01" "ValveBiped.Bip01_R_Hand"
-	replacebone "ak47_bolt" "Box01"
-	nofacial
+	blank
 }
 
 $surfaceprop "weapon"
@@ -73,6 +37,7 @@ $illumposition -0.191 -7.886 2.768
 
 $cdmaterials "models\tacint\weapons\w_models\m4\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
+$cdmaterials "models\tacint_shark\weapons\aac\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 25.1 -2.5 -5.5 rotate 0 -2 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 9.5 -1 -5.7 rotate 25 90 -90
@@ -154,7 +119,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_m4_physics.smd"
+$collisionmodel "w_honeybadger.smd"
 {
 	$mass 4
 	$inertia 1

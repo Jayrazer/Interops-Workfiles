@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_mtx.mdl"
+$modelname "weapons\tacint_shark\w_dualies.mdl"
 
 $bodygroup "studio"
 {
-	studio "mtx.smd"
+	studio "w_berettas.smd"
 }
 $bodygroup "silencer"
 {
@@ -21,16 +21,16 @@ $bodygroup "optics"
 	blank
 }
 
-$lod 14
-{
-	replacemodel "mtx.smd" "mtx_lod1.smd"
-	nofacial
-}
-$shadowlod
-{
-	replacemodel "mtx.smd" "mtx_lod2.smd"
-	nofacial
-}
+//$lod 14
+//{
+	//replacemodel "mtx.smd" "mtx_lod1.smd"
+	//nofacial
+//}
+//$shadowlod
+//{
+	//replacemodel "mtx.smd" "mtx_lod2.smd"
+	//nofacial
+//}
 
 $surfaceprop "weapon"
 
@@ -40,6 +40,7 @@ $illumposition 7.974 15.793 -0.287
 
 $cdmaterials "models\tacint\weapons\w_models\mtx\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories2\"
+$cdmaterials "models\tacint_shark\weapons\dualies\"
 
 $attachment "muzzle_flash_right" "ValveBiped.Bip01_R_Hand" 10.1 -1.2 -4 rotate 0 0 -90
 $attachment "muzzle_flash_left" "ValveBiped.Bip01_L_Hand" 9 -1.3 3 rotate 0 0 90
@@ -133,7 +134,7 @@ $sequence "attack2" {
 	fps 45
 }
 
-$collisionmodel "w_mtx_physics.smd"
+$collisionmodel "w_berettas.smd"
 {
 	$mass 2.2
 	$inertia 1
