@@ -1,15 +1,14 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_xd45.mdl"
+$modelname "weapons\tacint_shark\w_tt33.mdl"
 
 $bodygroup "studio"
 {
-	studio "xd45.smd"
+	studio "w_tokarev.smd"
 }
 $bodygroup "silencer"
 {
 	blank
-	studio "xd45_muzzle_comp.smd"
 }
 $bodygroup "flashlight"
 {
@@ -19,22 +18,6 @@ $bodygroup "optics"
 {
 	blank
 	blank
-	studio "xd45_reddot.smd"
-}
-
-$lod 30
-{
-	replacemodel "xd45.smd" "xd45_lod1.smd"
-	replacemodel "xd45_muzzle_comp.smd" "xd45_muzzle_comp_lod1.smd"
-	replacemodel "xd45_reddot.smd" "xd45_reddot_lod1.smd"
-	nofacial
-}
-$shadowlod
-{
-	replacemodel "xd45.smd" "xd45_lod2.smd"
-	replacemodel "xd45_muzzle_comp.smd" "xd45_muzzle_comp_lod2.smd"
-	replacemodel "xd45_reddot.smd" "xd45_reddot_lod2.smd"
-	nofacial
 }
 
 $surfaceprop "weapon"
@@ -47,6 +30,7 @@ $cdmaterials "models\tacint\weapons\w_models\xd45\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories2\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories2\pistol_compensator1\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories2\rmr\"
+$cdmaterials "models\tacint_shark\weapons\tt33\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 11.6 -1.2 -4 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 6 -1.3 -4 rotate 77 90 -90
@@ -128,7 +112,7 @@ $sequence "attack2" {
 	fps 48
 }
 
-$collisionmodel "w_xd45_physics.smd"
+$collisionmodel "w_tokarev.smd"
 {
 	$mass 1.3
 	$inertia 1

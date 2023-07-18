@@ -1,15 +1,14 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_aug.mdl"
+$modelname "weapons\tacint_shark\w_famas.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_aug.smd"
+	studio "w_famas.smd"
 }
-$bodygroup "silencer"
+$bodygroup "bipod"
 {
 	blank
-	studio "w_aug_silencer.smd"
 }
 $bodygroup "flashlight"
 {
@@ -25,53 +24,8 @@ $bodygroup "optics"
 }
 $bodygroup "magazine"
 {
-	studio "w_aug_magazine.smd"
 	blank
-}
-
-$lod 24
-{
-	replacemodel "w_aug.smd" "w_aug_lod1.smd"
-	replacemodel "w_aug_silencer.smd" "w_aug_silencer_lod1.smd"
-	replacemodel "w_aug_flashlight.smd" "w_aug_flashlight_lod1.smd"
-	replacemodel "w_aug_holosight.smd" "w_aug_holosight_lod1.smd"
-	replacemodel "w_aug_reddot.smd" "w_aug_reddot_lod1.smd"
-	replacemodel "w_aug_ACOG.smd" "w_aug_ACOG_lod1.smd"
-	replacemodel "w_aug_magazine.smd" "w_aug_magazine_lod1.smd"
-	nofacial
-}
-$lod 70
-{
-	replacemodel "w_aug.smd" "w_aug_lod2.smd"
-	replacemodel "w_aug_silencer.smd" "w_aug_silencer_lod2.smd"
-	replacemodel "w_aug_flashlight.smd" "w_aug_flashlight_lod2.smd"
-	replacemodel "w_aug_holosight.smd" "w_aug_holosight_lod2.smd"
-	replacemodel "w_aug_reddot.smd" "w_aug_reddot_lod2.smd"
-	replacemodel "w_aug_ACOG.smd" "w_aug_ACOG_lod2.smd"
-	replacemodel "w_aug_magazine.smd" "w_aug_magazine_lod2.smd"
-	nofacial
-}
-$lod 200
-{
-	replacemodel "w_aug.smd" "w_aug_lod3.smd"
-	replacemodel "w_aug_silencer.smd" "w_aug_silencer_lod3.smd"
-	replacemodel "w_aug_flashlight.smd" "w_aug_flashlight_lod3.smd"
-	replacemodel "w_aug_holosight.smd" "w_aug_holosight_lod3.smd"
-	replacemodel "w_aug_reddot.smd" "w_aug_reddot_lod3.smd"
-	replacemodel "w_aug_ACOG.smd" "w_aug_ACOG_lod3.smd"
-	replacemodel "w_aug_magazine.smd" "w_aug_magazine_lod3.smd"
-	nofacial
-}
-$shadowlod
-{
-	replacemodel "w_aug.smd" "w_aug_lod4.smd"
-	replacemodel "w_aug_silencer.smd" "w_aug_silencer_lod4.smd"
-	replacemodel "w_aug_flashlight.smd" "w_aug_flashlight_lod4.smd"
-	replacemodel "w_aug_holosight.smd" "w_aug_holosight_lod4.smd"
-	replacemodel "w_aug_reddot.smd" "w_aug_reddot_lod4.smd"
-	replacemodel "w_aug_ACOG.smd" "w_aug_ACOG_lod4.smd"
-	replacemodel "w_aug_magazine.smd" "w_aug_magazine_lod4.smd"
-	nofacial
+	blank
 }
 
 $surfaceprop "weapon"
@@ -82,6 +36,7 @@ $illumposition -0.044 -2.929 2.353
 
 $cdmaterials "models\tacint\weapons\w_models\aug\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
+$cdmaterials "models\tacint_shark\weapons\famas\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 22 -1 -4.4 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
@@ -161,7 +116,7 @@ $sequence "attack2" {
 	fps 31
 }
 
-$collisionmodel "w_aug_physics.smd"
+$collisionmodel "w_famas.smd"
 {
 	$mass 5
 	$inertia 1

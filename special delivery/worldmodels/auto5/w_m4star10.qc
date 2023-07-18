@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_m4star10.mdl"
+$modelname "weapons\tacint_shark\w_auto5.mdl"
 
 $bodygroup "studio"
 {
-	studio "super90.smd"
+	studio "w_auto5.smd"
 }
 $bodygroup "silencer"
 {
@@ -24,43 +24,6 @@ $bodygroup "optics"
 	blank
 }
 
-$lod 24
-{
-	replacemodel "super90.smd" "super90_lod1.smd"
-	replacemodel "super90_flashlight.smd" "super90_flashlight_lod1.smd"
-	replacemodel "super90_holosight.smd" "super90_holosight_lod1.smd"
-	replacemodel "super90_reddot.smd" "super90_reddot_lod1.smd"
-	nofacial
-}
-$lod 70
-{
-	replacemodel "super90.smd" "super90_lod2.smd"
-	replacemodel "super90_flashlight.smd" "super90_flashlight_lod2.smd"
-	replacemodel "super90_holosight.smd" "super90_holosight_lod2.smd"
-	replacemodel "super90_reddot.smd" "super90_reddot_lod2.smd"
-	nofacial
-}
-$lod 200
-{
-	replacemodel "super90.smd" "super90_lod3.smd"
-	replacemodel "super90_flashlight.smd" "super90_flashlight_lod3.smd"
-	replacemodel "super90_holosight.smd" "super90_holosight_lod3.smd"
-	replacemodel "super90_reddot.smd" "super90_reddot_lod3.smd"
-	replacebone "Box01" "ValveBiped.Bip01_R_Hand"
-	replacebone "ak47_bolt" "Box01"
-	nofacial
-}
-$shadowlod
-{
-	replacemodel "super90.smd" "super90_lod4.smd"
-	replacemodel "super90_flashlight.smd" "super90_flashlight_lod4.smd"
-	replacemodel "super90_holosight.smd" "super90_holosight_lod4.smd"
-	replacemodel "super90_reddot.smd" "super90_reddot_lod4.smd"
-	replacebone "Box01" "ValveBiped.Bip01_R_Hand"
-	replacebone "ak47_bolt" "Box01"
-	nofacial
-}
-
 $surfaceprop "weapon"
 
 $contents "solid"
@@ -69,6 +32,7 @@ $illumposition -0.812 -6.262 2.524
 
 $cdmaterials "models\tacint\weapons\w_models\super90\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
+$cdmaterials "models\tacint_shark\weapons\auto5\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 29.9 -1 -5 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 11 0 -5 rotate 25 90 -90
@@ -140,7 +104,7 @@ $sequence "attack1" {
 	fps 22
 }
 
-$collisionmodel "w_m4star10_physics.smd"
+$collisionmodel "w_auto5.smd"
 {
 	$mass 5
 	$inertia 1

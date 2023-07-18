@@ -1,14 +1,14 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_as50.mdl"
+$modelname "weapons\tacint_shark\w_wa2000.mdl"
 
 $bodygroup "studio"
 {
-	studio "as50_reference.smd"
+	studio "w_wa2000.smd"
 }
 $bodygroup "scope"
 {
-	studio "as50_scope.smd"
+	studio "w_scope.smd"
 	blank
 }
 
@@ -20,6 +20,7 @@ $contents "solid"
 $illumposition 0.04 -11.364 2.248
 
 $cdmaterials "models\tacint\weapons\w_models\as50\"
+$cdmaterials "models\tacint_shark\weapons\wa2000\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 27 0.2 -13.5 rotate 22 2 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 9.5 -1 -5.7 rotate 25 90 -90
@@ -101,7 +102,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_as50_physics.smd"
+$collisionmodel "w_wa2000.smd"
 {
 	$mass 14
 	$inertia 1

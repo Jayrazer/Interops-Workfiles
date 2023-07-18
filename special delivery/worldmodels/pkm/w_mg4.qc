@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_mg4.mdl"
+$modelname "weapons\tacint_shark\w_pkm.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_mg4.smd"
+	studio "w_pkm.smd"
 }
 $bodygroup "silencer"
 {
@@ -20,27 +20,7 @@ $bodygroup "optics"
 }
 $bodygroup "magazine"
 {
-	studio "w_mg4_magazine.smd"
 	blank
-}
-
-$lod 36
-{
-	replacemodel "w_mg4.smd" "w_mg4_lod1.smd"
-	replacemodel "w_mg4_magazine.smd" "w_mg4_magazine_lod1.smd"
-	nofacial
-}
-$lod 220
-{
-	replacemodel "w_mg4.smd" "w_mg4_lod2.smd"
-	replacemodel "w_mg4_magazine.smd" "w_mg4_magazine_lod2.smd"
-	nofacial
-}
-$shadowlod
-{
-	replacemodel "w_mg4.smd" "w_mg4_lod3.smd"
-	replacemodel "w_mg4_magazine.smd" "w_mg4_magazine_lod3.smd"
-	nofacial
 }
 
 $surfaceprop "weapon"
@@ -50,6 +30,7 @@ $contents "solid"
 $illumposition 0.043 -7.415 2.232
 
 $cdmaterials "models\tacint\weapons\w_models\mg4\"
+$cdmaterials "models\tacint_shark\weapons\pkm\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 31.5 -1.1 -5.7 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
@@ -129,7 +110,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_mg4_physics.smd"
+$collisionmodel "w_pkm.smd"
 {
 	$mass 15
 	$inertia 1

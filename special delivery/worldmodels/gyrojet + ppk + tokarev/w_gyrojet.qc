@@ -1,15 +1,15 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\w_mp40.mdl"
+$modelname "weapons\tacint_shark\w_gyrojet.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_mp40.smd"
+	studio "w_gyrojet.smd"
 }
-$bodygroup "stock"
+$bodygroup "silencer"
 {
-	studio "w_stock_out.smd"
-	studio "w_stock_in.smd"
+	blank
+	studio "xd45_muzzle_comp.smd"
 }
 $bodygroup "flashlight"
 {
@@ -18,28 +18,28 @@ $bodygroup "flashlight"
 $bodygroup "optics"
 {
 	blank
-}
-$bodygroup "magazine"
-{
 	blank
+	studio "xd45_reddot.smd"
 }
 
 $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition -0.358 -10.023 2.08
+$illumposition -0.243 -2.141 0.641
 
-$cdmaterials "models\tacint\weapons\w_models\k1a\"
-$cdmaterials "models\tacint\weapons\w_models\_accessories1\"
-$cdmaterials "models\tacint_shark\weapons\mp40\"
+$cdmaterials "models\tacint\weapons\w_models\xd45\"
+$cdmaterials "models\tacint\weapons\w_models\_accessories2\"
+$cdmaterials "models\tacint\weapons\v_models\_accessories2\pistol_compensator1\"
+$cdmaterials "models\tacint\weapons\v_models\_accessories2\rmr\"
+$cdmaterials "models\tacint_shark\weapons\gyrojet\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 30 -1.2 -5 rotate 0 0 -90
-$attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -4.7 rotate 25 90 -90
+$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 11.6 -1.2 -4 rotate 0 0 -90
+$attachment "bolt" "ValveBiped.Bip01_R_Hand" 6 -1.3 -4 rotate 77 90 -90
 
 $cbox 0 0 0 0 0 0
 
-$bbox -7.79 -2.302 -5.583 27.77 1.587 9.744
+$bbox -4.879 -4.029 -4.038 8.172 6.04 4.682
 
 $definebone "ValveBiped.Bip01_R_Hand" "" -1.187493 3.856107 -0.925095 0.820232 -90.000016 180.000005 0 0 0 0 0 0
 $definebone "Box01" "ValveBiped.Bip01_R_Hand" 5.216261 -1.175498 -5.60718 -0.000019 -90.000016 179.179754 0 0 0 0 0 0
@@ -47,7 +47,7 @@ $definebone "ak47_bolt" "Box01" 0.079702 -2.0397 -0.787757 -1.126075 -90.000016 
 
 
 $sequence "vm_idle" {
-	"w_k1a_anims\vm_idle.smd"
+	"w_xd45_anims\vm_idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -55,7 +55,7 @@ $sequence "vm_idle" {
 }
 
 $sequence "vm_reload" {
-	"w_k1a_anims\vm_reload.smd"
+	"w_xd45_anims\vm_reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -63,7 +63,7 @@ $sequence "vm_reload" {
 }
 
 $sequence "vm_draw" {
-	"w_k1a_anims\vm_draw.smd"
+	"w_xd45_anims\vm_draw.smd"
 	activity "ACT_VM_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -71,7 +71,7 @@ $sequence "vm_draw" {
 }
 
 $sequence "idle" {
-	"w_k1a_anims\idle.smd"
+	"w_xd45_anims\idle.smd"
 	activity "ACT_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -79,7 +79,7 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"w_k1a_anims\reload.smd"
+	"w_xd45_anims\reload.smd"
 	activity "ACT_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -87,7 +87,7 @@ $sequence "reload" {
 }
 
 $sequence "draw" {
-	"w_k1a_anims\draw.smd"
+	"w_xd45_anims\draw.smd"
 	activity "ACT_DRAW" 1
 	fadein 0.2
 	fadeout 0.2
@@ -95,28 +95,28 @@ $sequence "draw" {
 }
 
 $sequence "attack1" {
-	"w_k1a_anims\attack1.smd"
+	"w_xd45_anims\attack1.smd"
 	activity "ACT_RANGE_ATTACK1" 1
-	{ event 9001 0 "TI_MuzzleFlash_X" }
-	{ event 6010 0 "1" }
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6010 0 "0" }
 	fadein 0.2
 	fadeout 0.2
-	fps 46
+	fps 48
 }
 
 $sequence "attack2" {
-	"w_k1a_anims\attack2.smd"
+	"w_xd45_anims\attack2.smd"
 	activity "ACT_RANGE_ATTACK2" 1
 	{ event 9001 0 "TI_Silenced" }
-	{ event 6010 0 "1" }
+	{ event 6010 0 "0" }
 	fadein 0.2
 	fadeout 0.2
-	fps 46
+	fps 48
 }
 
-$collisionmodel "w_mp40.smd"
+$collisionmodel "w_gyrojet.smd"
 {
-	$mass 6
+	$mass 1.3
 	$inertia 1
 	$damping 0
 	$rotdamping 0
