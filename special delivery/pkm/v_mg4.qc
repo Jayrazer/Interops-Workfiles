@@ -4,7 +4,7 @@ $modelname "weapons\tacint_shark\v_pkm.mdl"
 
 $bodygroup "gun"
 {
-	studio "pkm_ref.smd"
+	studio "pkm_ref_new.smd"
 }
 $bodygroup "bipod"
 {
@@ -25,7 +25,6 @@ $bodygroup "grenade"
 }
 $bodygroup "bullets"
 {
-	blank
 	studio "pkm_belt1.smd"
 	studio "pkm_belt2.smd"
 	studio "pkm_belt3.smd"
