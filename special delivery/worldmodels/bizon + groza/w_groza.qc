@@ -1,19 +1,17 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_ak47.mdl"
+$modelname "weapons\tacint_shark\w_groza.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_ak47.smd"
+	studio "w_groza.smd"
 }
 $bodygroup "stock"
 {
-	studio "w_ak47_stock.smd"
-	studio "w_ak47_stock_in.smd"
+	blank
 }
 $bodygroup "magazine"
 {
-	studio "w_ak47_magazine.smd"
 	blank
 }
 
@@ -26,6 +24,7 @@ $illumposition -0.712 -9.391 1.366
 
 $cdmaterials "models\tacint\weapons\w_models\ak47\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
+$cdmaterials "models\tacint_shark\weapons\groza\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 29.4 -1.1 -4.4 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
@@ -107,7 +106,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_ak47_physics.smd"
+$collisionmodel "w_groza.smd"
 {
 	$mass 5
 	$inertia 1
