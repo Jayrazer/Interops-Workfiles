@@ -240,9 +240,9 @@ $sequence "reload_start" {
 $sequence "reload" {
 	"v_auto5_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 6 "tacint_FP6.InsertShell" }
-	{ event 5004 19 "tacint_FP6.InsertShell" }
-	{ event 5004 33 "tacint_FP6.InsertShell" }
+	{ event 5004 6 "tacint_auto5.InsertShell" }
+	{ event 5004 19 "tacint_auto5.InsertShell" }
+	{ event 5004 33 "tacint_auto5.InsertShell" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -252,9 +252,9 @@ $sequence "reload" {
 $sequence "reload2" {
 	"v_auto5_anims\reload2.smd"
 	activity "ACT_VM_RELOAD_IDLE" 1
-	{ event 5004 6 "tacint_FP6.InsertShell" }
-	{ event 5004 19 "tacint_FP6.InsertShell" }
-	{ event 5004 33 "tacint_FP6.InsertShell" }
+	{ event 5004 6 "tacint_auto5.InsertShell" }
+	{ event 5004 19 "tacint_auto5.InsertShell" }
+	{ event 5004 33 "tacint_auto5.InsertShell" }
 	fadein 0.2
 	fadeout 0.2
 	snap
