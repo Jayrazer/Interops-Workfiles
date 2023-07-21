@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\w_auto5.mdl"
+$modelname "weapons\tacint_shark\w_superx3.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_auto5.smd"
+	studio "w_superx3.smd"
 }
 $bodygroup "silencer"
 {
@@ -32,7 +32,7 @@ $illumposition -0.812 -6.262 2.524
 
 $cdmaterials "models\tacint\weapons\w_models\super90\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
-$cdmaterials "models\tacint_shark\weapons\auto5\"
+$cdmaterials "models\tacint_shark\weapons\superx3\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 29.9 -1 -5 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 11 0 -5 rotate 25 90 -90
@@ -104,7 +104,7 @@ $sequence "attack1" {
 	fps 22
 }
 
-$collisionmodel "w_auto5.smd"
+$collisionmodel "w_superx3.smd"
 {
 	$mass 5
 	$inertia 1
