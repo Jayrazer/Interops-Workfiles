@@ -13,6 +13,7 @@ $bodygroup "bipod"
 $bodygroup "tacrail"
 {
 	blank
+	studio "v_vz58_tacrail.smd"
 }
 
 
@@ -30,8 +31,8 @@ $cdmaterials "models\tacint\weapons\v_models\frag\"
 $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
-$attachment "muzzle" "ValveBiped.AK47_rootbone" -3.20 -0.25 10.00 rotate -90 90 0
-$attachment "bolt" "ValveBiped.bolt" 1.50 11.20 -1.00 rotate -150 0 90
+$attachment "muzzle" "ValveBiped.AK47_rootbone" -3.20 -0.25 25.00 rotate -90 90 0
+$attachment "bolt" "ValveBiped.bolt" -0.50 -7.20 -1.00 rotate -150 0 90
 $attachment "muzzle_silencer" "ValveBiped.AK47_rootbone" -3.2 0 32 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
 
@@ -273,7 +274,7 @@ $sequence "deploy" {
 }
 
 $sequence "dryfire" {
-	"v_ak47_anims\dryfire.smd"
+	"vz58_anims\dryfire.smd"
 	activity "ACT_VM_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -345,7 +346,7 @@ $sequence "melee2" {
 }
 
 $sequence "fire1_M" {
-	"v_ak47_anims\fire1_M.smd"
+	"vz58_anims\fire1_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -378,7 +379,7 @@ $sequence "fire1_R" {
 }
 
 $sequence "fire2_M" {
-	"v_ak47_anims\fire2_M.smd"
+	"vz58_anims\fire2_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -400,7 +401,7 @@ $sequence "fire2_L" {
 }
 
 $sequence "fire3_M" {
-	"v_ak47_anims\fire3_M.smd"
+	"vz58_anims\fire3_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_3" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -422,7 +423,7 @@ $sequence "fire3_R" {
 }
 
 $sequence "fire4_M" {
-	"v_ak47_anims\fire4_M.smd"
+	"vz58_anims\fire4_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_4" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -444,7 +445,7 @@ $sequence "fire4_L" {
 }
 
 $sequence "fire5_M" {
-	"v_ak47_anims\fire5_M.smd"
+	"vz58_anims\fire5_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_M" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -474,6 +475,17 @@ $sequence "fire5_R" {
 	fadeout 0.2
 	snap
 	fps 24
+}
+
+$sequence "lastshot" {
+	"vz58_anims\lastshot.smd"
+	activity "ACT_VM_PRIMARYATTACK_1" 1
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6001 1 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 18
 }
 
 $sequence "Sfire1_M" {
@@ -606,7 +618,7 @@ $sequence "blind_idle" {
 }
 
 $sequence "blind_fire1" {
-	"v_ak47_anims\blind_fire1.smd"
+	"vz58_anims\blind_fire1.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -617,7 +629,7 @@ $sequence "blind_fire1" {
 }
 
 $sequence "blind_fire2" {
-	"v_ak47_anims\blind_fire2.smd"
+	"vz58_anims\blind_fire2.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -628,7 +640,7 @@ $sequence "blind_fire2" {
 }
 
 $sequence "blind_fire3" {
-	"v_ak47_anims\blind_fire3.smd"
+	"vz58_anims\blind_fire3.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -672,7 +684,7 @@ $sequence "blind_Sfire3" {
 }
 
 $sequence "blind_dryfire" {
-	"v_ak47_anims\blind_dryfire.smd"
+	"vz58_anims\blind_dryfire.smd"
 	activity "ACT_VM_BLIND_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2

@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\wa2000.mdl"
+$modelname "weapons\tacint_shark\magazines\cz858.mdl"
 
 $bodygroup "studio"
 {
-	studio "wa2000.smd"
+	studio "cz858.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\weapons\wa2000\"
+$cdmaterials "models\tacint_shark\weapons\vz58\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "wa2000.smd"
+$collisionmodel "cz858.smd"
 {
 	$mass 3
 	$inertia 1
