@@ -230,7 +230,7 @@ $sequence "reload" {
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 9 "tacint_1022.Remove_clip" }
 	{ event 5004 50 "tacint_1022.Insert_Clip" }
-	{ event 5004 75 "tacint_1022.Bolt_Back" }
+	{ event 5004 74 "tacint_1022.Bolt_Back" }
 	{ event 5004 82 "tacint_1022.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
