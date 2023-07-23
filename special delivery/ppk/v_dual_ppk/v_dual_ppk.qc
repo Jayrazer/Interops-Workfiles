@@ -208,12 +208,13 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"anims\reload1.smd"
+	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 6 "tacint_dualppk.Clip_Out" }
 	{ event 5004 56 "tacint_dualppk.Clip_In_Left" }
 	{ event 5004 81 "tacint_dualppk.Clip_In_Right" }
-	{ event 5004 105 "tacint_dualppk.Slide_Shut" }
+	{ event 5004 111 "tacint_dualppk.Slide_Shut" }
+	{ event 5004 135 "tacint_dualppk.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36

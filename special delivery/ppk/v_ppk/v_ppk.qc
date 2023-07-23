@@ -140,11 +140,11 @@ $sequence "halt2" {
 }
 
 $sequence "reload" {
-	"anims\reload.smd"
+	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 6 "tacint_ppk.Clip_Out" }
 	{ event 5004 22 "tacint_ppk.Clip_In" }
-	{ event 5004 44 "tacint_ppk.Slide_Shut" }
+	{ event 5004 53 "tacint_ppk.Slide_Action" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
