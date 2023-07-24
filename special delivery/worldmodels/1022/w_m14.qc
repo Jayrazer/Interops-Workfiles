@@ -1,19 +1,18 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_m14.mdl"
+$modelname "weapons\tacint_shark\w_1022.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_m14.smd"
+	studio "w_1022.smd"
 }
 $bodygroup "sight"
 {
-	studio "w_m14_scope.smd"
 	blank
 }
 $bodygroup "magazine"
 {
-	studio "w_m14_magazine.smd"
+	blank
 }
 
 
@@ -24,6 +23,7 @@ $contents "solid"
 $illumposition 0.231 -5.295 1.788
 
 $cdmaterials "models\tacint\weapons\w_models\m14\"
+$cdmaterials "models\tacint_shark\weapons\1022\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 27 0.2 -13.5 rotate 22 2 -90
@@ -104,7 +104,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_m14_physics.smd"
+$collisionmodel "w_1022.smd"
 {
 	$mass 4
 	$inertia 1
