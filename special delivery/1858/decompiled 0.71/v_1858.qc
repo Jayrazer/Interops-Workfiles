@@ -115,17 +115,16 @@ $sectionframes 30 160
 
 $sequence "blind_idle" {
 	"anims\blind_idle.smd"
-	fadein 0.2
-	fadeout 0.2
-	snap
+	fadein 0.4
+	fadeout 0.4
 	fps 40
 }
 
 $sequence "blind_fire" {
 	"anims\blind_fire.smd"
 	{ event 5004 18 "tacint_1858.hammer" }
-	fadein 0.03
-	fadeout 0.03
+	fadein 0.1
+	fadeout 0.1
 	fps 40
 }
 
@@ -133,20 +132,19 @@ $sequence "idle" {
 	"v_1858_anims\idle.smd"
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 40
 }
 
 $sequence "fire" {
-	"v_1858_anims\fire.smd"
+	"anims\fire.smd"
 	{ event 5004 18 "tacint_1858.hammer" }
-	fadein 0.03
-	fadeout 0.03
+	fadein 0.1
+	fadeout 0.1
 	fps 40
 }
 
 $sequence "fire_stock" {
-	"v_1858_anims\fire_stock.smd"
+	"anims\fire_stock.smd"
 	{ event 5004 16 "tacint_1858.hammer" }
 	fadein 0.03
 	fadeout 0.03
@@ -154,7 +152,7 @@ $sequence "fire_stock" {
 }
 
 $sequence "reload" {
-	"v_1858_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 20 "tacint_1858.lever_down" }
 	{ event 5004 35 "tacint_1858.pin_out" }
@@ -213,5 +211,32 @@ $sequence "melee2" {
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.1
 	fadeout 0.1
+	fps 40
+}
+
+$sequence "prime_grenade" {
+	"anims\prime_grenade.smd"
+	activity "ACT_VM_PRIME_GRENADE" 1
+	{ event 5004 7 "Grenade.PullPin" }
+	fadein 0.2
+	fadeout 0.2
+	fps 55
+}
+
+$sequence "throw_grenade" {
+	"anims\throw_grenade.smd"
+	activity "ACT_VM_THROW_GRENADE" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 45
+}
+
+$sequence "throw_grenade_underhand" {
+	"anims\throw_grenade_underhand.smd"
+	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
 	fps 40
 }
