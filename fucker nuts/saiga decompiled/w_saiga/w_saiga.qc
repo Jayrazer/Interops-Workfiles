@@ -6,16 +6,27 @@ $bodygroup "studio"
 {
 	studio "w_saiga.smd"
 }
+$bodygroup "stock"
+{
+	studio "w_saiga_stock_out.smd"
+	studio "w_saiga_stock_in.smd"
+	blank
+}
+$bodygroup "tacrail"
+{
+	blank
+	studio "w_saiga_rail.smd"
+}
 
 $surfaceprop "weapon"
 
 $contents "solid"
 
 $cdmaterials "models\tacint_shark\saiga\"
+$cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 29.4 -1.1 -4.4 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
-
 
 $sequence "vm_idle" {
 	"w_ak47_anims\vm_idle.smd"
@@ -85,7 +96,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_saiga.smd"
+$collisionmodel "w_saiga_phys.smd"
 {
 	$mass 5
 	$inertia 1
