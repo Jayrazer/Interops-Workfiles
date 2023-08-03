@@ -359,10 +359,11 @@ $sequence "draw" {
 	fps 45
 }
 
-$sequence "shoot_left-1" {
-	"v_mtx_dual_anims\shoot_left-1.smd"
+$sequence "shoot1" {
+	"anims\shoot1.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
-	{ event 9001 0 "TI_MuzzleFlash_Left" }
+	{ event 9001 0 "TI_MuzzleFlash_Left" }	
+	{ event 9011 1 "TI_MuzzleFlash_Right" }
 	{ event 6011 2 "0" }
 	fadein 0.2
 	fadeout 0.2
@@ -370,10 +371,11 @@ $sequence "shoot_left-1" {
 	fps 24
 }
 
-$sequence "shoot_left-2" {
-	"v_mtx_dual_anims\shoot_left-2.smd"
+$sequence "shoot2" {
+	"anims\shoot2.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_Left" }
+	{ event 9011 1 "TI_MuzzleFlash_Right" }
 	{ event 6011 2 "0" }
 	fadein 0.2
 	fadeout 0.2
@@ -480,7 +482,7 @@ $sequence "halt2" {
 }
 
 $sequence "dryfire" {
-	"v_mtx_dual_anims\dryfire.smd"
+	"anims\dryfire.smd"
 	activity "ACT_VM_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
