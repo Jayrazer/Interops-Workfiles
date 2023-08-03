@@ -4,7 +4,13 @@ $modelname "weapons\tacint_shark\v_1858.mdl"
 
 $bodygroup "reciever"
 {
-	studio "v_1858_fof.smd"
+	studio "v_1858_fof1.smd"
+}
+
+$bodygroup "cylinder"
+{
+	studio "1858_cyl_perc.smd"
+	studio "1858_cyl_brass.smd"
 }
 
 
@@ -15,6 +21,7 @@ $contents "solid"
 $illumposition 0 0 0
 
 $cdmaterials "models\tacint_shark\weapons\1858\"
+$cdmaterials "models\tacint\weapons\v_models\mr96\"
 
 $attachment "1" "gun" 14.1 1.9 0 rotate 0 0 0
 
