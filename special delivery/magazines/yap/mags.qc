@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\microuzi.mdl"
+$modelname "weapons\tacint_shark\magazines\aek.mdl"
 
 $bodygroup "studio"
 {
-	studio "microuzi.smd"
+	studio "aek.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\weapons\microuzi\"
+$cdmaterials "models\tacint_shark\weapons\aek\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "microuzi.smd"
+$collisionmodel "aek.smd"
 {
 	$mass 3
 	$inertia 1
