@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\aek.mdl"
+$modelname "weapons\tacint_shark\magazines\gilboa.mdl"
 
 $bodygroup "studio"
 {
-	studio "aek.smd"
+	studio "gilboa.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\weapons\aek\"
+$cdmaterials "models\tacint_extras\gilboa\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "aek.smd"
+$collisionmodel "gilboa.smd"
 {
 	$mass 3
 	$inertia 1
