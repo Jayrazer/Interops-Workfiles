@@ -23,8 +23,10 @@ $cdmaterials "models\tacint\weapons\w_models\pdw\"
 $cdmaterials "models\tacint_extras\gilboa\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 21.1 -2.4 -5 rotate 0 0 -90
-$attachment "bolt" "ValveBiped.Bip01_R_Hand" 9 -2.5 -5.5 rotate 40 -90 0
+$attachment "muzzle_left" "ValveBiped.Bip01_R_Hand" 21.1 -2.8 -5 rotate 0 0 -90
+$attachment "muzzle_right" "ValveBiped.Bip01_R_Hand" 21.1 -2 -5 rotate 0 0 -90
+$attachment "bolt_left" "ValveBiped.Bip01_R_Hand" 9 -2.5 -5.5 rotate 60 -90 0
+$attachment "bolt_right" "ValveBiped.Bip01_R_Hand" 9 -0.9 -5.5 rotate 120 -90 0
 
 $cbox 0 0 0 0 0 0
 
