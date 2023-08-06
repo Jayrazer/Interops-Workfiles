@@ -19,8 +19,10 @@ $contents "solid"
 $cdmaterials "models\tacint\weapons\v_models\sphinx\"
 $cdmaterials "models\tacint_shark\af2011\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 12 -1.2 -4.3 rotate 0 0 -90
-$attachment "bolt" "ValveBiped.Bip01_R_Hand" 6.3 -1.3 -4 rotate 77 90 -90
+$attachment "muzzle_left" "ValveBiped.Bip01_R_Hand" 12 -0.6 -4.3 rotate 0 0 -90
+$attachment "muzzle_right" "ValveBiped.Bip01_R_Hand" 12 -1.8 -4.3 rotate 0 0 -90
+$attachment "bolt_left" "ValveBiped.Bip01_R_Hand" 6.3 -0.6 -4.5 rotate 60 90 -90
+$attachment "bolt_right" "ValveBiped.Bip01_R_Hand" 6.3 -1.8 -4.5 rotate 120 90 -90
 
 $sequence "vm_idle" {
 	"w_gsr1911_anims\vm_idle.smd"

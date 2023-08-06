@@ -17,21 +17,16 @@ $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition -5.29 -9.925 -1.445
-
-$cdmaterials "models\tacint\weapons\v_models\sphinx\"
 $cdmaterials "models\tacint_shark\af2011\"
 
-$attachment "muzzleflash" "ValveBiped.Bip01" -4.45 -4.5 26 rotate -90 0 0
-$attachment "bolt" "magazine" 0 3.2 11 rotate 0 80 -15
-$attachment "muzzle_silencer" "ValveBiped.Bip01" -4.45 -4.5 31 rotate -90 0 0
-$attachment "muzzle" "sphinx_ROOT" -2.8 0 7.7 rotate -90 0 0
+// $attachment "muzzleflash" "ValveBiped.Bip01" -4.45 -4.5 26 rotate -90 0 0
+$attachment "muzzle_left" "sphinx_ROOT" -2.8 0.6 7.7 rotate -90 0 0
+$attachment "muzzle_right" "sphinx_ROOT" -2.8 -0.6 7.7 rotate -90 0 0
+// $attachment "muzzle_silencer" "ValveBiped.Bip01" -4.45 -4.5 31 rotate -90 0 0
+$attachment "bolt_left" "sphinx_ROOT" -3 0.5 3 rotate 0 150 -15
+$attachment "bolt_right" "sphinx_ROOT" -3 -0.5 3 rotate 0 -150 -15
 $attachment "magazine" "magazine" 0 -10 0 rotate 0 0 0
 $attachment "muzzleflash_blind" "ValveBiped.Bip01" -1.2 2 25.5 rotate -88 0 0
-
-$cbox 0 0 0 0 0 0
-
-$bbox -7.948 -17.114 -10.14 27.799 6.533 7.25
 
 $definebone "ValveBiped.HandControlPosParentL" "" 7.723854 -1.379981 0.132446 12.451519 -30.482902 89.106341 0 0 0 0 0 0
 $definebone "ValveBiped.HandControlRotGrandmaL" "" 19.406099 -1.270759 0.611 -2.422351 -1.008406 -2.813567 0 0 0 0 0 0
