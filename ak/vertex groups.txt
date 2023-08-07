@@ -1,0 +1,7 @@
+ValveBiped.AK47_rootbone
+ValveBiped.magazine
+ValveBiped.mag_release
+ValveBiped.trigger
+ValveBiped.selector_switch
+ValveBiped.bolt
+ValveBiped.buttstock

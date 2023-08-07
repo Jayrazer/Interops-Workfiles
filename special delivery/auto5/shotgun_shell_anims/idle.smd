@@ -1,9 +1,0 @@
-// Created by Crowbar 0.74
-version 1
-nodes
-  0 "shotgun_shell" -1
-end
-skeleton
-  time 0
-    0 -0.000918 -0.727539 0.504395 -1.569349 -1.567901 -3.140145
-end
