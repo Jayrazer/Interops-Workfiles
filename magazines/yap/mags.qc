@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\74u.mdl"
+$modelname "weapons\tacint_shark\magazines\m1carbine.mdl"
 
 $bodygroup "studio"
 {
-	studio "74u.smd"
+	studio "m1carbine.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\weapons\74u\"
+$cdmaterials "models\tacint_shark\weapons\m1carbine\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "74u.smd"
+$collisionmodel "m1carbine.smd"
 {
 	$mass 3
 	$inertia 1
