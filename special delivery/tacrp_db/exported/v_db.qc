@@ -121,13 +121,12 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"v_db_anims\reload.smd"
+	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 10 "tacint_db.magrelease" }
-	{ event 5004 11 "tacint_db.open" }
-	{ event 5004 31 "tacint_db.magout" }
-	{ event 5004 64 "tacint_db.magin" }
-	{ event 5004 79 "tacint_db.close" }
+	{ event 5004 7 "tacint_db.magrelease" }
+	{ event 5004 10 "tacint_db.open" }
+	{ event 5004 51 "tacint_db.magin" }
+	{ event 5004 64 "tacint_db.close" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
