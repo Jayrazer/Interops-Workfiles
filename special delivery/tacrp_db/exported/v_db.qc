@@ -170,25 +170,25 @@ $sequence "unholster" {
 }
 
 $sequence "prime_grenade" {
-	"v_db_anims\prime_grenade.smd"
+	"anims\prime_grenade.smd"
 	activity "ACT_VM_PRIME_GRENADE" 1
 	{ event 5004 7 "Grenade.PullPin" }
 	fadein 0.2
 	fadeout 0.2
-	fps 48
+	fps 42
 }
 
 $sequence "throw_grenade" {
-	"v_db_anims\throwgrenade_overhand.smd"
+	"anims\throwgrenade_overhand.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
 	fadeout 0.2
-	fps 41
+	fps 36
 }
 
 $sequence "throw_grenade_underhand" {
-	"v_db_anims\throwgrenade_underhand.smd"
+	"anims\throwgrenade_underhand.smd"
 	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
