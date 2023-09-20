@@ -174,7 +174,7 @@ $sequence "prime_grenade" {
 	{ event 5004 7 "Grenade.PullPin" }
 	fadein 0.2
 	fadeout 0.2
-	fps 42
+	fps 45
 }
 
 $sequence "throw_grenade" {
