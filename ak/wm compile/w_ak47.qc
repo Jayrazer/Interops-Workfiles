@@ -30,7 +30,7 @@ $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 $cdmaterials "models\tacint_extras\svd\"
 $cdmaterials "models\tacint_extras\ak47\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 22.70 -1.10 -4.20 rotate 0 0 -90
+$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 47.70 -1.10 -4.60 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
 
 $cbox 0 0 0 0 0 0
