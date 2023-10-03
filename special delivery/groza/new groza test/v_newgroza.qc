@@ -13,7 +13,6 @@ $bodygroup "bipod"
 $bodygroup "tacrail"
 {
 	blank
-	studio "v_ak47_tacrail.smd"
 }
 
 
@@ -25,7 +24,6 @@ $illumposition -5.75 -22.784 -1.717
 
 $cdmaterials "models\tacint\weapons\v_models\ak47\"
 $cdmaterials "models\tacint_shark\weapons\groza\"
-$cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 $cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 $cdmaterials "models\tacint\weapons\v_models\frag\"
@@ -33,7 +31,7 @@ $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
 $attachment "muzzle" "ValveBiped.AK47_rootbone" -3.20 -0.25 15.60 rotate -90 90 0
-$attachment "bolt" "ValveBiped.bolt" 1.50 11.20 -1.00 rotate -150 0 90
+$attachment "bolt" "ValveBiped.bolt" 1.50 7.20 -1.00 rotate -180 180 -90
 $attachment "muzzle_silencer" "ValveBiped.AK47_rootbone" -3.2 0 32 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
 
