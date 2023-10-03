@@ -242,7 +242,7 @@ $weightlist "weights_sight_down" {
 }
 
 $sequence "range_attack" {
-	"v_famas_anims\range_attack.smd"
+	"anims\range_attack.smd"
 	activity "ACT_RANGE_ATTACK1" 1
 	fadein 0.2
 	fadeout 0.2
@@ -250,7 +250,7 @@ $sequence "range_attack" {
 }
 
 $sequence "range_attack2" {
-	"v_famas_anims\range_attack2.smd"
+	"anims\range_attack2.smd"
 	activity "ACT_RANGE_ATTACK2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -258,7 +258,7 @@ $sequence "range_attack2" {
 }
 
 $sequence "idle" {
-	"v_famas_anims\idle.smd"
+	"anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -266,7 +266,7 @@ $sequence "idle" {
 }
 
 $sequence "waveover" {
-	"v_famas_anims\waveover.smd"
+	"anims\waveover.smd"
 	activity "ACT_VM_WAVEOVER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -274,7 +274,7 @@ $sequence "waveover" {
 }
 
 $sequence "waveover2" {
-	"v_famas_anims\waveover2.smd"
+	"anims\waveover2.smd"
 	activity "ACT_VM_WAVEOVER2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -282,7 +282,7 @@ $sequence "waveover2" {
 }
 
 $sequence "halt" {
-	"v_famas_anims\halt.smd"
+	"anims\halt.smd"
 	activity "ACT_VM_HALT" 1
 	fadein 0.2
 	fadeout 0.2
@@ -290,7 +290,7 @@ $sequence "halt" {
 }
 
 $sequence "hal2" {
-	"v_famas_anims\hal2.smd"
+	"anims\hal2.smd"
 	activity "ACT_VM_HALT2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -313,16 +313,15 @@ $sequence "reload" {
 $sequence "midreload" {
 	"anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 0 "tacint_famas.Insert_Clip" }
-	{ event 5004 17 "tacint_famas.Bolt_LockBack" }
-	{ event 5004 25 "tacint_famas.Bolt_Release" }
+	{ event 5004 14 "tacint_famas.Bolt_LockBack" }
+	{ event 5004 22 "tacint_famas.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 32
 }
 
 $sequence "deploy" {
-	"v_famas_anims\deploy.smd"
+	"anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 13 "tacint_famas.Handle_FoldDown" }
@@ -332,7 +331,7 @@ $sequence "deploy" {
 }
 
 $sequence "dryfire" {
-	"v_famas_anims\dryfire.smd"
+	"anims\dryfire.smd"
 	activity "ACT_VM_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -341,7 +340,7 @@ $sequence "dryfire" {
 }
 
 $sequence "holster" {
-	"v_famas_anims\holster.smd"
+	"anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -350,7 +349,7 @@ $sequence "holster" {
 }
 
 $sequence "unholster" {
-	"v_famas_anims\unholster.smd"
+	"anims\unholster.smd"
 	activity "ACT_VM_UNHOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -359,7 +358,7 @@ $sequence "unholster" {
 }
 
 $sequence "prime_grenade" {
-	"v_famas_anims\prime_grenade.smd"
+	"anims\prime_grenade.smd"
 	activity "ACT_VM_PRIME_GRENADE" 1
 	{ event 5004 7 "Grenade.PullPin" }
 	fadein 0.2
@@ -368,7 +367,7 @@ $sequence "prime_grenade" {
 }
 
 $sequence "throw_grenade" {
-	"v_famas_anims\throw_grenade.smd"
+	"anims\throw_grenade.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -377,7 +376,7 @@ $sequence "throw_grenade" {
 }
 
 $sequence "throw_grenade_underhand" {
-	"v_famas_anims\throw_grenade_underhand.smd"
+	"anims\throw_grenade_underhand.smd"
 	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -386,7 +385,7 @@ $sequence "throw_grenade_underhand" {
 }
 
 $sequence "melee1" {
-	"v_famas_anims\melee1.smd"
+	"anims\melee1.smd"
 	activity "ACT_VM_SECONDARYATTACK" 1
 	{ event 5004 2 "Weapon.Thrust" }
 	fadein 0.2
@@ -395,7 +394,7 @@ $sequence "melee1" {
 }
 
 $sequence "melee2" {
-	"v_famas_anims\melee2.smd"
+	"anims\melee2.smd"
 	activity "ACT_VM_SECONDARYATTACK2" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
@@ -404,7 +403,7 @@ $sequence "melee2" {
 }
 
 $sequence "fire1_M" {
-	"v_famas_anims\fire1_M.smd"
+	"anims\fire1_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -415,7 +414,7 @@ $sequence "fire1_M" {
 }
 
 $sequence "fire1_L" {
-	"v_famas_anims\fire1_L.smd"
+	"anims\fire1_L.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -426,7 +425,7 @@ $sequence "fire1_L" {
 }
 
 $sequence "fire1_R" {
-	"v_famas_anims\fire1_R.smd"
+	"anims\fire1_R.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -437,7 +436,7 @@ $sequence "fire1_R" {
 }
 
 $sequence "fire2_M" {
-	"v_famas_anims\fire2_M.smd"
+	"anims\fire2_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -448,7 +447,7 @@ $sequence "fire2_M" {
 }
 
 $sequence "fire2_R" {
-	"v_famas_anims\fire2_R.smd"
+	"anims\fire2_R.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -459,7 +458,7 @@ $sequence "fire2_R" {
 }
 
 $sequence "fire3_M" {
-	"v_famas_anims\fire3_M.smd"
+	"anims\fire3_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_3" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -470,7 +469,7 @@ $sequence "fire3_M" {
 }
 
 $sequence "fire3_L" {
-	"v_famas_anims\fire3_L.smd"
+	"anims\fire3_L.smd"
 	activity "ACT_VM_PRIMARYATTACK_3" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -481,7 +480,7 @@ $sequence "fire3_L" {
 }
 
 $sequence "fire4_M" {
-	"v_famas_anims\fire4_M.smd"
+	"anims\fire4_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_4" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -492,7 +491,7 @@ $sequence "fire4_M" {
 }
 
 $sequence "fire4_R" {
-	"v_famas_anims\fire4_R.smd"
+	"anims\fire4_R.smd"
 	activity "ACT_VM_PRIMARYATTACK_4" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -503,7 +502,7 @@ $sequence "fire4_R" {
 }
 
 $sequence "fire5_M" {
-	"v_famas_anims\fire5_M.smd"
+	"anims\fire5_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_M" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -514,7 +513,7 @@ $sequence "fire5_M" {
 }
 
 $sequence "fire5_L" {
-	"v_famas_anims\fire5_L.smd"
+	"anims\fire5_L.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_L" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -525,7 +524,7 @@ $sequence "fire5_L" {
 }
 
 $sequence "fire5_R" {
-	"v_famas_anims\fire5_R.smd"
+	"anims\fire5_R.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_R" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -536,7 +535,7 @@ $sequence "fire5_R" {
 }
 
 $sequence "Sfire1_M" {
-	"v_famas_anims\Sfire1_M.smd"
+	"anims\Sfire1_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -547,7 +546,7 @@ $sequence "Sfire1_M" {
 }
 
 $sequence "Sfire1_L" {
-	"v_famas_anims\Sfire1_L.smd"
+	"anims\Sfire1_L.smd"
 	activity "ACT_VM_SILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -558,7 +557,7 @@ $sequence "Sfire1_L" {
 }
 
 $sequence "Sfire2_M" {
-	"v_famas_anims\Sfire2_M.smd"
+	"anims\Sfire2_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_2" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -569,7 +568,7 @@ $sequence "Sfire2_M" {
 }
 
 $sequence "Sfire2_R" {
-	"v_famas_anims\Sfire2_R.smd"
+	"anims\Sfire2_R.smd"
 	activity "ACT_VM_SILENCEDATTACK_2" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -580,7 +579,7 @@ $sequence "Sfire2_R" {
 }
 
 $sequence "Sfire3_M" {
-	"v_famas_anims\Sfire3_M.smd"
+	"anims\Sfire3_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_3" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -591,7 +590,7 @@ $sequence "Sfire3_M" {
 }
 
 $sequence "Sfire3_L" {
-	"v_famas_anims\Sfire3_L.smd"
+	"anims\Sfire3_L.smd"
 	activity "ACT_VM_SILENCEDATTACK_3" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -602,7 +601,7 @@ $sequence "Sfire3_L" {
 }
 
 $sequence "Sfire4_M" {
-	"v_famas_anims\Sfire4_M.smd"
+	"anims\Sfire4_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_4" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -613,7 +612,7 @@ $sequence "Sfire4_M" {
 }
 
 $sequence "Sfire4_R" {
-	"v_famas_anims\Sfire4_R.smd"
+	"anims\Sfire4_R.smd"
 	activity "ACT_VM_SILENCEDATTACK_4" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -624,7 +623,7 @@ $sequence "Sfire4_R" {
 }
 
 $sequence "Sfire5_M" {
-	"v_famas_anims\Sfire5_M.smd"
+	"anims\Sfire5_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_5_M" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -635,7 +634,7 @@ $sequence "Sfire5_M" {
 }
 
 $sequence "Sfire5_L" {
-	"v_famas_anims\Sfire5_L.smd"
+	"anims\Sfire5_L.smd"
 	activity "ACT_VM_SILENCEDATTACK_5_M" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -646,7 +645,7 @@ $sequence "Sfire5_L" {
 }
 
 $sequence "Sfire5_R" {
-	"v_famas_anims\Sfire5_R.smd"
+	"anims\Sfire5_R.smd"
 	activity "ACT_VM_SILENCEDATTACK_5_M" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -657,7 +656,7 @@ $sequence "Sfire5_R" {
 }
 
 $sequence "sight_down" {
-	"v_famas_anims\sight_down.smd"
+	"anims\sight_down.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
@@ -665,7 +664,7 @@ $sequence "sight_down" {
 }
 
 $sequence "idle_SD" {
-	"v_famas_anims\idle_SD.smd"
+	"anims\idle_SD.smd"
 	activity "ACT_VM_IDLE_SD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -675,7 +674,7 @@ $sequence "idle_SD" {
 }
 
 $sequence "waveover_SD" {
-	"v_famas_anims\waveover_SD.smd"
+	"anims\waveover_SD.smd"
 	activity "ACT_VM_WAVEOVER_SD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -684,7 +683,7 @@ $sequence "waveover_SD" {
 }
 
 $sequence "waveover2_SD" {
-	"v_famas_anims\waveover2_SD.smd"
+	"anims\waveover2_SD.smd"
 	activity "ACT_VM_WAVEOVER_SD2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -693,7 +692,7 @@ $sequence "waveover2_SD" {
 }
 
 $sequence "halt_SD" {
-	"v_famas_anims\halt_SD.smd"
+	"anims\halt_SD.smd"
 	activity "ACT_VM_HALT_SD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -702,7 +701,7 @@ $sequence "halt_SD" {
 }
 
 $sequence "hal2_SD" {
-	"v_famas_anims\hal2_SD.smd"
+	"anims\hal2_SD.smd"
 	activity "ACT_VM_HALT_SD2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -711,7 +710,7 @@ $sequence "hal2_SD" {
 }
 
 $sequence "reload_SD" {
-	"v_famas_anims\reload_SD.smd"
+	"anims\reload_SD.smd"
 	activity "ACT_VM_RELOAD_SD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 6 "tacint_famas.Bolt_LockBack" }
@@ -725,7 +724,7 @@ $sequence "reload_SD" {
 }
 
 $sequence "midreload_SD" {
-	"v_famas_anims\midreload_SD.smd"
+	"anims\midreload_SD.smd"
 	activity "ACT_VM_MIDRELOAD_SD" 1
 	{ event 5004 0 "tacint_famas.Insert_Clip" }
 	{ event 5004 30 "tacint_famas.Bolt_Release" }
@@ -736,7 +735,7 @@ $sequence "midreload_SD" {
 }
 
 $sequence "deploy_SD" {
-	"v_famas_anims\deploy_SD.smd"
+	"anims\deploy_SD.smd"
 	activity "ACT_VM_DRAW_SD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 13 "tacint_famas.Handle_FoldDown" }
@@ -747,7 +746,7 @@ $sequence "deploy_SD" {
 }
 
 $sequence "dryfire_SD" {
-	"v_famas_anims\dryfire_SD.smd"
+	"anims\dryfire_SD.smd"
 	activity "ACT_VM_DRYFIRE_SD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -757,7 +756,7 @@ $sequence "dryfire_SD" {
 }
 
 $sequence "holster_SD" {
-	"v_famas_anims\holster_SD.smd"
+	"anims\holster_SD.smd"
 	activity "ACT_VM_HOLSTER_SD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -767,7 +766,7 @@ $sequence "holster_SD" {
 }
 
 $sequence "unholster_SD" {
-	"v_famas_anims\unholster_SD.smd"
+	"anims\unholster_SD.smd"
 	activity "ACT_VM_UNHOLSTER_SD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -777,7 +776,7 @@ $sequence "unholster_SD" {
 }
 
 $sequence "melee1_SD" {
-	"v_famas_anims\melee1_SD.smd"
+	"anims\melee1_SD.smd"
 	activity "ACT_VM_SECONDARYATTACK_SD" 1
 	{ event 5004 2 "Weapon.Thrust" }
 	fadein 0.2
@@ -787,7 +786,7 @@ $sequence "melee1_SD" {
 }
 
 $sequence "melee2_SD" {
-	"v_famas_anims\melee2_SD.smd"
+	"anims\melee2_SD.smd"
 	activity "ACT_VM_SECONDARYATTACK_SD2" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
@@ -797,7 +796,7 @@ $sequence "melee2_SD" {
 }
 
 $sequence "fire1_M_SD" {
-	"v_famas_anims\fire1_M_SD.smd"
+	"anims\fire1_M_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_1_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -809,7 +808,7 @@ $sequence "fire1_M_SD" {
 }
 
 $sequence "fire1_L_SD" {
-	"v_famas_anims\fire1_L_SD.smd"
+	"anims\fire1_L_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_1_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -821,7 +820,7 @@ $sequence "fire1_L_SD" {
 }
 
 $sequence "fire1_R_SD" {
-	"v_famas_anims\fire1_R_SD.smd"
+	"anims\fire1_R_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_1_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -833,7 +832,7 @@ $sequence "fire1_R_SD" {
 }
 
 $sequence "fire2_M_SD" {
-	"v_famas_anims\fire2_M_SD.smd"
+	"anims\fire2_M_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_2_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -845,7 +844,7 @@ $sequence "fire2_M_SD" {
 }
 
 $sequence "fire2_R_SD" {
-	"v_famas_anims\fire2_R_SD.smd"
+	"anims\fire2_R_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_2_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -857,7 +856,7 @@ $sequence "fire2_R_SD" {
 }
 
 $sequence "fire3_M_SD" {
-	"v_famas_anims\fire3_M_SD.smd"
+	"anims\fire3_M_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_3_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -869,7 +868,7 @@ $sequence "fire3_M_SD" {
 }
 
 $sequence "fire3_L_SD" {
-	"v_famas_anims\fire3_L_SD.smd"
+	"anims\fire3_L_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_3_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -881,7 +880,7 @@ $sequence "fire3_L_SD" {
 }
 
 $sequence "fire4_M_SD" {
-	"v_famas_anims\fire4_M_SD.smd"
+	"anims\fire4_M_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_4_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -893,7 +892,7 @@ $sequence "fire4_M_SD" {
 }
 
 $sequence "fire4_R_SD" {
-	"v_famas_anims\fire4_R_SD.smd"
+	"anims\fire4_R_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_4_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -905,7 +904,7 @@ $sequence "fire4_R_SD" {
 }
 
 $sequence "fire5_M_SD" {
-	"v_famas_anims\fire5_M_SD.smd"
+	"anims\fire5_M_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_SD_M" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -917,7 +916,7 @@ $sequence "fire5_M_SD" {
 }
 
 $sequence "fire5_L_SD" {
-	"v_famas_anims\fire5_L_SD.smd"
+	"anims\fire5_L_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_SD_M" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -929,7 +928,7 @@ $sequence "fire5_L_SD" {
 }
 
 $sequence "fire5_R_SD" {
-	"v_famas_anims\fire5_R_SD.smd"
+	"anims\fire5_R_SD.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_SD_M" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -941,7 +940,7 @@ $sequence "fire5_R_SD" {
 }
 
 $sequence "Sfire1_M_SD" {
-	"v_famas_anims\Sfire1_M_SD.smd"
+	"anims\Sfire1_M_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_1_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -953,7 +952,7 @@ $sequence "Sfire1_M_SD" {
 }
 
 $sequence "Sfire1_L_SD" {
-	"v_famas_anims\Sfire1_L_SD.smd"
+	"anims\Sfire1_L_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_1_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -965,7 +964,7 @@ $sequence "Sfire1_L_SD" {
 }
 
 $sequence "Sfire2_M_SD" {
-	"v_famas_anims\Sfire2_M_SD.smd"
+	"anims\Sfire2_M_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_2_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -977,7 +976,7 @@ $sequence "Sfire2_M_SD" {
 }
 
 $sequence "Sfire2_R_SD" {
-	"v_famas_anims\Sfire2_R_SD.smd"
+	"anims\Sfire2_R_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_2_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -989,7 +988,7 @@ $sequence "Sfire2_R_SD" {
 }
 
 $sequence "Sfire3_M_SD" {
-	"v_famas_anims\Sfire3_M_SD.smd"
+	"anims\Sfire3_M_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_3_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1001,7 +1000,7 @@ $sequence "Sfire3_M_SD" {
 }
 
 $sequence "Sfire3_L_SD" {
-	"v_famas_anims\Sfire3_L_SD.smd"
+	"anims\Sfire3_L_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_3_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1013,7 +1012,7 @@ $sequence "Sfire3_L_SD" {
 }
 
 $sequence "Sfire4_M_SD" {
-	"v_famas_anims\Sfire4_M_SD.smd"
+	"anims\Sfire4_M_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_4_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1025,7 +1024,7 @@ $sequence "Sfire4_M_SD" {
 }
 
 $sequence "Sfire4_R_SD" {
-	"v_famas_anims\Sfire4_R_SD.smd"
+	"anims\Sfire4_R_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_4_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1037,7 +1036,7 @@ $sequence "Sfire4_R_SD" {
 }
 
 $sequence "Sfire5_M_SD" {
-	"v_famas_anims\Sfire5_M_SD.smd"
+	"anims\Sfire5_M_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_5_SD_M" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1049,7 +1048,7 @@ $sequence "Sfire5_M_SD" {
 }
 
 $sequence "Sfire5_L_SD" {
-	"v_famas_anims\Sfire5_L_SD.smd"
+	"anims\Sfire5_L_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_5_SD_L" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1061,7 +1060,7 @@ $sequence "Sfire5_L_SD" {
 }
 
 $sequence "Sfire5_R_SD" {
-	"v_famas_anims\Sfire5_R_SD.smd"
+	"anims\Sfire5_R_SD.smd"
 	activity "ACT_VM_SILENCEDATTACK_5_SD_R" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1073,7 +1072,7 @@ $sequence "Sfire5_R_SD" {
 }
 
 $sequence "blind_idle" {
-	"v_famas_anims\blind_idle.smd"
+	"anims\blind_idle.smd"
 	activity "ACT_VM_IDLE_BLIND" 1
 	fadein 0.2
 	fadeout 0.2
@@ -1081,7 +1080,7 @@ $sequence "blind_idle" {
 }
 
 $sequence "blind_dryfire" {
-	"v_famas_anims\blind_dryfire.smd"
+	"anims\blind_dryfire.smd"
 	activity "ACT_VM_BLIND_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -1090,7 +1089,7 @@ $sequence "blind_dryfire" {
 }
 
 $sequence "blind_fire1" {
-	"v_famas_anims\blind_fire1.smd"
+	"anims\blind_fire1.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -1101,7 +1100,7 @@ $sequence "blind_fire1" {
 }
 
 $sequence "blind_fire2" {
-	"v_famas_anims\blind_fire2.smd"
+	"anims\blind_fire2.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -1112,7 +1111,7 @@ $sequence "blind_fire2" {
 }
 
 $sequence "blind_fire3" {
-	"v_famas_anims\blind_fire3.smd"
+	"anims\blind_fire3.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -1123,7 +1122,7 @@ $sequence "blind_fire3" {
 }
 
 $sequence "blind_Sfire1" {
-	"v_famas_anims\blind_Sfire1.smd"
+	"anims\blind_Sfire1.smd"
 	activity "ACT_VM_BLINDSILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1134,7 +1133,7 @@ $sequence "blind_Sfire1" {
 }
 
 $sequence "blind_Sfire2" {
-	"v_famas_anims\blind_Sfire2.smd"
+	"anims\blind_Sfire2.smd"
 	activity "ACT_VM_BLINDSILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1145,7 +1144,7 @@ $sequence "blind_Sfire2" {
 }
 
 $sequence "blind_Sfire3" {
-	"v_famas_anims\blind_Sfire3.smd"
+	"anims\blind_Sfire3.smd"
 	activity "ACT_VM_BLINDSILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1156,7 +1155,7 @@ $sequence "blind_Sfire3" {
 }
 
 $sequence "blind_idle_SD" {
-	"v_famas_anims\blind_idle_SD.smd"
+	"anims\blind_idle_SD.smd"
 	activity "ACT_VM_IDLE_BLIND_SD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -1166,7 +1165,7 @@ $sequence "blind_idle_SD" {
 }
 
 $sequence "blind_dryfire_SD" {
-	"v_famas_anims\blind_dryfire_SD.smd"
+	"anims\blind_dryfire_SD.smd"
 	activity "ACT_VM_BLIND_DRYFIRE_SD" 1
 	fadein 0.2
 	fadeout 0.2
@@ -1176,7 +1175,7 @@ $sequence "blind_dryfire_SD" {
 }
 
 $sequence "blind_fire1_SD" {
-	"v_famas_anims\blind_fire1_SD.smd"
+	"anims\blind_fire1_SD.smd"
 	activity "ACT_VM_BLINDATTACK_1_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -1188,7 +1187,7 @@ $sequence "blind_fire1_SD" {
 }
 
 $sequence "blind_fire2_SD" {
-	"v_famas_anims\blind_fire2_SD.smd"
+	"anims\blind_fire2_SD.smd"
 	activity "ACT_VM_BLINDATTACK_1_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -1200,7 +1199,7 @@ $sequence "blind_fire2_SD" {
 }
 
 $sequence "blind_fire3_SD" {
-	"v_famas_anims\blind_fire3_SD.smd"
+	"anims\blind_fire3_SD.smd"
 	activity "ACT_VM_BLINDATTACK_1_SD" 1
 	{ event 9001 0 "TI_MuzzleFlash_Y" }
 	{ event 6010 1 "1" }
@@ -1212,7 +1211,7 @@ $sequence "blind_fire3_SD" {
 }
 
 $sequence "blind_Sfire1_SD" {
-	"v_famas_anims\blind_Sfire1_SD.smd"
+	"anims\blind_Sfire1_SD.smd"
 	activity "ACT_VM_BLINDSILENCEDATTACK_1_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1224,7 +1223,7 @@ $sequence "blind_Sfire1_SD" {
 }
 
 $sequence "blind_Sfire2_SD" {
-	"v_famas_anims\blind_Sfire2_SD.smd"
+	"anims\blind_Sfire2_SD.smd"
 	activity "ACT_VM_BLINDSILENCEDATTACK_1_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
@@ -1236,7 +1235,7 @@ $sequence "blind_Sfire2_SD" {
 }
 
 $sequence "blind_Sfire3_SD" {
-	"v_famas_anims\blind_Sfire3_SD.smd"
+	"anims\blind_Sfire3_SD.smd"
 	activity "ACT_VM_BLINDSILENCEDATTACK_1_SD" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6010 1 "1" }
