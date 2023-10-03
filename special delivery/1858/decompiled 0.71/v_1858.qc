@@ -236,7 +236,7 @@ $sequence "throw_grenade" {
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
 	fadeout 0.2
-	fps 45
+	fps 50
 }
 
 $sequence "throw_grenade_underhand" {
@@ -245,5 +245,5 @@ $sequence "throw_grenade_underhand" {
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
 	fadeout 0.2
-	fps 40
+	fps 42
 }

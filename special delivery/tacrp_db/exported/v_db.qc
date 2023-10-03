@@ -192,7 +192,7 @@ $sequence "throw_grenade_underhand" {
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
 	fadeout 0.2
-	fps 41
+	fps 36
 }
 
 $sequence "melee1" {
