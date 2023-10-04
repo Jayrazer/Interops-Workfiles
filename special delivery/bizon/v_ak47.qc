@@ -172,7 +172,7 @@ $bonemerge "rightarm"
 $sectionframes 30 30
 
 $sequence "range_attack" {
-	"v_bizon_anims\range_attack.smd"
+	"anims\range_attack.smd"
 	activity "ACT_RANGE_ATTACK1" 1
 	fadein 0.2
 	fadeout 0.2
@@ -180,7 +180,7 @@ $sequence "range_attack" {
 }
 
 $sequence "range_attack2" {
-	"v_bizon_anims\range_attack2.smd"
+	"anims\range_attack2.smd"
 	activity "ACT_RANGE_ATTACK2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -188,7 +188,7 @@ $sequence "range_attack2" {
 }
 
 $sequence "idle" {
-	"v_bizon_anims\idle.smd"
+	"anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -196,7 +196,7 @@ $sequence "idle" {
 }
 
 $sequence "waveover" {
-	"v_bizon_anims\waveover.smd"
+	"anims\waveover.smd"
 	activity "ACT_VM_WAVEOVER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -204,7 +204,7 @@ $sequence "waveover" {
 }
 
 $sequence "waveover2" {
-	"v_bizon_anims\waveover2.smd"
+	"anims\waveover2.smd"
 	activity "ACT_VM_WAVEOVER2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -212,7 +212,7 @@ $sequence "waveover2" {
 }
 
 $sequence "halt" {
-	"v_bizon_anims\halt.smd"
+	"anims\halt.smd"
 	activity "ACT_VM_HALT" 1
 	fadein 0.2
 	fadeout 0.2
@@ -220,7 +220,7 @@ $sequence "halt" {
 }
 
 $sequence "hal2" {
-	"v_bizon_anims\hal2.smd"
+	"anims\hal2.smd"
 	activity "ACT_VM_HALT2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -228,7 +228,7 @@ $sequence "hal2" {
 }
 
 $sequence "reload" {
-	"v_bizon_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 11 "tacint_bizon.Remove_Clip" }
@@ -240,7 +240,7 @@ $sequence "reload" {
 }
 
 $sequence "mid_reload" {
-	"v_bizon_anims\mid_reload.smd"
+	"anims\mid_reload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
 	{ event 5004 18 "tacint_bizon.BoltAction" }
 	fadein 0.2
@@ -249,7 +249,7 @@ $sequence "mid_reload" {
 }
 
 $sequence "deploy" {
-	"v_bizon_anims\deploy.smd"
+	"anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 13 "tacint_bizon.Buttstock_Back" }
@@ -259,7 +259,7 @@ $sequence "deploy" {
 }
 
 $sequence "dryfire" {
-	"v_bizon_anims\dryfire.smd"
+	"anims\dryfire.smd"
 	activity "ACT_VM_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -268,7 +268,7 @@ $sequence "dryfire" {
 }
 
 $sequence "holster" {
-	"v_bizon_anims\holster.smd"
+	"anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -277,7 +277,7 @@ $sequence "holster" {
 }
 
 $sequence "unholster" {
-	"v_bizon_anims\unholster.smd"
+	"anims\unholster.smd"
 	activity "ACT_VM_UNHOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -286,7 +286,7 @@ $sequence "unholster" {
 }
 
 $sequence "prime_grenade" {
-	"v_bizon_anims\prime_grenade.smd"
+	"anims\prime_grenade.smd"
 	activity "ACT_VM_PRIME_GRENADE" 1
 	{ event 5004 7 "Grenade.PullPin" }
 	fadein 0.2
@@ -295,7 +295,7 @@ $sequence "prime_grenade" {
 }
 
 $sequence "throw_grenade" {
-	"v_bizon_anims\throw_grenade.smd"
+	"anims\throw_grenade.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -304,7 +304,7 @@ $sequence "throw_grenade" {
 }
 
 $sequence "throw_grenade_underhand" {
-	"v_bizon_anims\throw_grenade_underhand.smd"
+	"anims\throw_grenade_underhand.smd"
 	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -313,7 +313,7 @@ $sequence "throw_grenade_underhand" {
 }
 
 $sequence "melee1" {
-	"v_bizon_anims\melee1.smd"
+	"anims\melee1.smd"
 	activity "ACT_VM_SECONDARYATTACK" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
@@ -322,7 +322,7 @@ $sequence "melee1" {
 }
 
 $sequence "melee2" {
-	"v_bizon_anims\melee2.smd"
+	"anims\melee2.smd"
 	activity "ACT_VM_SECONDARYATTACK2" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
@@ -331,7 +331,7 @@ $sequence "melee2" {
 }
 
 $sequence "fire1_M" {
-	"v_bizon_anims\fire1_M.smd"
+	"anims\fire1_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -342,7 +342,7 @@ $sequence "fire1_M" {
 }
 
 $sequence "fire1_L" {
-	"v_bizon_anims\fire1_L.smd"
+	"anims\fire1_L.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -353,7 +353,7 @@ $sequence "fire1_L" {
 }
 
 $sequence "fire1_R" {
-	"v_bizon_anims\fire1_R.smd"
+	"anims\fire1_R.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -364,7 +364,7 @@ $sequence "fire1_R" {
 }
 
 $sequence "fire2_M" {
-	"v_bizon_anims\fire2_M.smd"
+	"anims\fire2_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -375,7 +375,7 @@ $sequence "fire2_M" {
 }
 
 $sequence "fire2_L" {
-	"v_bizon_anims\fire2_L.smd"
+	"anims\fire2_L.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -386,7 +386,7 @@ $sequence "fire2_L" {
 }
 
 $sequence "fire3_M" {
-	"v_bizon_anims\fire3_M.smd"
+	"anims\fire3_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_3" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -397,7 +397,7 @@ $sequence "fire3_M" {
 }
 
 $sequence "fire3_R" {
-	"v_bizon_anims\fire3_R.smd"
+	"anims\fire3_R.smd"
 	activity "ACT_VM_PRIMARYATTACK_3" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -408,7 +408,7 @@ $sequence "fire3_R" {
 }
 
 $sequence "fire4_M" {
-	"v_bizon_anims\fire4_M.smd"
+	"anims\fire4_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_4" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -419,7 +419,7 @@ $sequence "fire4_M" {
 }
 
 $sequence "fire4_L" {
-	"v_bizon_anims\fire4_L.smd"
+	"anims\fire4_L.smd"
 	activity "ACT_VM_PRIMARYATTACK_4" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -430,7 +430,7 @@ $sequence "fire4_L" {
 }
 
 $sequence "fire5_M" {
-	"v_bizon_anims\fire5_M.smd"
+	"anims\fire5_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_M" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -441,7 +441,7 @@ $sequence "fire5_M" {
 }
 
 $sequence "fire5_L" {
-	"v_bizon_anims\fire5_L.smd"
+	"anims\fire5_L.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_L" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -452,7 +452,7 @@ $sequence "fire5_L" {
 }
 
 $sequence "fire5_R" {
-	"v_bizon_anims\fire5_R.smd"
+	"anims\fire5_R.smd"
 	activity "ACT_VM_PRIMARYATTACK_5_R" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -463,7 +463,7 @@ $sequence "fire5_R" {
 }
 
 $sequence "Sfire1_M" {
-	"v_bizon_anims\Sfire1_M.smd"
+	"anims\Sfire1_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -474,7 +474,7 @@ $sequence "Sfire1_M" {
 }
 
 $sequence "Sfire1_L" {
-	"v_bizon_anims\Sfire1_L.smd"
+	"anims\Sfire1_L.smd"
 	activity "ACT_VM_SILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -485,7 +485,7 @@ $sequence "Sfire1_L" {
 }
 
 $sequence "Sfire2_M" {
-	"v_bizon_anims\Sfire2_M.smd"
+	"anims\Sfire2_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_2" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -496,7 +496,7 @@ $sequence "Sfire2_M" {
 }
 
 $sequence "Sfire2_R" {
-	"v_bizon_anims\Sfire2_R.smd"
+	"anims\Sfire2_R.smd"
 	activity "ACT_VM_SILENCEDATTACK_2" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -507,7 +507,7 @@ $sequence "Sfire2_R" {
 }
 
 $sequence "Sfire3_M" {
-	"v_bizon_anims\Sfire3_M.smd"
+	"anims\Sfire3_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_3" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -518,7 +518,7 @@ $sequence "Sfire3_M" {
 }
 
 $sequence "Sfire3_L" {
-	"v_bizon_anims\Sfire3_L.smd"
+	"anims\Sfire3_L.smd"
 	activity "ACT_VM_SILENCEDATTACK_3" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -529,7 +529,7 @@ $sequence "Sfire3_L" {
 }
 
 $sequence "Sfire4_M" {
-	"v_bizon_anims\Sfire4_M.smd"
+	"anims\Sfire4_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_4" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -540,7 +540,7 @@ $sequence "Sfire4_M" {
 }
 
 $sequence "Sfire4_R" {
-	"v_bizon_anims\Sfire4_R.smd"
+	"anims\Sfire4_R.smd"
 	activity "ACT_VM_SILENCEDATTACK_4" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -551,7 +551,7 @@ $sequence "Sfire4_R" {
 }
 
 $sequence "Sfire5_M" {
-	"v_bizon_anims\Sfire5_M.smd"
+	"anims\Sfire5_M.smd"
 	activity "ACT_VM_SILENCEDATTACK_5_M" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -562,7 +562,7 @@ $sequence "Sfire5_M" {
 }
 
 $sequence "Sfire5_L" {
-	"v_bizon_anims\Sfire5_L.smd"
+	"anims\Sfire5_L.smd"
 	activity "ACT_VM_SILENCEDATTACK_5_L" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -573,7 +573,7 @@ $sequence "Sfire5_L" {
 }
 
 $sequence "Sfire5_R" {
-	"v_bizon_anims\Sfire5_R.smd"
+	"anims\Sfire5_R.smd"
 	activity "ACT_VM_SILENCEDATTACK_5_R" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -584,7 +584,7 @@ $sequence "Sfire5_R" {
 }
 
 $sequence "blind_idle" {
-	"v_bizon_anims\blind_idle.smd"
+	"anims\blind_idle.smd"
 	activity "ACT_VM_IDLE_BLIND" 1
 	fadein 0.2
 	fadeout 0.2
@@ -592,7 +592,7 @@ $sequence "blind_idle" {
 }
 
 $sequence "blind_fire1" {
-	"v_bizon_anims\blind_fire1.smd"
+	"anims\blind_fire1.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -603,7 +603,7 @@ $sequence "blind_fire1" {
 }
 
 $sequence "blind_fire2" {
-	"v_bizon_anims\blind_fire2.smd"
+	"anims\blind_fire2.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -614,7 +614,7 @@ $sequence "blind_fire2" {
 }
 
 $sequence "blind_fire3" {
-	"v_bizon_anims\blind_fire3.smd"
+	"anims\blind_fire3.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 1 "1" }
@@ -625,7 +625,7 @@ $sequence "blind_fire3" {
 }
 
 $sequence "blind_Sfire1" {
-	"v_bizon_anims\blind_Sfire1.smd"
+	"anims\blind_Sfire1.smd"
 	activity "ACT_VM_BLINDSILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -636,7 +636,7 @@ $sequence "blind_Sfire1" {
 }
 
 $sequence "blind_Sfire2" {
-	"v_bizon_anims\blind_Sfire2.smd"
+	"anims\blind_Sfire2.smd"
 	activity "ACT_VM_BLINDSILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -647,7 +647,7 @@ $sequence "blind_Sfire2" {
 }
 
 $sequence "blind_Sfire3" {
-	"v_bizon_anims\blind_Sfire3.smd"
+	"anims\blind_Sfire3.smd"
 	activity "ACT_VM_BLINDSILENCEDATTACK_1" 1
 	{ event 9021 0 "TI_Silenced" }
 	{ event 6001 1 "1" }
@@ -658,7 +658,7 @@ $sequence "blind_Sfire3" {
 }
 
 $sequence "blind_dryfire" {
-	"v_bizon_anims\blind_dryfire.smd"
+	"anims\blind_dryfire.smd"
 	activity "ACT_VM_BLIND_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
