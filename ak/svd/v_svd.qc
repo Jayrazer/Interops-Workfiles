@@ -4,11 +4,11 @@ $modelname "weapons\tacint_extras\v_svd.mdl"
 
 $bodygroup "gun"
 {
-	studio "v_svd.smd"
+	studio "v_svd_new.smd"
 }
 $bodygroup "scope"
 {
-	studio "v_svd_scope.smd"
+	studio "v_svd_scope_new.smd"
 	studio "v_svd_rail.smd"
 	blank
 }
