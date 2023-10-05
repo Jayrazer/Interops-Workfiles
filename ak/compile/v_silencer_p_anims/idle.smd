@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "silencer_bone" -1
+end
+skeleton
+  time 0
+    0 0.000000 3.712891 0.033356 1.570791 0.002246 -1.570795
+end
