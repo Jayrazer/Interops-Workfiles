@@ -193,7 +193,7 @@ $bonemerge "rightarm"
 $sectionframes 30 30
 
 $sequence "range_attack" {
-	"v_auto5_anims\range_attack.smd"
+	"anims\range_attack.smd"
 	activity "ACT_RANGE_ATTACK1" 1
 	fadein 0.2
 	fadeout 0.2
@@ -201,7 +201,7 @@ $sequence "range_attack" {
 }
 
 $sequence "range_attack2" {
-	"v_auto5_anims\range_attack2.smd"
+	"anims\range_attack2.smd"
 	activity "ACT_RANGE_ATTACK2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -209,7 +209,7 @@ $sequence "range_attack2" {
 }
 
 $sequence "idle" {
-	"v_auto5_anims\idle.smd"
+	"anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -218,7 +218,7 @@ $sequence "idle" {
 }
 
 $sequence "deploy" {
-	"v_auto5_anims\deploy.smd"
+	"anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 0 "tacint_m4.Throw_Catch" }
 	{ event 5004 21 "tacint_auto5.Bolt_Back" }
@@ -229,7 +229,7 @@ $sequence "deploy" {
 }
 
 $sequence "reload_start" {
-	"v_auto5_anims\reload_start.smd"
+	"anims\reload_start.smd"
 	activity "ACT_SHOTGUN_RELOAD_START" 1
 	{ event 5004 0 "tacint_Bekas.Movement" }
 	fadein 0.2
@@ -238,7 +238,7 @@ $sequence "reload_start" {
 }
 
 $sequence "reload" {
-	"v_auto5_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 6 "tacint_auto5.InsertShell" }
 	{ event 5004 19 "tacint_auto5.InsertShell" }
@@ -250,7 +250,7 @@ $sequence "reload" {
 }
 
 $sequence "reload2" {
-	"v_auto5_anims\reload2.smd"
+	"anims\reload2.smd"
 	activity "ACT_VM_RELOAD_IDLE" 1
 	{ event 5004 6 "tacint_auto5.InsertShell" }
 	{ event 5004 19 "tacint_auto5.InsertShell" }
@@ -262,7 +262,7 @@ $sequence "reload2" {
 }
 
 $sequence "reload_finish" {
-	"v_auto5_anims\reload_finish.smd"
+	"anims\reload_finish.smd"
 	activity "ACT_SHOTGUN_RELOAD_FINISH" 1
 	{ event 5004 0 "tacint_Bekas.Movement" }
 	{ event 5004 15 "tacint_auto5.Bolt_Back" }
@@ -273,7 +273,7 @@ $sequence "reload_finish" {
 }
 
 $sequence "shoot1" {
-	"v_auto5_anims\shoot1.smd"
+	"anims\shoot1.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash2" }
 	{ event 6001 2 "2" }
@@ -284,7 +284,7 @@ $sequence "shoot1" {
 }
 
 $sequence "shoot2" {
-	"v_auto5_anims\shoot2.smd"
+	"anims\shoot2.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash2" }
 	{ event 6001 2 "2" }
@@ -295,7 +295,7 @@ $sequence "shoot2" {
 }
 
 $sequence "waveover" {
-	"v_auto5_anims\waveover.smd"
+	"anims\waveover.smd"
 	activity "ACT_VM_WAVEOVER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -303,7 +303,7 @@ $sequence "waveover" {
 }
 
 $sequence "waveover2" {
-	"v_auto5_anims\waveover2.smd"
+	"anims\waveover2.smd"
 	activity "ACT_VM_WAVEOVER2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -311,7 +311,7 @@ $sequence "waveover2" {
 }
 
 $sequence "halt" {
-	"v_auto5_anims\halt.smd"
+	"anims\halt.smd"
 	activity "ACT_VM_HALT" 1
 	fadein 0.2
 	fadeout 0.2
@@ -319,7 +319,7 @@ $sequence "halt" {
 }
 
 $sequence "hal2" {
-	"v_auto5_anims\hal2.smd"
+	"anims\hal2.smd"
 	activity "ACT_VM_HALT2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -327,7 +327,7 @@ $sequence "hal2" {
 }
 
 $sequence "dryfire" {
-	"v_auto5_anims\dryfire.smd"
+	"anims\dryfire.smd"
 	activity "ACT_VM_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -336,7 +336,7 @@ $sequence "dryfire" {
 }
 
 $sequence "prime_grenade" {
-	"v_auto5_anims\prime_grenade.smd"
+	"anims\prime_grenade.smd"
 	activity "ACT_VM_PRIME_GRENADE" 1
 	{ event 5004 7 "Grenade.PullPin" }
 	fadein 0.2
@@ -345,7 +345,7 @@ $sequence "prime_grenade" {
 }
 
 $sequence "throw_grenade" {
-	"v_auto5_anims\throw_grenade.smd"
+	"anims\throw_grenade.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -354,7 +354,7 @@ $sequence "throw_grenade" {
 }
 
 $sequence "throw_grenade_underhand" {
-	"v_auto5_anims\throw_grenade_underhand.smd"
+	"anims\throw_grenade_underhand.smd"
 	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -363,7 +363,7 @@ $sequence "throw_grenade_underhand" {
 }
 
 $sequence "melee1" {
-	"v_auto5_anims\melee1.smd"
+	"anims\melee1.smd"
 	activity "ACT_VM_SECONDARYATTACK" 1
 	{ event 5004 2 "Weapon.Thrust" }
 	fadein 0.2
@@ -372,7 +372,7 @@ $sequence "melee1" {
 }
 
 $sequence "melee2" {
-	"v_auto5_anims\melee2.smd"
+	"anims\melee2.smd"
 	activity "ACT_VM_SECONDARYATTACK2" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
@@ -381,7 +381,7 @@ $sequence "melee2" {
 }
 
 $sequence "holster" {
-	"v_auto5_anims\holster.smd"
+	"anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -390,7 +390,7 @@ $sequence "holster" {
 }
 
 $sequence "unholster" {
-	"v_auto5_anims\unholster.smd"
+	"anims\unholster.smd"
 	activity "ACT_VM_UNHOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -399,7 +399,7 @@ $sequence "unholster" {
 }
 
 $sequence "blind_idle" {
-	"v_auto5_anims\blind_idle.smd"
+	"anims\blind_idle.smd"
 	activity "ACT_VM_IDLE_BLIND" 1
 	fadein 0.2
 	fadeout 0.2
@@ -407,7 +407,7 @@ $sequence "blind_idle" {
 }
 
 $sequence "blind_shoot1" {
-	"v_auto5_anims\blind_shoot1.smd"
+	"anims\blind_shoot1.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash2" }
 	{ event 6001 23 "2" }
@@ -418,7 +418,7 @@ $sequence "blind_shoot1" {
 }
 
 $sequence "blind_dryfire" {
-	"v_auto5_anims\blind_dryfire.smd"
+	"anims\blind_dryfire.smd"
 	activity "ACT_VM_BLIND_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2

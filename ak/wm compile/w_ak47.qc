@@ -1,21 +1,22 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\w_74u.mdl"
+$modelname "weapons\tacint_extras\w_svd.mdl"
 
 $bodygroup "gun"
 {
-	studio "w_74u.smd"
-}
-$bodygroup "stock"
-{
-	studio "74u_stockout.smd"
-	studio "74u_stockin.smd"
+	studio "w_svd.smd"
 }
 $bodygroup "rail"
 {
+	studio "w_svd_scope.smd"
+	studio "w_svd_rail.smd"
 	blank
-	studio "74u_rail.smd"
 }
+//$bodygroup "rail"
+//{
+	//blank
+	//studio "74u_rail.smd"
+//}
 
 
 $surfaceprop "weapon"
@@ -26,10 +27,10 @@ $illumposition -0.712 -9.391 1.366
 
 $cdmaterials "models\tacint\weapons\w_models\ak47\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
-$cdmaterials "models\tacint_shark\weapons\74u\"
+$cdmaterials "models\tacint_extras\svd\"
 $cdmaterials "models\tacint_extras\ak47\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 22.70 -1.10 -4.20 rotate 0 0 -90
+$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 47.70 -1.10 -4.60 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
 
 $cbox 0 0 0 0 0 0
@@ -109,7 +110,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_74u.smd"
+$collisionmodel "w_svd.smd"
 {
 	$mass 5
 	$inertia 1

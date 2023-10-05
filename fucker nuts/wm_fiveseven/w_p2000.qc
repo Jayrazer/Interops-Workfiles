@@ -4,7 +4,7 @@ $modelname "weapons\tacint_shark\w_57.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_57_ref.smd"
+	studio "w_57_ref_mirrored.smd"
 }
 $bodygroup "silencer"
 {

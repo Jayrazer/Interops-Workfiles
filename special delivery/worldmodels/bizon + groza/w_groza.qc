@@ -4,7 +4,7 @@ $modelname "weapons\tacint_shark\w_groza.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_groza.smd"
+	studio "w_groza_new.smd"
 }
 $bodygroup "stock"
 {
@@ -23,6 +23,7 @@ $contents "solid"
 $illumposition -0.712 -9.391 1.366
 
 $cdmaterials "models\tacint\weapons\w_models\ak47\"
+$cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 $cdmaterials "models\tacint_shark\weapons\groza\"
 
