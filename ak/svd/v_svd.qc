@@ -4,11 +4,11 @@ $modelname "weapons\tacint_extras\v_svd.mdl"
 
 $bodygroup "gun"
 {
-	studio "v_svd_new.smd"
+	studio "v_svd.smd"
 }
 $bodygroup "scope"
 {
-	studio "v_svd_scope_new.smd"
+	studio "v_svd_scope.smd"
 	studio "v_svd_rail.smd"
 	blank
 }
@@ -22,7 +22,7 @@ $cdmaterials "models\tacint_shark\weapons\74u\"
 $cdmaterials "models\tacint_extras\svd\"
 $cdmaterials "models\tacint_extras\ak47\"
 
-$attachment "muzzle" "ValveBiped.AK47_rootbone" -3.30 -0.10 18.50 rotate -90 90 0
+$attachment "muzzle" "ValveBiped.AK47_rootbone" -3.30 -0.10 37.50 rotate -90 90 0
 $attachment "bolt" "ValveBiped.bolt" 1.50 -2.20 -1.0 rotate -33 0 90
 $attachment "muzzle_silencer" "ValveBiped.AK47_rootbone" -3.2 0 32 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
