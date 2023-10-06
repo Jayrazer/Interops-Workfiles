@@ -26,7 +26,7 @@ $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
 $attachment "muzzle" "ValveBiped._ROOT_K1a" -2.70 -0.20 18.50 rotate -90 90 0
-$attachment "bolt" "ValveBiped.bolt_cover" 1.00 5.00 -0.50 rotate 135 180 -90
+$attachment "bolt" "ValveBiped.bolt_cover" 1.00 5.00 -0.50 rotate 150 180 -90
 $attachment "muzzle_silencer" "ValveBiped._ROOT_K1a" -2.7 -0.2 28 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
 
@@ -254,7 +254,7 @@ $sequence "reload" {
 $sequence "midreload" {
 	"anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 20 "tacint_thompson.Bolt_Back" }
+	{ event 5004 16 "tacint_thompson.Bolt_Back" }
 	fadein 0.2
 	fadeout 0.2
 	fps 34
