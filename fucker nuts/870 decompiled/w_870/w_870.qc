@@ -6,12 +6,18 @@ $bodygroup "studio"
 {
 	studio "w_870.smd"
 }
+$bodygroup "tactical"
+{
+	blank
+	studio "w_870_rail.smd"
+}
 
 $surfaceprop "weapon"
 
 $contents "solid"
 
 $cdmaterials "models\tacint_shark\870\"
+$cdmaterials "models\tacint\weapons\v_models\super90\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 28 0.2 -14 rotate 22 2 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 11 0 -6.5 rotate 25 90 -90
