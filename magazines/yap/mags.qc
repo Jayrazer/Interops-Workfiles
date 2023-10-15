@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\thompson.mdl"
+$modelname "weapons\tacint_extras\magazines\galil_sniper.mdl"
 
 $bodygroup "studio"
 {
-	studio "thompson.smd"
+	studio "galil_sniper.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,8 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\weapons\thompson\"
+$cdmaterials "models\tacint_extras\galil_lmg\"
+$cdmaterials "models\tacint_extras\galil_sniper\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +30,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "thompson.smd"
+$collisionmodel "galil_sniper.smd"
 {
 	$mass 3
 	$inertia 1
