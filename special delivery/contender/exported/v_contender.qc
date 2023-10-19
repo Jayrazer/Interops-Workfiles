@@ -68,18 +68,31 @@ $sequence "idle" {
 	fps 12
 }
 
+// $sequence "reload2" {
+// 	"anims\reload2.smd"
+// 	{ event 5004 15 "tacint_contender.open" }
+// 	{ event 5004 32 "tacint_contender.magout" }
+// 	{ event 5004 55 "tacint_contender.magin" }
+// 	{ event 5004 68 "tacint_contender.close" }
+// 	{ event 5004 85 "tacint_contender.hammer" }
+// 	activity "ACT_VM_RELOAD" 1
+// 	fadein 0.2
+// 	fadeout 0.2
+// 	fps 36
+// }
+
 $sequence "reload" {
 	"anims\reload.smd"
 	{ event 5004 15 "tacint_contender.open" }
-	{ event 5004 32 "tacint_contender.magout" }
-	{ event 5004 55 "tacint_contender.magin" }
-	{ event 5004 68 "tacint_contender.close" }
-	{ event 5004 85 "tacint_contender.hammer" }
+	{ event 5004 40 "tacint_contender.magin" }
+	{ event 5004 53 "tacint_contender.close" }
+	{ event 5004 66 "tacint_contender.hammer" }
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 36
 }
+
 
 $sequence "fire" {
 	"anims\shoot.smd"
@@ -118,4 +131,42 @@ $sequence "unholster" {
 	fadein 0.2
 	fadeout 0.2
 	fps 30
+}
+
+$sequence "melee1" {
+	"anims\melee1.smd"
+	activity "ACT_VM_SECONDARYATTACK" 1
+	{ event 5004 2 "Weapon.Swing" }
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "melee2" {
+	"anims\melee2.smd"
+	activity "ACT_VM_SECONDARYATTACK" 1
+	{ event 5004 2 "Weapon.Swing" }
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+
+$sequence "blind_idle" {
+	"anims\blind_idle.smd"
+	activity "ACT_VM_IDLE_BLIND" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 12
+}
+
+$sequence "blind_fire" {
+	"anims\blind_fire.smd"
+	activity "ACT_VM_BLINDATTACK_1" 1
+	{ event 9051 0 "TI_MuzzleFlash" }
+	{ event 6001 2 "0" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 25
 }
