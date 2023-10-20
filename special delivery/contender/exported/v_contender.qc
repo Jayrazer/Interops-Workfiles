@@ -86,13 +86,12 @@ $sequence "reload" {
 	{ event 5004 15 "tacint_contender.open" }
 	{ event 5004 40 "tacint_contender.magin" }
 	{ event 5004 53 "tacint_contender.close" }
-	{ event 5004 66 "tacint_contender.hammer" }
+	{ event 5004 68 "tacint_contender.hammer" }
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 36
 }
-
 
 $sequence "fire" {
 	"anims\shoot.smd"
@@ -169,4 +168,61 @@ $sequence "blind_fire" {
 	fadeout 0.2
 	snap
 	fps 25
+}
+
+$sequence "blind_dryfire" {
+	"anims\blind_dryfire.smd"
+	activity "ACT_VM_DRYFIRE" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 33
+}
+
+
+$sequence "prime_grenade" {
+	"anims\prime_grenade.smd"
+	activity "ACT_VM_PRIME_GRENADE" 1
+	{ event 5004 12 "Grenade.PullPin" }
+	fadein 0.2
+	fadeout 0.2
+	fps 40
+}
+
+$sequence "throw_grenade" {
+	"anims\throw_grenade.smd"
+	activity "ACT_VM_THROW_GRENADE" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "throw_grenade_underhand" {
+	"anims\throw_grenade_underhand.smd"
+	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "jam" {
+	"anims\fix.smd"
+	{ event 5004 15 "tacint_contender.open" }
+	{ event 5004 30 "tacint_contender.close" }
+	{ event 5004 45 "tacint_contender.hammer" }
+	fadein 0.2
+	fadeout 0.5
+	snap
+	fps 30
+}
+
+$sequence "dryfire" {
+	"anims\dryfire.smd"
+	activity "ACT_VM_DRYFIRE" 1
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 33
 }
