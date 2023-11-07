@@ -16,6 +16,11 @@ $bodygroup "tacrail"
 	blank
 	studio "74u_rail.smd"
 }
+$bodygroup "muzzle"
+{
+	studio "74u_booster_default.smd"
+	blank
+}
 
 
 $surfaceprop "default"
