@@ -11,6 +11,11 @@ $bodygroup "bipod"
 	studio "bipod_up.smd"
 	studio "bipod_down.smd"
 }
+$bodygroup "tacrail"
+{
+	blank
+	studio "tacrail.smd"
+}
 
 
 $surfaceprop "default"
@@ -20,6 +25,7 @@ $contents "solid"
 $illumposition -5.879 -15.818 -1.17
 
 $cdmaterials "models\tacint\weapons\v_models\aug\"
+$cdmaterials "models\tacint\weapons\v_models\ak47\"
 $cdmaterials "models\tacint_shark\weapons\famas\"
 $cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
