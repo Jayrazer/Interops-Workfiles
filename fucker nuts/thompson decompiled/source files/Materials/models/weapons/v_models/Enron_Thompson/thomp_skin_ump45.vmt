@@ -1,7 +1,0 @@
-VertexLitGeneric
-{
-	"$baseTexture" "models\weapons\v_models\Enron_Thompson\thomp_skin_ump45"
-	"$envmap" "env_cubemap"
-	"$bumpmap" "models\weapons\v_models\Enron_Thompson\thomp_skin_ump45_normal"
-	"$normalmapalphaenvmapmask" "1"
-}
