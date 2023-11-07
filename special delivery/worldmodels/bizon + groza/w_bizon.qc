@@ -4,12 +4,17 @@ $modelname "weapons\tacint_shark\w_bizon.mdl"
 
 $bodygroup "gun"
 {
-	studio "w_pp19.smd"
+	studio "w_bizono.smd"
 }
 $bodygroup "stock"
 {
-	studio "w_stock_out.smd"
-	studio "w_stock_in.smd"
+	studio "w_bizon_stockout.smd"
+	studio "w_bizon_stockin.smd"
+}
+$bodygroup "rail"
+{
+	blank
+	studio "w_bizon_rail.smd"
 }
 
 
