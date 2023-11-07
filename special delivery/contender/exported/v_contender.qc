@@ -18,7 +18,7 @@ $contents "solid"
 
 $cdmaterials "models\tacint_shark\weapons\contender\"
 
-$attachment "muzzleflash" "g2_root" 0 1 17 rotate -90 0 0
+$attachment "muzzleflash" "g2_root" 0 1 14 rotate -90 0 0
 
 $bonemerge "ValveBiped.Bip01_Spine4"
 $bonemerge "ValveBiped.Bip01_L_Clavicle"
