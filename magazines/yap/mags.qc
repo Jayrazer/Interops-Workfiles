@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\bizon.mdl"
+$modelname "weapons\tacint_shark\magazines\g3.mdl"
 
 $bodygroup "studio"
 {
-	studio "bizono.smd"
+	studio "g3_new.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\weapons\bizon\"
+$cdmaterials "models\tacint_shark\weapons\g3\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "bizono.smd"
+$collisionmodel "g3_new.smd"
 {
 	$mass 3
 	$inertia 1

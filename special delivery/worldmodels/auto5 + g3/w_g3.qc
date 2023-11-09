@@ -4,13 +4,13 @@ $modelname "weapons\tacint_shark\w_g3.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_g3.smd"
+	studio "w_g3_new.smd"
 }
-$bodygroup "scope"
-{
-	studio "w_g3_scope.smd"
-	blank
-}
+//$bodygroup "scope"
+//{
+	//studio "w_g3_scope.smd"
+	//blank
+//}
 $bodygroup "flashlight"
 {
 	blank
@@ -101,7 +101,7 @@ $sequence "attack1" {
 	fps 22
 }
 
-$collisionmodel "w_g3.smd"
+$collisionmodel "w_g3_new.smd"
 {
 	$mass 5
 	$inertia 1

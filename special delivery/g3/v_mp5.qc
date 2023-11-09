@@ -4,16 +4,16 @@ $modelname "weapons\tacint_shark\v_g3.mdl"
 
 $bodygroup "gun"
 {
-	studio "v_g3.smd"
+	studio "v_g3_new.smd"
 }
-$bodygroup "bipod"
-{
-	studio "bipod_up.smd"
-	studio "bipod_down.smd"
-}
+//$bodygroup "bipod"
+//{
+	//studio "bipod_up.smd"
+	//studio "bipod_down.smd"
+//}
 $bodygroup "optics"
 {
-	studio "v_g3_scope.smd"
+	//studio "v_g3_scope.smd"
 	blank
 	studio "v_mp5_rail.smd"
 }
@@ -504,7 +504,7 @@ $sequence "halt2" {
 }
 
 $sequence "reload" {
-	"v_g3_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 8 "tacint_g3.Bolt_Back" }
@@ -517,7 +517,7 @@ $sequence "reload" {
 }
 
 $sequence "midreload" {
-	"v_g3_anims\midreload.smd"
+	"anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
 	{ event 5004 0 "tacint_g3.Insert_Clip-Mid" }
 	{ event 5004 27 "tacint_g3.HK_Slap" }
