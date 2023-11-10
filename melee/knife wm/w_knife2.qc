@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons/tacint_melee/w_wrench.mdl"
+$modelname "weapons/tacint_melee/w_pansexual.mdl"
 
 $bodygroup "body"
 {
-	studio "wrench.smd"
+	studio "fpan.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -0.114 0.531 7.472
 
-$cdmaterials "models\tacint_shark\weapons\wrench\"
+$cdmaterials "models\tacint_shark\weapons\pansexual\"
 
 $cbox 0 0 0 0 0 0
 
@@ -31,7 +31,7 @@ $sequence "idle" {
 	loop
 }
 
-$collisionmodel "wrench.smd"
+$collisionmodel "fpan.smd"
 {
 	$mass 1
 	$inertia 1
