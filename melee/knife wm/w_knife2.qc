@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons/tacint_melee/w_pansexual.mdl"
+$modelname "weapons/tacint_melee/w_shovel.mdl"
 
 $bodygroup "body"
 {
-	studio "fpan.smd"
+	studio "shovel.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -0.114 0.531 7.472
 
-$cdmaterials "models\tacint_shark\weapons\pansexual\"
+$cdmaterials "models\tacint_shark\weapons\shovel\"
 
 $cbox 0 0 0 0 0 0
 
@@ -31,7 +31,7 @@ $sequence "idle" {
 	loop
 }
 
-$collisionmodel "fpan.smd"
+$collisionmodel "shovel.smd"
 {
 	$mass 1
 	$inertia 1
