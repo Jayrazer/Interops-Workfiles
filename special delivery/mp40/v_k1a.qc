@@ -344,6 +344,17 @@ $sequence "melee2" {
 	fps 42
 }
 
+$sequence "lastshot" {
+	"anims\lastshot.smd"
+	activity "ACT_VM_PRIMARYATTACK_1" 1
+	{ event 9001 0 "TI_MuzzleFlash" }
+	{ event 6001 3 "1" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 28
+}
+
 $sequence "fire1_M" {
 	"v_mp40_anims\fire1_M.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
