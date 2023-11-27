@@ -6,13 +6,10 @@ $bodygroup "gun"
 {
 	studio "groza_ref_new.smd"
 }
-$bodygroup "bipod"
-{
-	blank
-}
 $bodygroup "tacrail"
 {
 	blank
+	studio "tacrail.smd"
 }
 
 
