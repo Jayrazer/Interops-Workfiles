@@ -225,9 +225,9 @@ $sequence "reload" {
 	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 11 "tacint_950jdj.Bolt_Back" }
+	{ event 5004 10 "tacint_950jdj.Bolt_Back" }
 	{ event 5004 23 "tacint_950jdj.Load" }
-	{ event 5004 36 "tacint_950jdj.Bolt_Forward" }
+	{ event 5004 35 "tacint_950jdj.Bolt_Forward" }
 	fadein 0.2
 	fadeout 0.2
 	fps 33
