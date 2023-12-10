@@ -213,11 +213,11 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"v_wa2000_anims\reload.smd"
+	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 15 "tacint_wa2000.Clip_Out" }
-	{ event 5004 62 "tacint_wa2000.Clip_In" }
+	{ event 5004 73 "tacint_wa2000.Clip_In" }
 	{ event 5004 97 "tacint_wa2000.Bolt_Back" }
 	{ event 5004 107 "tacint_wa2000.Bolt_Release" }
 	fadein 0.2
@@ -257,7 +257,7 @@ $sequence "dryfire" {
 }
 
 $sequence "shoot1" {
-	"v_wa2000_anims\shoot1.smd"
+	"anims\shoot1.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 3 "1" }
@@ -268,7 +268,7 @@ $sequence "shoot1" {
 }
 
 $sequence "shoot2" {
-	"v_wa2000_anims\shoot2.smd"
+	"anims\shoot2.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
 	{ event 6001 3 "1" }
