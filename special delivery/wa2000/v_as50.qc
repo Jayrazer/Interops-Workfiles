@@ -213,11 +213,11 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"anims\reload_new.smd"
+	"anims\reload_new_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 15 "tacint_wa2000.Clip_Out" }
-	{ event 5004 73 "tacint_wa2000.Clip_In" }
+	{ event 5004 63 "tacint_wa2000.Clip_In" }
 	{ event 5004 97 "tacint_wa2000.Bolt_Back" }
 	{ event 5004 107 "tacint_wa2000.Bolt_Release" }
 	fadein 0.2
