@@ -127,8 +127,8 @@ $sequence "idle" {
 $sequence "reload" {
 	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 7 "tacint_nitrorifle.magrelease" }
 	{ event 5004 10 "tacint_nitrorifle.open" }
+	{ event 5004 28 "tacint_nitrorifle.shells" }
 	{ event 5004 47 "tacint_nitrorifle.magin" }
 	{ event 5004 49 "tacint_nitrorifle.magin" }
 	{ event 5004 64 "tacint_nitrorifle.close" }

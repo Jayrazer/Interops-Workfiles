@@ -125,6 +125,7 @@ $sequence "reload" {
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 7 "tacint_db.magrelease" }
 	{ event 5004 10 "tacint_db.open" }
+	{ event 5004 30 "tacint_db.shells" }
 	{ event 5004 51 "tacint_db.magin" }
 	{ event 5004 64 "tacint_db.close" }
 	fadein 0.2
