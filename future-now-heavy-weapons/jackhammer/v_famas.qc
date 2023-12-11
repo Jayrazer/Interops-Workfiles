@@ -20,7 +20,6 @@ $contents "solid"
 $illumposition -5.879 -15.818 -1.17
 
 $cdmaterials "models\tacint\weapons\v_models\ak47\"
-$cdmaterials "models\tacint_shark\weapons\famas\"
 $cdmaterials "models\tacint_shark\weapons\jackhammer\"
 $cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
