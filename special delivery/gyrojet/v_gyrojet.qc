@@ -326,7 +326,7 @@ $sequence "reload" {
 	{ event 5004 38 "tacint_gyrojet.insert" }
 	fadein 0.2
 	fadeout 0.2
-	fps 35
+	fps 30
 }
 
 $sequence "reload_finish" {
