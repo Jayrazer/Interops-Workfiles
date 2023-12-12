@@ -26,8 +26,8 @@ $cdmaterials "models\tacint\weapons\v_models\frag\"
 $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
-$attachment "muzzleflash" "ValveBiped.Bip01" -4.45 -4.8 29 rotate -90 0 0
-$attachment "muzzle" "ValveBiped.ejector_rod" 0 5 -0.5 rotate 0 90 -90
+$attachment "muzzleflash" "ValveBiped.Bip01" -4.45 -4 33.00 rotate -90 0 0
+$attachment "muzzle" "ValveBiped.ejector_rod" 0.00 8.00 -0.50 rotate 0 90 -90
 $attachment "muzzleflash_blind" "ValveBiped.Bip01" -1.15 2.2 28 rotate -85 0 0
 
 $cbox 0 0 0 0 0 0
