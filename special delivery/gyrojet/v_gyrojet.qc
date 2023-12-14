@@ -41,10 +41,10 @@ $cdmaterials "models\tacint\weapons\v_models\frag\"
 $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
-$attachment "muzzleflash" "xd45_rig.barrel" -0.5 0 4.5 rotate -90 90 0
+$attachment "muzzleflash" "xd45_rig.barrel" -1.2 -1 -1 rotate -15 -90 -180
 $attachment "bolt" "xd45_rig.barrel" -0.5 0 0 rotate 0 140 0
 $attachment "muzzle_silencer" "ValveBiped.Bip01" -4.45 -4.5 31 rotate -90 0 0
-$attachment "muzzle" "xd45_rig.barrel" -0.5 0 4.5 rotate -90 90 0
+$attachment "muzzle" "xd45_rig.barrel" -1.2 1 -1.00 rotate -15 90 -0
 $attachment "magazine" "xd45_rig.magazine" 0 -10 0 rotate 0 0 0
 $attachment "muzzleflash_blind" "ValveBiped.Bip01" -1.2 2 25.5 rotate -88 0 0
 
@@ -430,7 +430,7 @@ $sequence "melee2" {
 }
 
 $sequence "shoot1" {
-	"v_xd45_anims\shoot1.smd"
+	"anims\shoot1.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_V" }
 	{ event 6001 2 "0" }
@@ -441,7 +441,7 @@ $sequence "shoot1" {
 }
 
 $sequence "shoot2" {
-	"v_xd45_anims\shoot2.smd"
+	"anims\shoot2.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash_V" }
 	{ event 6001 2 "0" }
@@ -452,7 +452,7 @@ $sequence "shoot2" {
 }
 
 $sequence "shoot3" {
-	"v_xd45_anims\shoot3.smd"
+	"anims\shoot3.smd"
 	activity "ACT_VM_PRIMARYATTACK_3" 1
 	{ event 9001 0 "TI_MuzzleFlash_V" }
 	{ event 6001 2 "0" }
