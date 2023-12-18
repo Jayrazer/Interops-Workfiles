@@ -22,9 +22,6 @@ $bodygroup "optics"
 $bodygroup "grenade"
 {
 	blank
-	studio "v_ak47_frag_reference.smd"
-	studio "v_ak47_flashbang_reference.smd"
-	studio "v_ak47_smoke_reference.smd"
 }
 
 
@@ -42,7 +39,7 @@ $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
 $attachment "muzzle" "ValveBiped.bekas_rootbone" -2.2 0 28 rotate -90 90 0
-$attachment "bolt" "ValveBiped.bolt" 0.5 1.9 -0.25 rotate 20 0 -90
+$attachment "bolt" "ValveBiped.bolt" 0.5 4 -0.25 rotate 20 0 -90
 
 $cbox 0 0 0 0 0 0
 
@@ -196,7 +193,7 @@ $proceduralbones "v_bekas.vrd"
 
 
 $sequence "range_attack" {
-	"v_bekas_anims\range_attack.smd"
+	"anims\range_attack.smd"
 	activity "ACT_RANGE_ATTACK1" 1
 	fadein 0.2
 	fadeout 0.2
@@ -204,7 +201,7 @@ $sequence "range_attack" {
 }
 
 $sequence "range_attack2" {
-	"v_bekas_anims\range_attack2.smd"
+	"anims\range_attack2.smd"
 	activity "ACT_RANGE_ATTACK2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -212,7 +209,7 @@ $sequence "range_attack2" {
 }
 
 $sequence "idle" {
-	"v_bekas_anims\idle.smd"
+	"anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -221,7 +218,7 @@ $sequence "idle" {
 }
 
 $sequence "waveover" {
-	"v_bekas_anims\waveover.smd"
+	"anims\waveover.smd"
 	activity "ACT_VM_WAVEOVER" 1
 	fadein 0.2
 	fadeout 0.2
@@ -229,7 +226,7 @@ $sequence "waveover" {
 }
 
 $sequence "waveover2" {
-	"v_bekas_anims\waveover2.smd"
+	"anims\waveover2.smd"
 	activity "ACT_VM_WAVEOVER2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -237,7 +234,7 @@ $sequence "waveover2" {
 }
 
 $sequence "halt" {
-	"v_bekas_anims\halt.smd"
+	"anims\halt.smd"
 	activity "ACT_VM_HALT" 1
 	fadein 0.2
 	fadeout 0.2
@@ -245,7 +242,7 @@ $sequence "halt" {
 }
 
 $sequence "hal2" {
-	"v_bekas_anims\hal2.smd"
+	"anims\hal2.smd"
 	activity "ACT_VM_HALT2" 1
 	fadein 0.2
 	fadeout 0.2
@@ -253,7 +250,7 @@ $sequence "hal2" {
 }
 
 $sequence "dryfire" {
-	"v_bekas_anims\dryfire.smd"
+	"anims\dryfire.smd"
 	activity "ACT_VM_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -262,7 +259,7 @@ $sequence "dryfire" {
 }
 
 $sequence "prime_grenade" {
-	"v_bekas_anims\prime_grenade.smd"
+	"anims\prime_grenade.smd"
 	activity "ACT_VM_PRIME_GRENADE" 1
 	{ event 5004 7 "Grenade.PullPin" }
 	fadein 0.2
@@ -271,7 +268,7 @@ $sequence "prime_grenade" {
 }
 
 $sequence "throw_grenade" {
-	"v_bekas_anims\throw_grenade.smd"
+	"anims\throw_grenade.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -280,7 +277,7 @@ $sequence "throw_grenade" {
 }
 
 $sequence "throw_grenade_underhand" {
-	"v_bekas_anims\throw_grenade_underhand.smd"
+	"anims\throw_grenade_underhand.smd"
 	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -289,7 +286,7 @@ $sequence "throw_grenade_underhand" {
 }
 
 $sequence "melee1" {
-	"v_bekas_anims\melee1.smd"
+	"anims\melee1.smd"
 	activity "ACT_VM_SECONDARYATTACK" 1
 	{ event 5004 2 "Weapon.Thrust" }
 	fadein 0.2
@@ -298,7 +295,7 @@ $sequence "melee1" {
 }
 
 $sequence "melee2" {
-	"v_bekas_anims\melee2.smd"
+	"anims\melee2.smd"
 	activity "ACT_VM_SECONDARYATTACK2" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
@@ -307,7 +304,7 @@ $sequence "melee2" {
 }
 
 $sequence "reload_start" {
-	"v_bekas_anims\reload_start.smd"
+	"anims\reload_start.smd"
 	activity "ACT_SHOTGUN_RELOAD_START" 1
 	{ event 5004 0 "tacint_chinalake.Movement" }
 	fadein 0.2
@@ -316,7 +313,7 @@ $sequence "reload_start" {
 }
 
 $sequence "reload" {
-	"v_bekas_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 6 "tacint_chinalake.InsertShell" }
 	{ event 5004 23 "tacint_chinalake.InsertShell" }
@@ -327,7 +324,7 @@ $sequence "reload" {
 }
 
 $sequence "reload2" {
-	"v_bekas_anims\reload2.smd"
+	"anims\reload2.smd"
 	activity "ACT_VM_RELOAD_IDLE" 1
 	{ event 5004 6 "tacint_chinalake.InsertShell" }
 	{ event 5004 23 "tacint_chinalake.InsertShell" }
@@ -338,7 +335,7 @@ $sequence "reload2" {
 }
 
 $sequence "reload_finish" {
-	"v_bekas_anims\reload_finish.smd"
+	"anims\reload_finish.smd"
 	activity "ACT_SHOTGUN_RELOAD_FINISH" 1
 	{ event 5004 0 "tacint_chinalake.Movement" }
 	{ event 5004 10 "tacint_chinalake.PumpBack" }
@@ -348,7 +345,7 @@ $sequence "reload_finish" {
 }
 
 $sequence "deploy" {
-	"v_bekas_anims\deploy.smd"
+	"anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 12 "tacint_chinalake.PumpBack" }
 	fadein 0.2
@@ -357,7 +354,7 @@ $sequence "deploy" {
 }
 
 $sequence "holster" {
-	"v_bekas_anims\holster.smd"
+	"anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -366,7 +363,7 @@ $sequence "holster" {
 }
 
 $sequence "unholster" {
-	"v_bekas_anims\unholster.smd"
+	"anims\unholster.smd"
 	activity "ACT_VM_UNHOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -375,7 +372,7 @@ $sequence "unholster" {
 }
 
 $sequence "shoot1" {
-	"v_bekas_anims\shoot1.smd"
+	"anims\shoot1.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 6200 23 "2" }
 	fadein 0.2
@@ -385,7 +382,7 @@ $sequence "shoot1" {
 }
 
 $sequence "shoot2" {
-	"v_bekas_anims\shoot2.smd"
+	"anims\shoot2.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 6200 23 "2" }
 	fadein 0.2
@@ -395,7 +392,7 @@ $sequence "shoot2" {
 }
 
 $sequence "blind_idle" {
-	"v_bekas_anims\blind_idle.smd"
+	"anims\blind_idle.smd"
 	activity "ACT_VM_IDLE_BLIND" 1
 	fadein 0.2
 	fadeout 0.2
@@ -403,7 +400,7 @@ $sequence "blind_idle" {
 }
 
 $sequence "blind_shoot1" {
-	"v_bekas_anims\blind_shoot1.smd"
+	"anims\blind_shoot1.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 6200 23 "2" }
 	fadein 0.2
@@ -413,7 +410,7 @@ $sequence "blind_shoot1" {
 }
 
 $sequence "blind_dryfire" {
-	"v_bekas_anims\blind_dryfire.smd"
+	"anims\blind_dryfire.smd"
 	activity "ACT_VM_BLIND_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
