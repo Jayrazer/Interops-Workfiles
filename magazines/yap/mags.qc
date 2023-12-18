@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\57.mdl"
+$modelname "weapons\tacint_shark\magazines\intervention.mdl"
 
 $bodygroup "studio"
 {
-	studio "57_new.smd"
+	studio "intervention.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\57\"
+$cdmaterials "models\tacint_shark\weapons\intervention\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "57_new.smd"
+$collisionmodel "intervention.smd"
 {
 	$mass 3
 	$inertia 1

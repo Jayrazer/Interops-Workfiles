@@ -44,9 +44,9 @@ $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 $cdmaterials "models\tacint\weapons\w_models\camouflage\"
 
-$attachment "muzzle" "ValveBiped.uratio_rootbone" -4 0 26 rotate -90 90 0
-$attachment "bolt" "ValveBiped.bullet" 0 0 0 rotate 30 180 -90
-$attachment "muzzle_silencer" "ValveBiped.uratio_rootbone" -4 0 30.5 rotate -90 90 0
+$attachment "muzzle" "ValveBiped.uratio_rootbone" -4 0 37 rotate -90 90 0
+$attachment "bolt" "ValveBiped.bullet" 0 2 0 rotate 30 180 -90
+$attachment "muzzle_silencer" "ValveBiped.uratio_rootbone" -4 0 41.5 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
