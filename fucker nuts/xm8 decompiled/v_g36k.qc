@@ -16,6 +16,11 @@ $bodygroup "tacrail"
 	blank
 	studio "v_g36k_tacrail.smd"
 }
+$bodygroup "bipod"
+{
+	studio "bipodup.smd"
+	studio "bipoddown.smd"
+}
 
 
 $surfaceprop "default"
@@ -32,7 +37,7 @@ $cdmaterials "models\tacint\weapons\v_models\frag\"
 $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
-$attachment "muzzle" "ValveBiped.g36k_rootbone" -3.4 0 22 rotate -90 90 0
+$attachment "muzzle" "ValveBiped.g36k_rootbone" -3.4 0 30 rotate -90 90 0
 $attachment "bolt" "ValveBiped.bolt" 1 8 -1 rotate 25 0 90
 $attachment "muzzle_silencer" "ValveBiped.g36k_rootbone" -3.4 0 29 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0

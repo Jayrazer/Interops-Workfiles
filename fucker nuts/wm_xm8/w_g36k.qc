@@ -4,7 +4,7 @@ $modelname "weapons\tacint_extras\w_xm8lmg.mdl"
 
 $bodygroup "gun"
 {
-	studio "xm8lmg_new.smd"
+	studio "xm8lmg.smd"
 }
 $bodygroup "stock"
 {
@@ -16,6 +16,11 @@ $bodygroup "tacrail"
 	blank
 	studio "v_g36k_tacrail.smd"
 }
+$bodygroup "bipod"
+{
+	studio "bipodup.smd"
+	studio "bipoddown.smd"
+}
 
 
 $surfaceprop "weapon"
@@ -26,7 +31,7 @@ $cdmaterials "models\tacint\weapons\v_models\g36k\"
 $cdmaterials "models\tacint_extras\xm8\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 27.5 -1 -4.7 rotate 0 0 -90
+$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 31 -1 -4.7 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 9.5 -1 -4.6 rotate 25 90 -90
 
 $definebone "ValveBiped.Bip01_R_Hand" "" -1.187493 3.856107 -0.925095 0.820232 -90.000016 -180.000005 0 0 0 0 0 0
@@ -101,7 +106,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "xm8lmg_phys.smd"
+$collisionmodel "xm8lmg.smd"
 {
 	$mass 5
 	$inertia 1
