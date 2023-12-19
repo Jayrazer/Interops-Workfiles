@@ -257,8 +257,9 @@ $sequence "reload" {
 	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_SMAW.Jingle" }
-	{ event 5004 8 "tacint_SMAW.unload" }
-	{ event 5004 35 "tacint_SMAW.Insert_Rocket" }
+	{ event 5004 11 "tacint_SMAW.unload" }
+	{ event 5004 23 "tacint_SMAW.Jingle" }
+	{ event 5004 41 "tacint_SMAW.Insert_Rocket" }
 	fadein 0.2
 	fadeout 0.2
 	fps 27
