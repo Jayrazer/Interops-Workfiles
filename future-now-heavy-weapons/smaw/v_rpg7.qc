@@ -254,14 +254,15 @@ $sequence "aimed_idle" {
 }
 
 $sequence "reload" {
-	"anims\reload.smd"
+	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_SMAW.Jingle" }
-	{ event 5004 10 "tacint_SMAW.unload" }
-	{ event 5004 38 "tacint_SMAW.Insert_Rocket" }
+	{ event 5004 9 "tacint_SMAW.unload" }
+	{ event 5004 21 "tacint_SMAW.Jingle" }
+	{ event 5004 36 "tacint_SMAW.Insert_Rocket" }
 	fadein 0.2
 	fadeout 0.2
-	fps 29
+	fps 27
 }
 
 $sequence "prime_grenade" {
