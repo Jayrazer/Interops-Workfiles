@@ -4,7 +4,7 @@ $modelname "weapons\tacint_melee\v_crowbar.mdl"
 
 $bodygroup "gun"
 {
-	studio "crowbar.smd"
+	studio "crowbar_new.smd"
 }
 
 

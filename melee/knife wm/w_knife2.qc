@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons/tacint_melee/w_bayonet.mdl"
+$modelname "weapons/tacint_melee/w_wrench.mdl"
 
 $bodygroup "body"
 {
-	studio "bayonet.smd"
+	studio "wrench_new.smd"
 }
 
 
@@ -14,7 +14,7 @@ $contents "solid"
 
 $illumposition -0.114 0.531 7.472
 
-$cdmaterials "models\tacint_shark\weapons\bayonet\"
+$cdmaterials "models\tacint_shark\weapons\wrench\"
 
 $cbox 0 0 0 0 0 0
 
@@ -31,7 +31,7 @@ $sequence "idle" {
 	loop
 }
 
-$collisionmodel "bayonet.smd"
+$collisionmodel "wrench_new.smd"
 {
 	$mass 1
 	$inertia 1

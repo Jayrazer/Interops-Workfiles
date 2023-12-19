@@ -4,7 +4,7 @@ $modelname "weapons\tacint_melee\v_wrench.mdl"
 
 $bodygroup "gun"
 {
-	studio "wrench.smd"
+	studio "wrench_new.smd"
 }
 
 
