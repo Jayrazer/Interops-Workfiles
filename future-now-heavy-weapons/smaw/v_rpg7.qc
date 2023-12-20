@@ -41,6 +41,8 @@ $cdmaterials "models\tacint\weapons\v_models\frag\"
 $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
+$attachment "laser" "ValveBiped.RPG7_rootbone" -7.00 2.00 18.00 rotate -90 0 0
+
 $cbox 0 0 0 0 0 0
 
 $bbox -9.424 -17.114 -9.2 41.197 5.615 5.673
