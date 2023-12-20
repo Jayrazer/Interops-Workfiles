@@ -6,27 +6,11 @@ $bodygroup "gun"
 {
 	studio "smaw.smd"
 }
-$bodygroup "silencer"
+$bodygroup "layzur"
 {
+	studio "lazur.smd"
 	blank
 }
-$bodygroup "flashlight"
-{
-	blank
-}
-$bodygroup "optics"
-{
-	blank
-}
-$bodygroup "grenade"
-{
-	blank
-}
-$bodygroup "rocket"
-{
-	blank
-}
-
 
 $surfaceprop "default"
 
@@ -41,7 +25,7 @@ $cdmaterials "models\tacint\weapons\v_models\frag\"
 $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
-$attachment "laser" "ValveBiped.RPG7_rootbone" -7.00 2.00 18.00 rotate -90 0 0
+$attachment "laser" "ValveBiped.RPG7_rootbone" -7.30 2.60 7.00 rotate -90 0 0
 
 $cbox 0 0 0 0 0 0
 

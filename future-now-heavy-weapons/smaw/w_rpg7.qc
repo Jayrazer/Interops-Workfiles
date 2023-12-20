@@ -6,24 +6,9 @@ $bodygroup "studio"
 {
 	studio "w_smaw.smd"
 }
-$bodygroup "silencer"
+$bodygroup "layzur"
 {
-	blank
-}
-$bodygroup "flashlight"
-{
-	blank
-}
-$bodygroup "optics"
-{
-	blank
-}
-$bodygroup "grenade"
-{
-	blank
-}
-$bodygroup "rocket"
-{
+	studio "w_lazur.smd"
 	blank
 }
 
@@ -37,6 +22,7 @@ $cdmaterials "models\tacint_shark\weapons\smaw\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 20 -1.1 -4.2 rotate 0 0 -90
 $attachment "port_exhaust" "ValveBiped.Bip01_R_Hand" -19 -1 -3.5 rotate -90 0 0
+$attachment "laser" "ValveBiped.Bip01_R_Hand" 9.7 -3.6 -3.6 rotate -0 0 0
 
 $cbox 0 0 0 0 0 0
 
