@@ -1,53 +1,15 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint\w_sphinx.mdl"
+$modelname "weapons\tacint_shark\w_hardballer.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_sphinx.smd"
+	studio "w_base.smd"
 }
-$bodygroup "silencer"
+$bodygroup "bigfuckofflaser"
 {
 	blank
-	studio "w_sphinx_silencer.smd"
-}
-$bodygroup "flashlight"
-{
-	blank
-	studio "w_sphinx_flashlight.smd"
-}
-
-$lod 30
-{
-	replacemodel "w_sphinx.smd" "w_sphinx_lod1.smd"
-	replacemodel "w_sphinx_silencer.smd" "w_sphinx_silencer_lod1.smd"
-	replacemodel "w_sphinx_flashlight.smd" "w_sphinx_flashlight_lod1.smd"
-	nofacial
-}
-$lod 60
-{
-	replacemodel "w_sphinx.smd" "w_sphinx_lod2.smd"
-	replacemodel "w_sphinx_silencer.smd" "w_sphinx_silencer_lod2.smd"
-	replacemodel "w_sphinx_flashlight.smd" "w_sphinx_flashlight_lod2.smd"
-	nofacial
-}
-$lod 180
-{
-	replacemodel "w_sphinx.smd" "w_sphinx_lod3.smd"
-	replacemodel "w_sphinx_silencer.smd" "w_sphinx_silencer_lod3.smd"
-	replacemodel "w_sphinx_flashlight.smd" "w_sphinx_flashlight_lod3.smd"
-	replacebone "Bone02" "ValveBiped.Bip01_R_Hand"
-	replacebone "Box01" "Bone02"
-	nofacial
-}
-$shadowlod
-{
-	replacemodel "w_sphinx.smd" "w_sphinx_lod4.smd"
-	replacemodel "w_sphinx_silencer.smd" "w_sphinx_silencer_lod4.smd"
-	replacemodel "w_sphinx_flashlight.smd" "w_sphinx_flashlight_lod4.smd"
-	replacebone "Bone02" "ValveBiped.Bip01_R_Hand"
-	replacebone "Box01" "Bone02"
-	nofacial
+	studio "w_laser.smd"
 }
 
 $surfaceprop "weapon"
@@ -57,6 +19,7 @@ $contents "solid"
 $illumposition -0.076 -5.252 0.613
 
 $cdmaterials "models\tacint\weapons\w_models\sphinx\"
+$cdmaterials "models\tacint_shark\weapons\hardballer\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories2\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 11.6 -1.2 -4 rotate 0 0 -90
@@ -139,7 +102,7 @@ $sequence "attack2" {
 	fps 33
 }
 
-$collisionmodel "w_sphinx_physics.smd"
+$collisionmodel "w_base.smd"
 {
 	$mass 1.3
 	$inertia 1
