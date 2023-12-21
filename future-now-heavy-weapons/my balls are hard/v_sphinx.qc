@@ -27,10 +27,11 @@ $cdmaterials "models\tacint\weapons\v_models\frag\"
 $cdmaterials "models\tacint\weapons\v_models\flashbang\"
 $cdmaterials "models\tacint\weapons\v_models\smoke\"
 
-$attachment "muzzleflash" "ValveBiped.Bip01" -4.45 -4.5 26 rotate -90 0 0
+$attachment "muzzleflash" "ValveBiped.Bip01" -4.45 -4.5 29 rotate -90 0 0
 $attachment "bolt" "magazine" 0 3.2 11 rotate 0 80 -15
-$attachment "muzzle_silencer" "ValveBiped.Bip01" -4.45 -4.5 31 rotate -90 0 0
-$attachment "muzzle" "sphinx_ROOT" -2.8 0 7.7 rotate -90 0 0
+$attachment "muzzle_silencer" "ValveBiped.Bip01" -4.45 -4.5 36 rotate -90 0 0
+$attachment "muzzle" "sphinx_ROOT" -2.8 0 10.5 rotate -90 0 0
+$attachment "lazur" "sphinx_ROOT" -4.9 0.00 10.0 rotate -90 0 0
 $attachment "magazine" "magazine" 0 -10 0 rotate 0 0 0
 $attachment "muzzleflash_blind" "ValveBiped.Bip01" -1.2 2 25.5 rotate -88 0 0
 
