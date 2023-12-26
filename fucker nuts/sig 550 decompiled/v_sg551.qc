@@ -4,7 +4,7 @@ $modelname "weapons\tacint_shark\v_krieg.mdl"
 
 $bodygroup "gun"
 {
-	studio "sig_main.smd"
+	studio "550-1.smd"
 }
 $bodygroup "stock"
 {
