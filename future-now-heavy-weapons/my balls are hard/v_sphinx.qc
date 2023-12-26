@@ -19,13 +19,7 @@ $contents "solid"
 
 $illumposition -5.29 -9.925 -1.445
 
-$cdmaterials "models\tacint\weapons\v_models\sphinx\"
 $cdmaterials "models\tacint_shark\weapons\hardballer\"
-$cdmaterials "models\tacint\weapons\v_models\hands\"
-$cdmaterials "models\tacint\weapons\v_models\_accessories2\"
-$cdmaterials "models\tacint\weapons\v_models\frag\"
-$cdmaterials "models\tacint\weapons\v_models\flashbang\"
-$cdmaterials "models\tacint\weapons\v_models\smoke\"
 
 $attachment "muzzleflash" "ValveBiped.Bip01" -4.45 -4.5 29 rotate -90 0 0
 $attachment "bolt" "magazine" 0 3.2 11 rotate 0 80 -15
@@ -301,22 +295,24 @@ $sequence "halt2" {
 }
 
 $sequence "reload" {
-	"v_sphinx_anims\reload.smd"
+	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 6 "tacint_hardballer.Clip_Out" }
 	{ event 5004 20 "Weapon.Pistol_Clip_Scrape_Metal" }
-	{ event 5004 28 "tacint_hardballer.Clip_In" }
-	{ event 5004 56 "tacint_hardballer.Slide_Shut" }
+	{ event 5004 26 "tacint_hardballer.Clip_In" }
+	{ event 5004 52 "tacint_hardballer.Slide_Back" }
+	{ event 5004 58 "tacint_hardballer.Slide_Forward" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
 }
 
 $sequence "midreload" {
-	"v_sphinx_anims\midreload.smd"
+	"anims\reload_new_mid.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 5 "tacint_hardballer.Clip_In" }
-	{ event 5004 18 "tacint_hardballer.Slide_Shut" }
+	{ event 5004 3 "tacint_hardballer.Clip_In" }
+	{ event 5004 19 "tacint_hardballer.Slide_Back" }
+	{ event 5004 25 "tacint_hardballer.Slide_Forward" }
 	fadein 0.2
 	fadeout 0.2
 	fps 38
