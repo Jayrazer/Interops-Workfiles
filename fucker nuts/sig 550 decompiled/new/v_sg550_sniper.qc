@@ -28,6 +28,7 @@ $contents "solid"
 
 $cdmaterials "models\tacint\weapons\v_models\sg551\"
 $cdmaterials "models\tacint\weapons\v_models\aug\"
+$cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 $cdmaterials "models\tacint_shark\krieg\"
 
 $attachment "muzzle" "ValveBiped.sg551_rootbone" -3.4 0 19.4 rotate -90 90 0
