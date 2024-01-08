@@ -11,6 +11,11 @@ $bodygroup "stock"
 	studio "550-rifle stock good.smd"
 	studio "550-rifle stock bad.smd"
 }
+$bodygroup "rail"
+{
+	blank
+	studio "550-rifle rail.smd"
+}
 
 
 $surfaceprop "default"
@@ -18,6 +23,7 @@ $surfaceprop "default"
 $contents "solid"
 
 $cdmaterials "models\tacint_shark\krieg\"
+$cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 
 $attachment "muzzle" "ValveBiped.sg551_rootbone" -3.4 0 19.4 rotate -90 90 0
 $attachment "bolt" "ValveBiped.bolt" 1 -7.5 0 rotate -33 -33 90
