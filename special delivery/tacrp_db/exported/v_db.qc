@@ -17,6 +17,7 @@ $illumposition -5.782 -10.195 -1.729
 $cdmaterials "models\tacint_shark\weapons\db\"
 
 $attachment "muzzleflash" "db_root" 0 1 17 rotate -90 0 0
+$attachment "1" "db_barrels" 0.00 0.50 -6.00 rotate 90 0 0
 
 $cbox 0 0 0 0 0 0
 
@@ -121,11 +122,11 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"anims\reload_new.smd"
+	"anims\reload_new_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 7 "tacint_db.magrelease" }
 	{ event 5004 10 "tacint_db.open" }
-	{ event 5004 30 "tacint_db.shells" }
+	//{ event 5004 30 "tacint_db.shells" }
 	{ event 5004 51 "tacint_db.magin" }
 	{ event 5004 64 "tacint_db.close" }
 	fadein 0.2
@@ -218,7 +219,6 @@ $sequence "fire1" {
 	"anims\fire3.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
-	{ event 6001 2 "0" }
 	fadein 0.2
 	fadeout 0.5
 	snap
@@ -229,7 +229,6 @@ $sequence "fire2" {
 	"anims\fire4.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
-	{ event 6001 2 "0" }
 	fadein 0.2
 	fadeout 0.5
 	snap
