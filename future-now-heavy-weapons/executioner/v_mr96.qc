@@ -244,7 +244,7 @@ $sequence "halt2" {
 }
 
 $sequence "reload" {
-	"anims\reload_new.smd"
+	"anims\reload_new_noclip.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 7 "tacint_executioner.Release_Cylinder" }
 	{ event 5004 21 "tacint_executioner.Eject_Shells" }
