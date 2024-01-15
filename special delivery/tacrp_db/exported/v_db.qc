@@ -127,7 +127,7 @@ $sequence "reload" {
 	{ event 5004 9 "tacint_db.magrelease" }
 	{ event 5004 13 "tacint_db.open" }
 	//{ event 5004 21 "tacint_db.shells" }
-	{ event 5004 34 "tacint_db.magin" }
+	{ event 5004 30 "tacint_db.magin" }
 	{ event 5004 56 "tacint_db.close" }
 	fadein 0.2
 	fadeout 0.2
