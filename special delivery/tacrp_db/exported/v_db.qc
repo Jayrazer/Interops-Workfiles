@@ -124,20 +124,20 @@ $sequence "idle" {
 $sequence "reload" {
 	"anims\reload_new_new.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 7 "tacint_db.magrelease" }
-	{ event 5004 10 "tacint_db.open" }
-	//{ event 5004 30 "tacint_db.shells" }
-	{ event 5004 51 "tacint_db.magin" }
-	{ event 5004 64 "tacint_db.close" }
+	{ event 5004 9 "tacint_db.magrelease" }
+	{ event 5004 13 "tacint_db.open" }
+	//{ event 5004 21 "tacint_db.shells" }
+	{ event 5004 34 "tacint_db.magin" }
+	{ event 5004 56 "tacint_db.close" }
 	fadein 0.2
 	fadeout 0.2
-	fps 36
+	fps 33
 }
 
 $sequence "draw" {
-	"v_db_anims\deploy.smd"
+	"anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
-	{ event 5004 18 "tacint_db.close" }
+	{ event 5004 14 "tacint_db.close" }
 	fadein 0.2
 	fadeout 0.2
 	fps 70
@@ -153,7 +153,7 @@ $sequence "dryfire" {
 }
 
 $sequence "holster" {
-	"v_db_anims\holster.smd"
+	"anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	{ event 5004 1 "tacint_GenericPistol.holster" }
 	fadein 0.2
