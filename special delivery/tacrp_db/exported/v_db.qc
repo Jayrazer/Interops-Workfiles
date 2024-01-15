@@ -128,7 +128,7 @@ $sequence "reload" {
 	{ event 5004 13 "tacint_db.open" }
 	//{ event 5004 21 "tacint_db.shells" }
 	{ event 5004 30 "tacint_db.magin" }
-	{ event 5004 56 "tacint_db.close" }
+	{ event 5004 55 "tacint_db.close" }
 	fadein 0.2
 	fadeout 0.2
 	fps 33
@@ -162,7 +162,7 @@ $sequence "holster" {
 }
 
 $sequence "unholster" {
-	"v_db_anims\unholster.smd"
+	"anims\unholster.smd"
 	activity "ACT_VM_UNHOLSTER" 1
 	{ event 5004 1 "tacint_db.unholster" }
 	fadein 0.2
