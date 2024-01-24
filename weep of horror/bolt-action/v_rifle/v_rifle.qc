@@ -1,28 +1,34 @@
 // Created by Crowbar 0.74
 
-$modelname "v_rifle.mdl"
+$modelname "v_rifle_2.mdl"
 
 $scale 0.3
 
 $bodygroup "body"
 {
-	studio "v_rifle_ref_vtroll.smd"
+	studio "k98.smd"
 	blank
 }
 $bodygroup "body"
 {
-	studio "v_rifle_ref_rifle1.smd"
+	studio "k98_bullets.smd"
 	blank
 }
 $bodygroup "body"
 {
-	studio "v_rifle_ref_rifle2.smd"
+	studio "k98_irons.smd"
 	blank
+}
+$bodygroup "body"
+{
+	blank
+	studio "k98_rail.smd"
+	
 }
 $bodygroup "studio"
 {
 	blank
-	studio "v_rifle_scope_v_scope.smd"
+	studio "k98_scope.smd"
 }
 
 
