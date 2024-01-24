@@ -7,7 +7,6 @@ $scale 0.3
 $bodygroup "body"
 {
 	studio "k98.smd"
-	blank
 }
 $bodygroup "bullets"
 {
@@ -19,10 +18,6 @@ $bodygroup "sight"
 	studio "k98_irons.smd"
 	studio "k98_rail.smd"
 	studio "k98_scope.smd"
-	blank
-}
-$bodygroup "scope"
-{
 	blank
 }
 
@@ -284,7 +279,7 @@ $sequence "draw" {
 }
 
 $sequence "shoot1" {
-	"v_rifle_anims\shoot1.smd"
+	"anims\shoot1.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event AE_MUZZLEFLASH 0 "Pistol muzzle" }
 	{ event AE_CLIENT_EFFECT_ATTACH 24 "EjectBrass_762Nato 2 100" }
@@ -307,7 +302,7 @@ $sequence "reload_start" {
 }
 
 $sequence "reload_insert" {
-	"anims\reload_insert_3.smd"
+	"anims\reload_insert_3_fix.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 10 "tacint_extras_k98.InsertShell" }
 	{ event 5004 35 "tacint_extras_k98.InsertShell" }
@@ -322,8 +317,9 @@ $sequence "reload_end" {
 	"v_rifle_anims\reload_end.smd"
 	activity "ACT_SHOTGUN_RELOAD_FINISH" 1
 	{ event 5004 2 "tacint_extras_k98.CockForward" }
-	fadein 0.3
+	fadein 0.2
 	fadeout 0.2
+	snap
 	fps 30
 }
 
