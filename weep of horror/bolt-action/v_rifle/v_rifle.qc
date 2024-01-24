@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "v_rifle_2.mdl"
+$modelname "weapons\tacint_extras\v_k98.mdl"
 
 $scale 0.3
 
@@ -9,26 +9,21 @@ $bodygroup "body"
 	studio "k98.smd"
 	blank
 }
-$bodygroup "body"
+$bodygroup "bullets"
 {
 	studio "k98_bullets.smd"
 	blank
 }
-$bodygroup "body"
+$bodygroup "sight"
 {
 	studio "k98_irons.smd"
-	blank
-}
-$bodygroup "body"
-{
-	blank
 	studio "k98_rail.smd"
-	
+	studio "k98_scope.smd"
+	blank
 }
-$bodygroup "studio"
+$bodygroup "scope"
 {
 	blank
-	studio "k98_scope.smd"
 }
 
 
@@ -38,9 +33,7 @@ $contents "solid"
 
 $illumposition 0 -145.946 0
 
-$cdmaterials "cof\models\weapons\rifle\v_rifle\"
-$cdmaterials "cof\models\weapons\rifle\v_rifle_scope\"
-$cdmaterials "cof\models\weapons\v_hands\"
+$cdmaterials "models\tacint_extras\k98\"
 
 $attachment "muzzle" "muzzleflash" 0 0 0 rotate 0 -90 0
 $attachment "eject" "round2" 0 0 0 rotate 0 180 180
@@ -277,7 +270,6 @@ $sequence "idle" {
 	activity "ACT_VM_IDLE" 1024
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 30
 	loop
 }
@@ -296,10 +288,10 @@ $sequence "shoot1" {
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event AE_MUZZLEFLASH 0 "Pistol muzzle" }
 	{ event AE_CLIENT_EFFECT_ATTACH 24 "EjectBrass_762Nato 2 100" }
-	{ event 5004 18 "Weapon_CoF_Rifle.CockBack" }
-	{ event 5004 28 "Weapon_CoF_Rifle.CockForward" }
+	{ event 5004 18 "tacint_extras_k98.CockBack" }
+	{ event 5004 30 "tacint_extras_k98.CockForward" }
 	fadein 0.2
-	fadeout 0.2
+	fadeout 0.35
 	snap
 	fps 30
 }
@@ -308,119 +300,37 @@ $sequence "reload_start" {
 	"v_rifle_anims\reload_start.smd"
 	activity "ACT_SHOTGUN_RELOAD_START" 1
 	{ event AE_CLIENT_EFFECT_ATTACH 12 "EjectBrass_762Nato 2 100" }
-	{ event 5004 8 "Weapon_CoF_Rifle.CockBack" }
+	{ event 5004 8 "tacint_extras_k98.CockBack" }
 	fadein 0.2
 	fadeout 0.2
-	snap
 	fps 30
 }
 
 $sequence "reload_insert" {
-	"v_rifle_anims\reload_insert.smd"
+	"anims\reload_insert_3.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 9 "Weapon_CoF_Rifle.Insert" }
+	{ event 5004 10 "tacint_extras_k98.InsertShell" }
+	{ event 5004 35 "tacint_extras_k98.InsertShell" }
+	{ event 5004 60 "tacint_extras_k98.InsertShell" }
 	fadein 0.2
-	fadeout 0.2
+	fadeout 0.25
 	snap
-	fps 30
+	fps 35
 }
 
 $sequence "reload_end" {
 	"v_rifle_anims\reload_end.smd"
 	activity "ACT_SHOTGUN_RELOAD_FINISH" 1
-	{ event 5004 1 "Weapon_CoF_Rifle.CockForward" }
-	fadein 0.2
+	{ event 5004 2 "tacint_extras_k98.CockForward" }
+	fadein 0.3
 	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "scope_to" {
-	"v_rifle_anims\scope_to.smd"
-	activity "ACT_VM_DEPLOY" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "scope_from" {
-	"v_rifle_anims\scope_from.smd"
-	activity "ACT_VM_UNDEPLOY" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "sprint_to" {
-	"v_rifle_anims\sprint_to.smd"
-	activity "ACT_VM_DEPLOY_1" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "sprint_idle" {
-	"v_rifle_anims\sprint_idle.smd"
-	activity "ACT_VM_IDLE_DEPLOYED_1" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-	loop
-}
-
-$sequence "sprint_from" {
-	"v_rifle_anims\sprint_from.smd"
-	activity "ACT_VM_UNDEPLOY_1" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
 	fps 30
 }
 
 $sequence "melee" {
 	"v_rifle_anims\melee.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "align" {
-	"v_rifle_anims\align.smd"
-	activity "ACT_VM_IDLE_DEPLOYED" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-	loop
-}
-
-$sequence "fidget1" {
-	"v_rifle_anims\fidget1.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fidget2" {
-	"v_rifle_anims\fidget2.smd"
-	activity "ACT_VM_IDLE" 1
-	fadein 0.2
-	fadeout 0.2
-	snap
-	fps 30
-}
-
-$sequence "fidget3" {
-	"v_rifle_anims\fidget3.smd"
-	activity "ACT_VM_IDLE" 1
+	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -436,31 +346,57 @@ $sequence "shoot_noshot" {
 	fps 30
 }
 
-$sequence "draw_first" {
-	"v_rifle_anims\draw_first.smd"
-	activity "ACT_DEPLOY" 1
-	{ event 5004 22 "Weapon_CoF_Rifle.CockBack" }
-	{ event 5004 33 "Weapon_CoF_Rifle.CockForward" }
+$sequence "blind_idle" {
+	"v_rifle_anims\blind_idle.smd"
+	activity "ACT_VM_IDLE_BLIND" 1
 	fadein 0.2
 	fadeout 0.2
-	snap
-	fps 30
+	fps 12
 }
 
-$sequence "jump_to" {
-	"v_rifle_anims\jump_to.smd"
-	activity "ACT_VM_DEPLOY_2" 1
+$sequence "blind_shoot1" {
+	"v_rifle_anims\blind_shoot.smd"
+	activity "ACT_VM_BLINDATTACK_1" 1
+	{ event 9001 0 "TI_MuzzleFlash2" }
+	{ event 6001 23 "2" }
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 39
 }
 
-$sequence "jump_from" {
-	"v_rifle_anims\jump_from.smd"
-	activity "ACT_VM_UNDEPLOY_2" 1
+$sequence "blind_dryfire" {
+	"v_rifle_anims\blind_noshoot.smd"
+	activity "ACT_VM_BLIND_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 30
+	fps 35
+}
+
+$sequence "prime_grenade" {
+	"v_rifle_anims\prime_grenade.smd"
+	activity "ACT_VM_PRIME_GRENADE" 1
+	{ event 5004 7 "Grenade.PullPin" }
+	fadein 0.2
+	fadeout 0.2
+	fps 48
+}
+
+$sequence "throw_grenade" {
+	"v_rifle_anims\throw.smd"
+	activity "ACT_VM_THROW_GRENADE" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 41
+}
+
+$sequence "throw_grenade_underhand" {
+	"v_rifle_anims\throw_underhand.smd"
+	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 41
 }
