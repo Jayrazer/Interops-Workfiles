@@ -208,7 +208,7 @@ $sequence "throw_grenade_underhand" {
 $sequence "deploy" {
 	"v_longweapon_anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
-	{ event 5004 15 "tacint_knife2.deploy" }
+	{ event 5004 1 "tacint_GenericPistol.unholster" }
 	fadein 0.2
 	fadeout 0.2
 	fps 32
@@ -247,4 +247,13 @@ $sequence "knifethrow" {
 	fadeout 0.2
 	snap
 	fps 39
+}
+
+$sequence "holster" {
+	"v_longweapon_anims\holster.smd"
+	activity "ACT_VM_HOLSTER" 1
+	{ event 5004 5 "tacint_GenericPistol.holster" }
+	fadein 0.2
+	fadeout 0.2
+	fps 40
 }
