@@ -334,7 +334,7 @@ $sequence "melee" {
 }
 
 $sequence "shoot_noshot" {
-	"v_rifle_anims\shoot_noshot.smd"
+	"anims\shoot_noshot.smd"
 	activity "ACT_VM_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
