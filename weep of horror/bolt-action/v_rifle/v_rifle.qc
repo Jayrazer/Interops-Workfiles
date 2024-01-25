@@ -371,7 +371,7 @@ $sequence "blind_dryfire" {
 }
 
 $sequence "prime_grenade" {
-	"v_rifle_anims\prime_grenade.smd"
+	"anims\primenade.smd"
 	activity "ACT_VM_PRIME_GRENADE" 1
 	{ event 5004 14 "Grenade.PullPin" }
 	fadein 0.2
@@ -380,7 +380,7 @@ $sequence "prime_grenade" {
 }
 
 $sequence "throw_grenade" {
-	"v_rifle_anims\throw.smd"
+	"anims\throw.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -389,7 +389,7 @@ $sequence "throw_grenade" {
 }
 
 $sequence "throw_grenade_underhand" {
-	"v_rifle_anims\throw_underhand.smd"
+	"anims\throw_underhand.smd"
 	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
