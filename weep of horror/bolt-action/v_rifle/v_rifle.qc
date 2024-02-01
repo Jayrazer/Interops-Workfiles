@@ -292,7 +292,7 @@ $sequence "shoot1" {
 }
 
 $sequence "reload_start" {
-	"v_rifle_anims\reload_start.smd"
+	"anims\reload_start.smd"
 	activity "ACT_SHOTGUN_RELOAD_START" 1
 	{ event AE_CLIENT_EFFECT_ATTACH 12 "EjectBrass_762Nato 2 100" }
 	{ event 5004 8 "tacint_extras_k98.CockBack" }
@@ -324,7 +324,7 @@ $sequence "reload_end" {
 }
 
 $sequence "melee" {
-	"v_rifle_anims\melee.smd"
+	"anims\melee.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
