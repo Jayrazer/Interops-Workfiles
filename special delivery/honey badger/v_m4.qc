@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\v_aac_hb.mdl"
+$modelname "weapons\tacint_shark\v_aac_hb2.mdl"
 
 $bodygroup "gun"
 {
-	studio "honey_badger_ref.smd"
+	studio "honey_badger_ref.001.smd"
 }
 $bodygroup "stock"
 {
@@ -13,7 +13,7 @@ $bodygroup "stock"
 }
 $bodygroup "sights"
 {
-	studio "sights.smd"
+	studio "sights.001.smd"
 	blank
 }
 

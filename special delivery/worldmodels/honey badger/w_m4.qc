@@ -1,31 +1,19 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\w_aac_hb.mdl"
+$modelname "weapons\tacint_shark\w_aac_hb2.mdl"
 
-$bodygroup "studio"
+$bodygroup "gun"
 {
-	studio "w_honeybadger.smd"
+	studio "honey_badger_ref.001.smd"
 }
-$bodygroup "foldstock"
+$bodygroup "stock"
 {
-	studio "w_stock_out.smd"
-	studio "w_stock_in.smd"
+	studio "stock_out.smd"
+	studio "stock_in.smd"
 }
-$bodygroup "irons"
+$bodygroup "sights"
 {
-	studio "w_sights.smd"
-	blank
-}
-$bodygroup "optics"
-{
-	blank
-	studio "w_m4_holosight.smd"
-	studio "w_m4_reddot.smd"
-	studio "w_m4_ACOG.smd"
-}
-$bodygroup "magazine"
-{
-	blank
+	studio "sights.001.smd"
 	blank
 }
 
@@ -119,7 +107,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_honeybadger.smd"
+$collisionmodel "w_m4_physics.smd"
 {
 	$mass 4
 	$inertia 1
