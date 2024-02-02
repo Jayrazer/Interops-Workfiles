@@ -1,6 +1,6 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\v_fnc.mdl"
+$modelname "weapons\tacint_extras\v_fnc18.mdl"
 
 $bodygroup "gun"
 {
@@ -19,13 +19,7 @@ $contents "solid"
 
 $illumposition -6.701 -19.153 -2.045
 
-$cdmaterials "models\tacint\weapons\v_models\k1a\"
-$cdmaterials "models\tacint_shark\fnc\"
-$cdmaterials "models\tacint\weapons\v_models\hands\"
-$cdmaterials "models\tacint\weapons\v_models\_accessories1\"
-$cdmaterials "models\tacint\weapons\v_models\frag\"
-$cdmaterials "models\tacint\weapons\v_models\flashbang\"
-$cdmaterials "models\tacint\weapons\v_models\smoke\"
+$cdmaterials "models\tacint_extras\fnc\"
 
 $attachment "muzzle" "ValveBiped._ROOT_K1a" -3 -0.2 27 rotate -90 90 0
 $attachment "bolt" "ValveBiped.bolt_cover" 0 3 0 rotate 25 0 90
