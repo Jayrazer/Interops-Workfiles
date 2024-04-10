@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\smaw.mdl"
+$modelname "weapons\tacint_shark\magazines\tt33.mdl"
 
 $bodygroup "studio"
 {
-	studio "smaw.smd"
+	studio "v_tokarev_v2.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\weapons\smaw\"
+$cdmaterials "models\tacint_shark\weapons\tt33\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "smaw.smd"
+$collisionmodel "v_tokarev_v2.smd"
 {
 	$mass 5
 	$inertia 1
