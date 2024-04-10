@@ -112,7 +112,7 @@ $sequence "attack2" {
 	fps 48
 }
 
-$collisionmodel "w_tokarev.smd"
+$collisionmodel "w_tokarev_v2.smd"
 {
 	$mass 1.3
 	$inertia 1
