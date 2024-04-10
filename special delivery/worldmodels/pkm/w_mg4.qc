@@ -4,11 +4,12 @@ $modelname "weapons\tacint_shark\w_pkm.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_pkm.smd"
+	studio "w_pkm_v2.smd"
 }
-$bodygroup "silencer"
+$bodygroup "bipod"
 {
-	blank
+	studio "pkm_bipod_up.smd"
+	studio "pkm_bipod_down.smd"
 }
 $bodygroup "flashlight"
 {
@@ -17,6 +18,7 @@ $bodygroup "flashlight"
 $bodygroup "optics"
 {
 	blank
+	studio "pkm_rail_top.smd"
 }
 $bodygroup "magazine"
 {
@@ -32,7 +34,7 @@ $illumposition 0.043 -7.415 2.232
 $cdmaterials "models\tacint\weapons\w_models\mg4\"
 $cdmaterials "models\tacint_shark\weapons\pkm\"
 
-$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 31.5 -1.1 -5.7 rotate 0 0 -90
+$attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 42.50 -1.10 -5.70 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 10 -1 -5 rotate 25 90 -90
 
 $cbox 0 0 0 0 0 0
@@ -110,7 +112,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_pkm.smd"
+$collisionmodel "w_pkm_v2.smd"
 {
 	$mass 15
 	$inertia 1

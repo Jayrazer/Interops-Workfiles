@@ -18,6 +18,7 @@ $bodygroup "mag"
 $bodygroup "optics"
 {
 	blank
+	studio "pkm_rail_top.smd"
 }
 $bodygroup "grenade"
 {

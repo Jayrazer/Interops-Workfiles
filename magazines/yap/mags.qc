@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\tt33.mdl"
+$modelname "weapons\tacint_shark\magazines\pkm.mdl"
 
 $bodygroup "studio"
 {
-	studio "v_tokarev_v2.smd"
+	studio "pkm.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\weapons\tt33\"
+$cdmaterials "models\tacint_shark\weapons\pkm\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "v_tokarev_v2.smd"
+$collisionmodel "pkm.smd"
 {
 	$mass 5
 	$inertia 1
