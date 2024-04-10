@@ -1085,7 +1085,6 @@ $sequence "blind_idle_SD" {
 	fadein 0.2
 	fadeout 0.2
 	addlayer "sight_down"
-	snap
 	fps 12
 }
 

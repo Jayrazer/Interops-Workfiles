@@ -330,7 +330,8 @@ $sequence "deploy" {
 	"anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 13 "tacint_famas.Handle_FoldDown" }
+	{ event 5004 21 "tacint_famas.Bolt_LockBack" }
+	{ event 5004 29 "tacint_famas.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
