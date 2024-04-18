@@ -225,9 +225,9 @@ $sequence "halt2" {
 $sequence "reload" {
 	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 6 "tacint_Vertec.Clip_Out" }
-	{ event 5004 25 "tacint_Vertec.Clip_In" }
-	{ event 5004 47 "tacint_Vertec.Slide_Shut" }
+	{ event 5004 6 "tacint_93r.Clip_Out" }
+	{ event 5004 25 "tacint_93r.Clip_In" }
+	{ event 5004 47 "tacint_93r.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
@@ -236,8 +236,8 @@ $sequence "reload" {
 $sequence "midreload" {
 	"v_vertec_anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 0 "tacint_Vertec.Clip_In-Mid" }
-	{ event 5004 18 "tacint_Vertec.Slide_Shut" }
+	{ event 5004 0 "tacint_93r.Clip_In-Mid" }
+	{ event 5004 18 "tacint_93r.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
@@ -246,7 +246,7 @@ $sequence "midreload" {
 $sequence "draw" {
 	"v_vertec_anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
-	{ event 5004 11 "tacint_vertec.Slide_Action" }
+	{ event 5004 11 "tacint_93r.Slide_Action" }
 	fadein 0.2
 	fadeout 0.2
 	fps 70
@@ -411,9 +411,9 @@ $sequence "sh_idle" {
 $sequence "sh_reload" {
 	"v_vertec_anims\sh_reload.smd"
 	activity "ACT_VM_SINGLEHAND_RELOAD" 1
-	{ event 5004 6 "tacint_Vertec.Clip_Out" }
-	{ event 5004 25 "tacint_Vertec.Clip_In" }
-	{ event 5004 47 "tacint_Vertec.Slide_Shut" }
+	{ event 5004 6 "tacint_93r.Clip_Out" }
+	{ event 5004 25 "tacint_93r.Clip_In" }
+	{ event 5004 47 "tacint_93r.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
@@ -422,8 +422,8 @@ $sequence "sh_reload" {
 $sequence "sh_midreload" {
 	"v_vertec_anims\sh_midreload.smd"
 	activity "ACT_VM_SINGLEHAND_MIDRELOAD" 1
-	{ event 5004 0 "tacint_Vertec.Clip_In-Mid" }
-	{ event 5004 18 "tacint_Vertec.Slide_Shut" }
+	{ event 5004 0 "tacint_93r.Clip_In-Mid" }
+	{ event 5004 18 "tacint_93r.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
@@ -432,7 +432,7 @@ $sequence "sh_midreload" {
 $sequence "sh_draw" {
 	"v_vertec_anims\sh_draw.smd"
 	activity "ACT_VM_SINGLEHAND_DRAW" 1
-	{ event 5004 13 "tacint_vertec.Cock_Hammer" }
+	{ event 5004 13 "tacint_93r.Cock_Hammer" }
 	fadein 0.2
 	fadeout 0.2
 	fps 70
