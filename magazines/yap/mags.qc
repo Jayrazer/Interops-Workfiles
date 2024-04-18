@@ -1,10 +1,10 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\pkm.mdl"
+$modelname "weapons\tacint_shark\magazines\93r.mdl"
 
 $bodygroup "studio"
 {
-	studio "pkm.smd"
+	studio "Raffica.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition 0.12 2.14 0.42
 
-$cdmaterials "models\tacint_shark\weapons\pkm\"
+$cdmaterials "models\tacint_shark\weapons\93r\"
 
 $cbox 0 0 0 0 0 0
 
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "pkm.smd"
+$collisionmodel "Raffica.smd"
 {
 	$mass 5
 	$inertia 1
