@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\tacint_shark\w_Raffica.mdl"
+$modelname "weapons\tacint_shark\w_93r.mdl"
 
 $bodygroup "studio"
 {
