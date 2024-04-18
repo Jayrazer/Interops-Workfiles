@@ -230,7 +230,7 @@ $sequence "reload" {
 	{ event 5004 7 "tacint_m32.Open" }
 	{ event 5004 17 "tacint_m32.Eject" }
 	{ event 5004 36 "tacint_m32.Insert" }
-	{ event 5004 49 "tacint_m32.Close" }
+	{ event 5004 46 "tacint_m32.Close" }
 	fadein 0.2
 	fadeout 0.2
 	fps 32
