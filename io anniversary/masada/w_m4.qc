@@ -21,6 +21,12 @@ $illumposition -0.191 -7.886 2.768
 $cdmaterials "models\tacint_shark\weapons\masada\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 
+$texturegroup "skinfamilies"
+{
+	{ "body", "stock" }
+	{ "body_black", "stock_black" }
+}
+
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 25.1 -2.5 -5.5 rotate 0 -2 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 9.5 -1 -5.7 rotate 25 90 -90
 

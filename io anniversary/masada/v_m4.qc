@@ -44,6 +44,12 @@ $attachment "bolt" "ValveBiped.bolt" 1.5 0.9 0.5 rotate -15 0 90
 $attachment "muzzle_silencer" "ValveBiped.m4_rootbone" -4 0 27.5 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
 
+$texturegroup "skinfamilies"
+{
+	{ "body", "stock" }
+	{ "body_black", "stock_black" }
+}
+
 $cbox 0 0 0 0 0 0
 
 $bbox -3.286 -13.317 -9.608 40.493 3.767 5.88
