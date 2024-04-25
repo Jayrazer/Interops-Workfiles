@@ -11,6 +11,10 @@ $bodygroup "stock"
 	studio "w_stockout.smd"
 	studio "w_stockin.smd"
 }
+$bodygroup "dummy"
+{
+	blank
+}
 $bodygroup "magazine"
 {
 	studio "w_mag30rnd.smd"
