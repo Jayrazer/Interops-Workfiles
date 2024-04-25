@@ -258,7 +258,7 @@ $sequence "range_attack2" {
 }
 
 $sequence "idle" {
-	"v_famas_anims\idle.smd"
+	"anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -331,7 +331,7 @@ $sequence "deploy" {
 }
 
 $sequence "dryfire" {
-	"v_famas_anims\dryfire.smd"
+	"anims\dryfire.smd"
 	activity "ACT_VM_DRYFIRE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -340,7 +340,7 @@ $sequence "dryfire" {
 }
 
 $sequence "holster" {
-	"v_famas_anims\holster.smd"
+	"anims\holster.smd"
 	activity "ACT_VM_HOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -349,7 +349,7 @@ $sequence "holster" {
 }
 
 $sequence "unholster" {
-	"v_famas_anims\unholster.smd"
+	"anims\unholster.smd"
 	activity "ACT_VM_UNHOLSTER" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	fadein 0.2
@@ -358,7 +358,7 @@ $sequence "unholster" {
 }
 
 $sequence "prime_grenade" {
-	"v_famas_anims\prime_grenade.smd"
+	"anims\prime_grenade.smd"
 	activity "ACT_VM_PRIME_GRENADE" 1
 	{ event 5004 7 "Grenade.PullPin" }
 	fadein 0.2
@@ -367,7 +367,7 @@ $sequence "prime_grenade" {
 }
 
 $sequence "throw_grenade" {
-	"v_famas_anims\throw_grenade.smd"
+	"anims\throw_grenade.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -376,7 +376,7 @@ $sequence "throw_grenade" {
 }
 
 $sequence "throw_grenade_underhand" {
-	"v_famas_anims\throw_grenade_underhand.smd"
+	"anims\throw_grenade_underhand.smd"
 	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -385,7 +385,7 @@ $sequence "throw_grenade_underhand" {
 }
 
 $sequence "melee1" {
-	"v_famas_anims\melee1.smd"
+	"anims\melee1.smd"
 	activity "ACT_VM_SECONDARYATTACK" 1
 	{ event 5004 2 "Weapon.Thrust" }
 	fadein 0.2
@@ -394,7 +394,7 @@ $sequence "melee1" {
 }
 
 $sequence "melee2" {
-	"v_famas_anims\melee2.smd"
+	"anims\melee2.smd"
 	activity "ACT_VM_SECONDARYATTACK2" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
