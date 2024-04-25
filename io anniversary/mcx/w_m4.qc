@@ -11,6 +11,12 @@ $bodygroup "stock"
 	studio "w_stockout.smd"
 	studio "w_stockin.smd"
 }
+$bodygroup "magazine"
+{
+	studio "w_mag30rnd.smd"
+	studio "w_mag20rnd.smd"
+	blank
+}
 
 $surfaceprop "weapon"
 
@@ -20,6 +26,7 @@ $illumposition -0.191 -7.886 2.768
 
 $cdmaterials "models\tacint_shark\weapons\mcx\"
 $cdmaterials "models\tacint\weapons\v_models\m4\"
+$cdmaterials "models\tacint_shark\weapons\masada\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 25.1 -2.5 -5.5 rotate 0 -2 -90

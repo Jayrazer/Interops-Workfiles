@@ -18,6 +18,12 @@ $bodygroup "frontsight"
 	studio "v_sightsdown.smd"
 	blank
 }
+$bodygroup "magazine"
+{
+	studio "v_mag30rnd.smd"
+	studio "v_mag20rnd.smd"
+	blank
+}
 
 
 $surfaceprop "default"
@@ -27,6 +33,7 @@ $contents "solid"
 $illumposition -4.775 -18.604 -1.864
 
 $cdmaterials "models\tacint\weapons\v_models\m4\"
+$cdmaterials "models\tacint_shark\weapons\masada\"
 $cdmaterials "models\tacint_shark\weapons\mcx\"
 
 $attachment "muzzle" "ValveBiped.m4_rootbone" -4 0 21 rotate -90 90 0
