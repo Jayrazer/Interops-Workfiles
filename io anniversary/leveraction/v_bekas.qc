@@ -311,8 +311,9 @@ $sequence "reload_finish" {
 $sequence "deploy" {
 	"anims\deploy_new.smd"
 	activity "ACT_VM_DRAW" 1
-	{ event 5004 20 "tacint_winchester.PumpBack" }
-	{ event 5004 26 "tacint_winchester.PumpForward" }
+	{ event 5004 0 "tacint_winchester.Movement" }
+	{ event 5004 28 "tacint_winchester.PumpBack" }
+	{ event 5004 34 "tacint_winchester.PumpForward" }
 	fadein 0.2
 	fadeout 0.2
 	fps 44
