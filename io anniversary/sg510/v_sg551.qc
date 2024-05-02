@@ -4,16 +4,22 @@ $modelname "weapons\tacint_shark\v_sg510.mdl"
 
 $bodygroup "gun"
 {
-	studio "SG510.smd"
+	studio "v_sg510.smd"
+}
+$bodygroup "bipod"
+{
+	studio "v_bipodup.smd"
+	studio "v_bipoddown.smd"
+	blank
 }
 $bodygroup "tacrail"
 {
 	blank
 	studio "v_sg510_tacrail.smd"
 }
-$bodygroup "rearsight"
+$bodygroup "sights"
 {
-	studio "rear_sight.smd"
+	studio "v_sightsup.smd"
 	blank
 }
 
@@ -26,15 +32,11 @@ $illumposition -6.394 -18.511 -1.093
 
 $cdmaterials "models\tacint\weapons\v_models\sg551\"
 $cdmaterials "models\tacint_shark\weapons\sg510\"
-$cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
-$cdmaterials "models\tacint\weapons\v_models\frag\"
-$cdmaterials "models\tacint\weapons\v_models\flashbang\"
-$cdmaterials "models\tacint\weapons\v_models\smoke\"
 
-$attachment "muzzle" "ValveBiped.sg551_rootbone" -3.4 0 19.4 rotate -90 90 0
+$attachment "muzzle" "ValveBiped.sg551_rootbone" -3.4 0 27 rotate -90 90 0
 $attachment "bolt" "ValveBiped.bolt" 1 -7.5 0 rotate -33 -33 90
-$attachment "muzzle_silencer" "ValveBiped.sg551_rootbone" -3.6 0 27.5 rotate -90 90 0
+$attachment "muzzle_silencer" "ValveBiped.sg551_rootbone" -3.6 0 33 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0

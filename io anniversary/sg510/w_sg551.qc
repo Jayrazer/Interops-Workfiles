@@ -6,6 +6,12 @@ $bodygroup "studio"
 {
 	studio "w_SG510.smd"
 }
+$bodygroup "bipod"
+{
+	studio "w_bipodup.smd"
+	studio "w_bipoddown.smd"
+	blank
+}
 
 $surfaceprop "weapon"
 
