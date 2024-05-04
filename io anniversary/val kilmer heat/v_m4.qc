@@ -306,9 +306,9 @@ $sequence "reload" {
 	"v_m4_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 12 "tacint_mcx.Remove_Clip" }
-	{ event 5004 37 "tacint_mcx.Insert_Clip" }
-	{ event 5004 78 "tacint_mcx.Bolt_Slap" }
+	{ event 5004 12 "tacint_extras_m4a1.Remove_Clip" }
+	{ event 5004 37 "tacint_extras_m4a1.Insert_Clip" }
+	{ event 5004 78 "tacint_extras_m4a1.Bolt_Slap" }
 	fadein 0.2
 	fadeout 0.2
 	fps 35
@@ -317,7 +317,7 @@ $sequence "reload" {
 $sequence "midreload" {
 	"v_m4_anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 11 "tacint_mcx.Bolt_Action" }
+	{ event 5004 11 "tacint_extras_m4a1.Bolt_Action" }
 	fadein 0.2
 	fadeout 0.2
 	fps 32
@@ -326,8 +326,8 @@ $sequence "midreload" {
 $sequence "deploy" {
 	"v_m4_anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
-	{ event 5004 0 "tacint_mcx.Throw_Catch" }
-	{ event 5004 25 "tacint_mcx.Bolt_Action" }
+	{ event 5004 0 "tacint_extras_m4a1.Throw_Catch" }
+	{ event 5004 25 "tacint_extras_m4a1.Bolt_Action" }
 	fadein 0.2
 	fadeout 0.2
 	fps 40
@@ -705,9 +705,9 @@ $sequence "reload_SD" {
 	"v_m4_anims\reload_SD.smd"
 	activity "ACT_VM_RELOAD_SD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 12 "tacint_mcx.Remove_Clip" }
-	{ event 5004 42 "tacint_mcx.Insert_Clip" }
-	{ event 5004 83 "tacint_mcx.Bolt_Slap" }
+	{ event 5004 12 "tacint_extras_m4a1.Remove_Clip" }
+	{ event 5004 42 "tacint_extras_m4a1.Insert_Clip" }
+	{ event 5004 83 "tacint_extras_m4a1.Bolt_Slap" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "sight_down"
@@ -717,8 +717,8 @@ $sequence "reload_SD" {
 $sequence "midreload_SD" {
 	"v_m4_anims\midreload_SD.smd"
 	activity "ACT_VM_MIDRELOAD_SD" 1
-	{ event 5004 0 "tacint_mcx.Insert_Clip-Mid" }
-	{ event 5004 29 "tacint_mcx.Bolt_Slap" }
+	{ event 5004 0 "tacint_extras_m4a1.Insert_Clip-Mid" }
+	{ event 5004 29 "tacint_extras_m4a1.Bolt_Slap" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "sight_down"
@@ -728,8 +728,8 @@ $sequence "midreload_SD" {
 $sequence "deploy_SD" {
 	"v_m4_anims\deploy_SD.smd"
 	activity "ACT_VM_DRAW_SD" 1
-	{ event 5004 0 "tacint_mcx.Throw_Catch" }
-	{ event 5004 25 "tacint_mcx.Bolt_Action" }
+	{ event 5004 0 "tacint_extras_m4a1.Throw_Catch" }
+	{ event 5004 25 "tacint_extras_m4a1.Bolt_Action" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "sight_down"
