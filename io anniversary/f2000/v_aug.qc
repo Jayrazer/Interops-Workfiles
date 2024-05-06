@@ -8,13 +8,13 @@ $bodygroup "gun"
 }
 $bodygroup "frontsight"
 {
-	studio "v_frontsight.smd"
 	blank
+	studio "v_frontsight.smd"
 }
 $bodygroup "tacrail"
 {
-	blank
 	studio "v_scope.smd"
+	blank
 }
 
 

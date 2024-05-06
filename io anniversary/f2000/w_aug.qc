@@ -8,13 +8,13 @@ $bodygroup "studio"
 }
 $bodygroup "silencer"
 {
-	studio "w_frontsight.smd"
 	blank
+	studio "w_frontsight.smd"
 }
 $bodygroup "scope"
 {
-	blank
 	studio "w_scope.smd"
+	blank
 }
 
 $surfaceprop "weapon"
