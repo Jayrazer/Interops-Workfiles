@@ -4,7 +4,7 @@ $modelname "weapons\tacint_shark\magazines\mcx277.mdl"
 
 $bodygroup "studio"
 {
-	studio "mag20.smd"
+	studio "mag.smd"
 }
 
 $surfaceprop "weapon"
@@ -13,7 +13,7 @@ $contents "solid"
 
 $illumposition -0.191 -7.886 2.768
 
-$cdmaterials "models\tacint_shark\weapons\masada\"
+$cdmaterials "models\tacint_shark\weapons\mcx\"
 $cdmaterials "models\tacint\weapons\v_models\m4\"
 $cdmaterials "models\tacint\weapons\w_models\_accessories1\"
 
@@ -97,7 +97,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "mag20.smd"
+$collisionmodel "mag.smd"
 {
 	$mass 4
 	$inertia 1

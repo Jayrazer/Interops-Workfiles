@@ -8,17 +8,8 @@ $bodygroup "studio"
 }
 $bodygroup "stock"
 {
-	studio "w_stockout.smd"
-	studio "w_stockin.smd"
-}
-$bodygroup "dummy"
-{
-	blank
-}
-$bodygroup "magazine"
-{
-	studio "w_mag30rnd.smd"
-	studio "w_mag20rnd.smd"
+	studio "w_default_brake.smd"
+	studio "w_suppressor.smd"
 	blank
 }
 

@@ -6,22 +6,16 @@ $bodygroup "gun"
 {
 	studio "v_mcx.smd"
 }
-$bodygroup "stock"
-{
-	studio "v_stockout.smd"
-	studio "v_stockin.smd"
-	blank
-}
 $bodygroup "frontsight"
 {
 	studio "v_sightsup.smd"
 	studio "v_sightsdown.smd"
 	blank
 }
-$bodygroup "magazine"
+$bodygroup "muzzle"
 {
-	studio "v_mag30rnd.smd"
-	studio "v_mag20rnd.smd"
+	studio "v_default_brake.smd"
+	studio "v_suppressor.smd"
 	blank
 }
 
