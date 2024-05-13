@@ -4,12 +4,12 @@ $modelname "weapons\tacint_shark\v_rpk.mdl"
 
 $bodygroup "gun"
 {
-	studio "v_rpk_reference.smd"
+	studio "v_rpk_new.smd"
 }
 $bodygroup "bipod"
 {
-	studio "bipod_up.smd"
-	studio "bipod_down.smd"
+	studio "v_bipodup.smd"
+	studio "v_bipoddown.smd"
 	blank
 }
 $bodygroup "tacrail"
@@ -27,11 +27,7 @@ $illumposition -5.75 -22.784 -1.717
 
 $cdmaterials "models\tacint\weapons\v_models\ak47\"
 $cdmaterials "models\tacint_shark\rpk\"
-$cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
-$cdmaterials "models\tacint\weapons\v_models\frag\"
-$cdmaterials "models\tacint\weapons\v_models\flashbang\"
-$cdmaterials "models\tacint\weapons\v_models\smoke\"
 
 $attachment "muzzle" "ValveBiped.AK47_rootbone" -3.2 0 24 rotate -90 90 0
 $attachment "bolt" "ValveBiped.bolt" 1.5 -0.2 0 rotate -33 0 90

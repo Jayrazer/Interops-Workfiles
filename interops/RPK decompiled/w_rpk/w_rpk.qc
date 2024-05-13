@@ -4,18 +4,13 @@ $modelname "weapons\tacint_shark\w_rpk.mdl"
 
 $bodygroup "gun"
 {
-	studio "v_rpk_reference.smd"
+	studio "v_rpk_new.smd"
 }
 $bodygroup "bipod"
 {
-	studio "bipod_up.smd"
-	studio "bipod_down.smd"
+	studio "v_bipodup.smd"
+	studio "v_bipoddown.smd"
 	blank
-}
-$bodygroup "tacrail"
-{
-	blank
-	studio "v_ak47_tacrail.smd"
 }
 
 $surfaceprop "weapon"
@@ -107,7 +102,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "v_rpk_reference.smd"
+$collisionmodel "v_rpk_new.smd"
 {
 	$mass 7
 	$inertia 1
