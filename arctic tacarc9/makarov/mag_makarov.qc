@@ -4,7 +4,7 @@ $modelname "weapons\tacint\magazines\makarov.mdl"
 
 $bodygroup "studio"
 {
-	studio "mag_makarov.smd"
+	studio "mag.smd"
 }
 
 $surfaceprop "pistol_gunmag"
@@ -29,7 +29,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "mag_makarov.smd"
+$collisionmodel "mag.smd"
 {
 	$mass 3
 	$inertia 1

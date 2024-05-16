@@ -4,47 +4,7 @@ $modelname "weapons\tacint\v_makarov.mdl"
 
 $bodygroup "gun"
 {
-	studio "makarov.smd"
-}
-$bodygroup "bullet1"
-{
-	studio "bullet_1.smd"
-	blank
-}
-$bodygroup "bullet2"
-{
-	studio "bullet_2.smd"
-	blank
-}
-$bodygroup "bullet3"
-{
-	studio "bullet_3.smd"
-	blank
-}
-$bodygroup "bullet4"
-{
-	studio "bullet_4.smd"
-	blank
-}
-$bodygroup "bullet5"
-{
-	studio "bullet_5.smd"
-	blank
-}
-$bodygroup "bullet6"
-{
-	studio "bullet_6.smd"
-	blank
-}
-$bodygroup "bullet7"
-{
-	studio "bullet_7.smd"
-	blank
-}
-$bodygroup "bullet8"
-{
-	studio "bullet_8.smd"
-	blank
+	studio "v_makarov.smd"
 }
 
 $surfaceprop "default"

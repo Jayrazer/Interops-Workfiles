@@ -4,7 +4,7 @@ $modelname "weapons\tacint\w_makarov.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_makarov.smd"
+	studio "w_makarov_new.smd"
 }
 
 $surfaceprop "Pistol_Metal"
