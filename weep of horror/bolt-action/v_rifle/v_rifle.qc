@@ -380,7 +380,7 @@ $sequence "prime_grenade" {
 }
 
 $sequence "throw_grenade" {
-	"anims\throw.smd"
+	"anims\throw_tweak.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -389,7 +389,7 @@ $sequence "throw_grenade" {
 }
 
 $sequence "throw_grenade_underhand" {
-	"anims\throw_underhand.smd"
+	"anims\throw_underhand_tweak.smd"
 	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
