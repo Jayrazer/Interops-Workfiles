@@ -303,31 +303,31 @@ $sequence "reload" {
 	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 20 "tacint_f2000.Remove_Clip" }
-	{ event 5004 48 "tacint_f2000.Insert_Clip" }
-	{ event 5004 64 "tacint_f2000.Bolt_LockBack" }
-	{ event 5004 72 "tacint_f2000.Bolt_Release" }
+	{ event 5004 14 "tacint_f2000.Remove_Clip" }
+	{ event 5004 41 "tacint_f2000.Insert_Clip" }
+	{ event 5004 60 "tacint_f2000.Bolt_LockBack" }
+	{ event 5004 65 "tacint_f2000.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
 }
 
 $sequence "midreload" {
-	"anims\midreload.smd"
+	"anims\midreload_new.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 14 "tacint_f2000.Bolt_LockBack" }
-	{ event 5004 22 "tacint_f2000.Bolt_Release" }
+	{ event 5004 11 "tacint_f2000.Bolt_LockBack" }
+	{ event 5004 17 "tacint_f2000.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 32
 }
 
 $sequence "deploy" {
-	"anims\deploy.smd"
+	"anims\deploy_new.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 21 "tacint_f2000.Bolt_LockBack" }
-	{ event 5004 29 "tacint_f2000.Bolt_Release" }
+	{ event 5004 20 "tacint_f2000.Bolt_LockBack" }
+	{ event 5004 26 "tacint_f2000.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
