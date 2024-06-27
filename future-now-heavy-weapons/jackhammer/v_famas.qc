@@ -298,23 +298,23 @@ $sequence "hal2" {
 }
 
 $sequence "reload" {
-	"anims\reload_new_new.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_jackhammer.Bolt_LockBack" }
-	{ event 5004 20 "tacint_jackhammer.Remove_Clip" }
-	{ event 5004 48 "tacint_jackhammer.Insert_Clip" }
-	{ event 5004 64 "tacint_GenericRifle.Jingle" }
-	{ event 5004 72 "tacint_jackhammer.Bolt_Release" }
+	{ event 5004 18 "tacint_jackhammer.Remove_Clip" }
+	{ event 5004 44 "tacint_jackhammer.Insert_Clip" }
+	{ event 5004 56 "tacint_GenericRifle.Jingle" }
+	{ event 5004 65 "tacint_jackhammer.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
 }
 
 $sequence "midreload" {
-	"anims\midreload_new_new.smd"
+	"anims\midreload_new.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 1 "tacint_jackhammer.Bolt_LockBack" }
-	{ event 5004 13 "tacint_jackhammer.Bolt_Release" }
+	{ event 5004 2 "tacint_jackhammer.Insert_Clip" }
+	{ event 5004 21 "tacint_jackhammer.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 20
