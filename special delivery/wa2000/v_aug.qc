@@ -307,16 +307,16 @@ $sequence "reload" {
 	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 20 "tacint_wa2000.Clip_Out" }
-	{ event 5004 46 "tacint_wa2000.Clip_In" }
-	{ event 5004 64 "tacint_wa2000.Bolt_Back" }
+	{ event 5004 14 "tacint_wa2000.Clip_Out" }
+	{ event 5004 41 "tacint_wa2000.Clip_In" }
+	{ event 5004 61 "tacint_wa2000.Bolt_Back" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
 }
 
 $sequence "midreload" {
-	"anims\midreload.smd"
+	"anims\midreload_new.smd"
 	activity "ACT_VM_MIDRELOAD" 1
 	{ event 5004 1 "tacint_wa2000.Bolt_Back" }
 	fadein 0.2
@@ -325,7 +325,7 @@ $sequence "midreload" {
 }
 
 $sequence "deploy" {
-	"anims\deploy.smd"
+	"anims\deploy_new.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 3 "tacint_wa2000.Bolt_Back" }
