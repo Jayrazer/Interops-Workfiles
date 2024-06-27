@@ -306,7 +306,7 @@ $sequence "halt2" {
 }
 
 $sequence "reload" {
-	"v_mg4_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 14 "tacint_mg4.Clip_Out" }
