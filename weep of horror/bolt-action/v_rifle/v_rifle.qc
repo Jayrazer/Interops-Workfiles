@@ -272,6 +272,17 @@ $sequence "idle" {
 $sequence "draw" {
 	"v_rifle_anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
+	{ event 5004 1 "tacint_GenericPistol.unholster" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 30
+}
+
+$sequence "holster" {
+	"anims\holster.smd"
+	activity "ACT_VM_DRAW" 1
+	{ event 5004 1 "tacint_GenericPistol.holster" }
 	fadein 0.2
 	fadeout 0.2
 	snap
@@ -324,7 +335,7 @@ $sequence "reload_end" {
 }
 
 $sequence "melee" {
-	"anims\melee.smd"
+	"anims\melee_tweek.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
