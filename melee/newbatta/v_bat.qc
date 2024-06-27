@@ -215,7 +215,7 @@ $sequence "deploy" {
 }
 
 $sequence "slash_left1" {
-	"v_longweapon_anims\slash_left.smd"
+	"anims\slash_left.smd"
 	activity "ACT_VM_SLASHLEFT1" 1
 	fadein 0.2
 	fadeout 0.2
@@ -224,7 +224,7 @@ $sequence "slash_left1" {
 }
 
 $sequence "slash_right1" {
-	"v_longweapon_anims\slash_right.smd"
+	"anims\slash_right.smd"
 	activity "ACT_VM_SLASHRIGHT1" 1
 	fadein 0.2
 	fadeout 0.2
