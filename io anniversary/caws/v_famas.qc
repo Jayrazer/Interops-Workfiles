@@ -292,31 +292,31 @@ $sequence "reload" {
 	"v_famas_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 20 "tacint_hkcaws.Remove_Clip" }
-	{ event 5004 48 "tacint_hkcaws.Insert_Clip" }
-	{ event 5004 64 "tacint_hkcaws.Bolt_LockBack" }
-	{ event 5004 72 "tacint_hkcaws.Bolt_Release" }
+	{ event 5004 14 "tacint_hkcaws.Remove_Clip" }
+	{ event 5004 41 "tacint_hkcaws.Insert_Clip" }
+	{ event 5004 61 "tacint_hkcaws.Bolt_LockBack" }
+	{ event 5004 66 "tacint_hkcaws.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
 }
 
 $sequence "midreload" {
-	"v_famas_anims\midreload.smd"
+	"v_famas_anims\midreload_new.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 14 "tacint_hkcaws.Bolt_LockBack" }
-	{ event 5004 22 "tacint_hkcaws.Bolt_Release" }
+	{ event 5004 11 "tacint_hkcaws.Bolt_LockBack" }
+	{ event 5004 17 "tacint_hkcaws.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 32
 }
 
 $sequence "deploy" {
-	"v_famas_anims\deploy.smd"
+	"v_famas_anims\deploy_new.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 21 "tacint_hkcaws.Bolt_LockBack" }
-	{ event 5004 29 "tacint_hkcaws.Bolt_Release" }
+	{ event 5004 20 "tacint_hkcaws.Bolt_LockBack" }
+	{ event 5004 26 "tacint_hkcaws.Bolt_Release" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
