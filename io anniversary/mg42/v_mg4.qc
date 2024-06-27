@@ -261,7 +261,7 @@ $sequence "reload" {
 	{ event 5004 96 "tacint_mg3.InsertBullets" }
 	{ event 5004 120 "tacint_mg3.FeedCover_Close" }
 	{ event 5004 158 "tacint_mg3.Bolt_Back" }
-	{ event 5004 179 "tacint_mg3.Bolt_Forward" }
+	{ event 5004 169 "tacint_mg3.Bolt_Forward" }
 	fadein 0.2
 	fadeout 0.2
 	fps 35
