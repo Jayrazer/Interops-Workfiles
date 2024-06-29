@@ -26,6 +26,7 @@ $bodygroup "grenade"
 }
 $bodygroup "bullets"
 {
+	blank
 	studio "pkm_belt1.smd"
 	studio "pkm_belt2.smd"
 	studio "pkm_belt3.smd"
@@ -263,7 +264,7 @@ $sequence "halt2" {
 }
 
 $sequence "reload" {
-	"v_pkm_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 14 "tacint_pkm.Clip_Out" }
@@ -271,7 +272,7 @@ $sequence "reload" {
 	{ event 5004 72 "tacint_pkm.FeedCover_Open" }
 	{ event 5004 96 "tacint_pkm.InsertBullets" }
 	{ event 5004 120 "tacint_pkm.FeedCover_Close" }
-	{ event 5004 158 "tacint_pkm.Bolt_Back" }
+	{ event 5004 162 "tacint_pkm.Bolt_Back" }
 	{ event 5004 179 "tacint_pkm.Bolt_Forward" }
 	fadein 0.2
 	fadeout 0.2
@@ -279,7 +280,7 @@ $sequence "reload" {
 }
 
 $sequence "midreload" {
-	"v_pkm_anims\midreload.smd"
+	"anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
 	{ event 5004 0 "tacint_pkm.InsertBullets" }
 	{ event 5004 17 "tacint_pkm.FeedCover_Close" }
