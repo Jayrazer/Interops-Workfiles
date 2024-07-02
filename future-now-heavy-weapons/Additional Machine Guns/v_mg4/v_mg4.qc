@@ -78,23 +78,6 @@ $bonemerge "ValveBiped.AK47_rootbone"
 $bonemerge "ValveBiped.HOLD_forearm"
 $bonemerge "rightarm"
 
-
-$sequence "range_attack" {
-	"anims\range_attack.smd"
-	activity "ACT_RANGE_ATTACK1" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 12
-}
-
-$sequence "range_attack2" {
-	"anims\range_attack2.smd"
-	activity "ACT_RANGE_ATTACK2" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 12
-}
-
 $sequence "idle" {
 	"anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
