@@ -229,13 +229,13 @@ $sequence "halt2" {
 }
 
 $sequence "reload" {
-	"v_scout_anims\reload.smd"
+	"v_scout_anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 7 "tacint_scout.Bolt_Back" }
-	{ event 5004 31 "tacint_scout.Clip_Out" }
-	{ event 5004 61 "tacint_scout.Clip_In" }
-	{ event 5004 85 "tacint_scout.Bolt_Forward" }
+	{ event 5004 13 "tacint_scout.Clip_Out" }
+	{ event 5004 42 "tacint_scout.Clip_In" }
+	{ event 5004 65 "tacint_scout.Bolt_Back" }
+	{ event 5004 79 "tacint_scout.Bolt_Forward" }
 	fadein 0.2
 	fadeout 0.2
 	fps 33
