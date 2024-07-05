@@ -234,8 +234,8 @@ $sequence "reload" {
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 13 "tacint_scout.Clip_Out" }
 	{ event 5004 42 "tacint_scout.Clip_In" }
-	{ event 5004 65 "tacint_scout.Bolt_Back" }
-	{ event 5004 79 "tacint_scout.Bolt_Forward" }
+	{ event 5004 63 "tacint_scout.Bolt_Back" }
+	{ event 5004 77 "tacint_scout.Bolt_Forward" }
 	fadein 0.2
 	fadeout 0.2
 	fps 33
