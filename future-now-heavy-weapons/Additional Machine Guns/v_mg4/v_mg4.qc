@@ -78,6 +78,17 @@ $bonemerge "ValveBiped.AK47_rootbone"
 $bonemerge "ValveBiped.HOLD_forearm"
 $bonemerge "rightarm"
 
+$bonemerge "OLD_ValveBiped.Bip01_R_UpperArm"
+$bonemerge "OLD_ValveBiped.Bip01_R_Forearm"
+$bonemerge "OLD_ValveBiped.Bip01_R_Hand"
+$bonemerge "annoyingfix3"
+$bonemerge "annoyingfix2"
+$bonemerge "annoyingfix1"
+
+$renamebone "annoyingfix3" "ValveBiped.Bip01_R_Hand"
+$renamebone "annoyingfix2" "ValveBiped.Bip01_R_Forearm"
+$renamebone "annoyingfix1" "ValveBiped.Bip01_R_UpperArm"
+
 $sequence "idle" {
 	"anims\idle.smd"
 	activity "ACT_VM_IDLE" 1
@@ -126,6 +137,7 @@ $sequence "reload" {
 	{ event 5004 65 "tacint_hk23e.Bolt_Back" }
 	{ event 5004 114 "tacint_hk23e.Clip_In" }
 	{ event 5004 141 "tacint_hk23e.InsertBullets" }
+	{ event 5004 187 "tacint_hk23e.chainjiggy" }
 	{ event 5004 198 "tacint_hk23e.Bolt_Forward" }
 	fadein 0.2
 	fadeout 0.2
