@@ -138,7 +138,7 @@ $sequence "reload" {
 	{ event 5004 114 "tacint_hk23e.Clip_In" }
 	{ event 5004 141 "tacint_hk23e.InsertBullets" }
 	{ event 5004 187 "tacint_hk23e.chainjiggy" }
-	{ event 5004 198 "tacint_hk23e.Bolt_Forward" }
+	{ event 5004 206 "tacint_hk23e.Bolt_Forward" }
 	fadein 0.2
 	fadeout 0.2
 	fps 35
