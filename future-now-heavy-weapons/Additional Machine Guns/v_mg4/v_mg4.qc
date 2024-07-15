@@ -6,6 +6,11 @@ $bodygroup "gun"
 {
 	studio "new_main.smd"
 }
+$bodygroup "bipod"
+{
+	studio "bipod_up.smd"
+	studio "bipod_down.smd"
+}
 
 $surfaceprop "default"
 
