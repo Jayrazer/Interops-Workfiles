@@ -110,6 +110,4 @@ $collisionmodel "amd65_reference.smd"
 	$inertia 1
 	$damping 0
 	$rotdamping 0
-	$rootbone " "
-
 }
