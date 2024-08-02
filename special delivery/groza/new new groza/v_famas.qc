@@ -230,8 +230,8 @@ $sequence "reload" {
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 14 "tacint_groza.Remove_Clip" }
-	{ event 5004 33 "tacint_groza.Insert_Clip" }
-	{ event 5004 53 "tacint_groza.BoltAction" }
+	{ event 5004 46 "tacint_groza.Insert_Clip" }
+	{ event 5004 66 "tacint_groza.BoltAction" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
@@ -240,7 +240,7 @@ $sequence "reload" {
 $sequence "midreload" {
 	"anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 14 "tacint_groza.BoltAction" }
+	{ event 5004 11 "tacint_groza.BoltAction" }
 	fadein 0.2
 	fadeout 0.2
 	fps 20
@@ -250,7 +250,7 @@ $sequence "deploy" {
 	"anims\deploy_new.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 23 "tacint_groza.BoltAction" }
+	{ event 5004 21 "tacint_groza.BoltAction" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
