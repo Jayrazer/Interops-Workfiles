@@ -129,10 +129,10 @@ $sequence "idle" {
 $sequence "reload" {
 	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 8 "tacint_toz34.open" }
-	{ event 5004 15 "tacint_toz34.shells" }
-	{ event 5004 50 "tacint_toz34.magin" }
-	{ event 5004 64 "tacint_toz34.close" }
+	{ event 5004 8 "tacint_m79.open" }
+	{ event 5004 15 "tacint_m79.shells" }
+	{ event 5004 44 "tacint_m79.magin" }
+	{ event 5004 62 "tacint_m79.close" }
 	fadein 0.2
 	fadeout 0.2
 	fps 33
@@ -141,7 +141,7 @@ $sequence "reload" {
 $sequence "draw" {
 	"anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
-	{ event 5004 18 "tacint_toz34.close" }
+	{ event 5004 18 "tacint_m79.close" }
 	fadein 0.2
 	fadeout 0.2
 	fps 70
@@ -168,7 +168,7 @@ $sequence "holster" {
 $sequence "unholster" {
 	"anims\unholster.smd"
 	activity "ACT_VM_UNHOLSTER" 1
-	{ event 5004 1 "tacint_toz34.unholster" }
+	{ event 5004 1 "tacint_m79.unholster" }
 	fadein 0.2
 	fadeout 0.2
 	fps 60
