@@ -16,6 +16,12 @@ $bodygroup "rail"
 	blank
 	studio "550-rifle rail.smd"
 }
+$bodygroup "irons"
+{
+	studio "550-rifle-irons.smd"
+	studio "550-rifle-foldedirons.smd"
+	blank
+}
 
 
 $surfaceprop "default"
