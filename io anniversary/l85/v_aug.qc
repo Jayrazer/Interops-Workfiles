@@ -10,6 +10,7 @@ $bodygroup "irons"
 {
 	studio "v_l85_scope.smd"
 	studio "v_l85_sights.smd"
+	studio "sightrail.smd"
 	blank
 }
 
@@ -23,6 +24,7 @@ $illumposition -5.879 -15.818 -1.17
 $cdmaterials "models\tacint_shark\weapons\l85\"
 $cdmaterials "models\tacint\weapons\v_models\aug\"
 $cdmaterials "models\tacint\weapons\v_models\dsa58\"
+$cdmaterials "models\tacint\weapons\v_models\tomahawk\"
 $cdmaterials "models\tacint\weapons\v_models\ak47\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 
