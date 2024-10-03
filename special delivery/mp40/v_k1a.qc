@@ -11,6 +11,11 @@ $bodygroup "stock"
 	studio "stock_out.smd"
 	studio "stock_in.smd"
 }
+$bodygroup "sight"
+{
+	blank
+	studio "sightrail.smd"
+}
 
 $surfaceprop "default"
 
@@ -21,6 +26,7 @@ $illumposition -6.701 -19.153 -2.045
 $cdmaterials "models\tacint\weapons\v_models\k1a\"
 $cdmaterials "models\tacint_shark\weapons\mp40\"
 $cdmaterials "models\tacint_shark\thompson\"
+$cdmaterials "models\tacint\weapons\v_models\tomahawk\"
 $cdmaterials "models\tacint\weapons\v_models\hands\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 $cdmaterials "models\tacint\weapons\v_models\frag\"
