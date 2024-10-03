@@ -32,7 +32,7 @@ $cdmaterials "models\tacint\weapons\v_models\m4\"
 $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 
 $attachment "muzzle" "ValveBiped._ROOT_HK417" -2.8 -0.6 21 rotate -90 90 0
-$attachment "bolt" "ValveBiped.bolt_cover" 0 0 0 rotate 25 0 90
+$attachment "bolt" "ValveBiped.bolt_cover" -1.00 1.00 -0.50 rotate 45 -180 -90
 $attachment "muzzle_silencer" "ValveBiped._ROOT_HK417" -3 -0.5 27 rotate -90 90 0
 $attachment "magazine" "ValveBiped.magazine" 0 -10 0 rotate 0 0 0
 
@@ -197,12 +197,12 @@ $sequence "idle" {
 }
 
 $sequence "reload" {
-	"v_hk417_anims\reload.smd"
+	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 9 "tacint_mcx.Clip_Out" }
 	{ event 5004 42 "tacint_mcx.Clip_In" }
-	{ event 5004 75 "tacint_mcx.Bolt_Latch" }
+	{ event 5004 79 "tacint_mcx.Bolt_Action" }
 	fadein 0.2
 	fadeout 0.2
 	fps 43
