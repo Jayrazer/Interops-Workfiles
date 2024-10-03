@@ -9,6 +9,7 @@ $bodygroup "gun"
 $bodygroup "sight"
 {
 	studio "hipoint_rs.smd"
+	studio "sightrail.smd"
 	blank
 }
 
@@ -20,6 +21,7 @@ $contents "solid"
 $illumposition -3.755 -15.109 -12.85
 
 $cdmaterials "models\tacint\weapons\v_models\hipoint\"
+$cdmaterials "models\tacint\weapons\v_models\tomahawk\"
 
 $attachment "muzzle" "ValveBiped.uzi_rootbone" -3.2 0.2 24 rotate -90 90 0
 $attachment "bolt" "ValveBiped.bolt" 1 0 0 rotate 0 -33 90
