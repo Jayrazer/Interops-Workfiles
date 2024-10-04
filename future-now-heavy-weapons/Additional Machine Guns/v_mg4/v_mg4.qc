@@ -11,12 +11,29 @@ $bodygroup "bipod"
 	studio "bipod_up.smd"
 	studio "bipod_down.smd"
 }
+$bodygroup "sightrail"
+{
+	blank
+	studio "rail.smd"
+}
+$bodygroup "bullets"
+{
+	blank
+	studio "belt_1.smd"
+	studio "belt_2.smd"
+	studio "belt_3.smd"
+	studio "belt_4.smd"
+	studio "belt_5.smd"
+	studio "belt_6.smd"
+	studio "belt_7.smd"
+}
 
 $surfaceprop "default"
 
 $contents "solid"
 
 $cdmaterials "models\tacint_shark\weapons\hk23e\"
+$cdmaterials "models\tacint\weapons\v_models\tomahawk\"
 
 $attachment "muzzle" "ValveBiped.MG4_root" -5.4 0 28 rotate -90 90 0
 $attachment "bolt" "ValveBiped.magazine" -3.6 3.8 0 rotate -20 140 0
@@ -135,7 +152,7 @@ $sequence "halt2" {
 }
 
 $sequence "reload" {
-	"anims\reload_new.smd"
+	"anims\reload_new_edit.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 14 "tacint_hk23e.Clip_Out" }
