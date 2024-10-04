@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+
+$declaresequence "vm_idle"
+$declaresequence "vm_reload"
+$declaresequence "vm_draw"
+$declaresequence "idle"
+$declaresequence "reload"
+$declaresequence "draw"
+$declaresequence "attack1"
