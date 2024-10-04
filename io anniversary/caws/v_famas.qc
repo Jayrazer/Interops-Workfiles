@@ -289,7 +289,7 @@ $sequence "hal2" {
 }
 
 $sequence "reload" {
-	"v_famas_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 14 "tacint_hkcaws.Remove_Clip" }
@@ -312,7 +312,7 @@ $sequence "midreload" {
 }
 
 $sequence "deploy" {
-	"v_famas_anims\deploy_new.smd"
+	"anims\deploy_new.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
 	{ event 5004 20 "tacint_hkcaws.Bolt_LockBack" }
