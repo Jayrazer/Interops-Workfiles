@@ -648,8 +648,8 @@ $sequence "reload" {
 	{ event 5004 21 "tacint_p90.Clip_Out" }
 	{ event 5004 40 "tacint_p90.Clip_In" }
 	{ event 5004 70 "tacint_p90.Clip_Slap" }
-	{ event 5004 85 "tacint_p90.Bolt_Back" }
-	{ event 5004 95 "tacint_p90.Bolt_Forward" }
+	{ event 5004 87 "tacint_p90.Bolt_Back" }
+	{ event 5004 97 "tacint_p90.Bolt_Forward" }
 	fadein 0.2
 	fadeout 0.2
 	fps 40
