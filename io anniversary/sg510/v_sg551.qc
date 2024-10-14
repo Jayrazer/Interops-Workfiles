@@ -20,6 +20,7 @@ $bodygroup "tacrail"
 $bodygroup "sights"
 {
 	studio "v_sightsup.smd"
+	studio "v_sightsdownya.smd"
 	blank
 }
 
