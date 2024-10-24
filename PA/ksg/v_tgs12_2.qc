@@ -25,8 +25,8 @@ $cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 $cdmaterials "models\tacint\weapons\v_models\hands\"
 
 
-$attachment "muzzle" "ValveBiped._ROOT_TGS12" 4.2 0 24.7 rotate -90 90 0
-$attachment "bolt" "ValveBiped.bolt" 0 1.9 0 rotate -60 0 -90
+$attachment "muzzle" "ValveBiped._ROOT_TGS12" 4.20 -0.00 14.70 rotate -90 90 0
+$attachment "bolt" "ValveBiped.bolt" 0.00 -12.90 0.00 rotate 180 0 -90
 
 $cbox 0 0 0 0 0 0
 
@@ -207,7 +207,7 @@ $sequence "melee2" {
 }
 
 $sequence "reload_start" {
-	"anims\reload_start.smd"
+	"anims\reload_start_new.smd"
 	activity "ACT_SHOTGUN_RELOAD_START" 1
 	{ event 5004 0 "tacint_Bekas.Movement" }
 	fadein 0.2
@@ -217,7 +217,7 @@ $sequence "reload_start" {
 }
 
 $sequence "reload" {
-	"anims\reload.smd"
+	"anims\reload_new.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 8 "tacint_FP6.InsertShell" }
 	{ event 5004 23 "tacint_FP6.InsertShell" }
@@ -241,7 +241,7 @@ $sequence "reload2" {
 }
 
 $sequence "reload_finish" {
-	"anims\reload_finish.smd"
+	"anims\reload_finish_new.smd"
 	activity "ACT_SHOTGUN_RELOAD_FINISH" 1
 	{ event 5004 0 "tacint_Bekas.Movement" }
 	{ event 5004 16 "tacint_ksg12.PumpBack" }

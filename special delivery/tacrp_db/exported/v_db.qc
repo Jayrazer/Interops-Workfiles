@@ -167,7 +167,7 @@ $sequence "unholster" {
 	{ event 5004 1 "tacint_db.unholster" }
 	fadein 0.2
 	fadeout 0.2
-	fps 60
+	fps 75
 }
 
 $sequence "prime_grenade" {
@@ -219,7 +219,7 @@ $sequence "fire1" {
 	"anims\fire3.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
-	fadein 0.2
+	fadein 0
 	fadeout 0.5
 	snap
 	fps 25
@@ -229,7 +229,7 @@ $sequence "fire2" {
 	"anims\fire4.smd"
 	activity "ACT_VM_PRIMARYATTACK_2" 1
 	{ event 9001 0 "TI_MuzzleFlash" }
-	fadein 0.2
+	fadein 0
 	fadeout 0.5
 	snap
 	fps 25
