@@ -1,10 +1,10 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\tacint_shark\w_stg44.mdl"
+$modelname "weapons\tacint_shark\magazines\stg44.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_stg44_ref.smd"
+	studio "mag.smd"
 }
 
 $surfaceprop "weapon"
@@ -93,7 +93,7 @@ $sequence "attack2" {
 	fps 22
 }
 
-$collisionmodel "w_stg44_ref.smd"
+$collisionmodel "mag.smd"
 {
 	$mass 3.7
 	$inertia 1
