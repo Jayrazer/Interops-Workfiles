@@ -20,17 +20,13 @@ $bodygroup "opticrail"
 //	studio "v_sights.smd"
 	blank
 }
-$bodygroup "foregrip"
-{
-	studio "v_frontgrip.smd"
-}
 $bodygroup "mag"
 {
 	studio "v_magazine.smd"
 }
 $bodygroup "bitsnbobs"
 {
-	studio "v_swordfish_bits.smd"
+	studio "v_swordfish_bits_new.smd"
 }
 
 
