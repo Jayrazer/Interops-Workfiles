@@ -1,19 +1,19 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\tacint\w_mp5.mdl"
+$modelname "weapons\tacint_shark\w_mp5_zeroeight.mdl"
 
 $bodygroup "studio"
 {
-	studio "w_mp5.smd"
+	studio "w_mp5_new.smd"
 }
 $bodygroup "stock"
 {
-	studio "w_mp5_stock.smd"
-	studio "w_mp5_stock_in.smd"
+	studio "w_swordfish_stock_out.smd"
+	studio "w_swordfish_stock_in.smd"
 }
-$bodygroup "magazine"
+$bodygroup "irons"
 {
-	studio "w_mp5_magazine.smd"
+	studio "w_irons_new.smd"
 	blank
 }
 
@@ -24,8 +24,10 @@ $contents "solid"
 
 $illumposition 0.007 -7.295 2.036
 
-$cdmaterials "models\tacint\weapons\w_models\mp5\"
-$cdmaterials "models\tacint\weapons\w_models\_accessories1\"
+$cdmaterials "models\tacint\weapons\v_models\mp5\"
+$cdmaterials "models\tacint_shark\weapons\mp5_zeroeight\"
+$cdmaterials "models\tacint\weapons\v_models\hands\"
+$cdmaterials "models\tacint\weapons\v_models\_accessories1\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 21.7 -2.5 -5.2 rotate 0 -3 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 8.8 -1 -6 rotate 25 90 -90
@@ -103,7 +105,7 @@ $sequence "attack2" {
 	fps 12
 }
 
-$collisionmodel "w_mp5_physics.smd"
+$collisionmodel "w_mp5_new.smd"
 {
 	$mass 3.3
 	$inertia 1
