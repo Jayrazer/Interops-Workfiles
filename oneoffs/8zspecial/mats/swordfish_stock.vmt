@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\tacint_shark\weapons\mp5_zeroeight\swordfish_stock"
+	$color2 "[.8 .8 .8]"
+}

@@ -4,16 +4,20 @@ $modelname "weapons\tacint_shark\v_mp5_zeroeight.mdl"
 
 $bodygroup "gun"
 {
-	studio "v_mp5_reference.smd"
+	studio "v_mp5_new.smd"
+//	studio "v_mp5_reference.smd"
 }
 $bodygroup "stock"
 {
-	studio "v_stockout.smd"
-	studio "v_stockin.smd"
+	studio "v_swordfish_stock_out.smd"
+	studio "v_swordfish_stock_in.smd"
+//	studio "v_stockout.smd"
+//	studio "v_stockin.smd"
 }
 $bodygroup "opticrail"
 {
-	studio "v_sights.smd"
+	studio "v_irons_new.smd"
+//	studio "v_sights.smd"
 	blank
 }
 $bodygroup "foregrip"
@@ -141,10 +145,10 @@ $sequence "reload_1hand" {
 	"v_mp5_anims\reload_1hand.smd"
 	activity "ACT_VM_SINGLEHAND_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 7 "tacint_mp5.Bolt_Back" }
-	{ event 5004 30 "tacint_mp5.Remove_Clip" }
-	{ event 5004 46 "tacint_mp5.Insert_Clip" }
-	{ event 5004 73 "tacint_mp5.HK_Slap" }
+	{ event 5004 7 "tacint_mp5_zeroeight.Bolt_Back" }
+	{ event 5004 30 "tacint_mp5_zeroeight.Remove_Clip" }
+	{ event 5004 46 "tacint_mp5_zeroeight.Insert_Clip" }
+	{ event 5004 73 "tacint_mp5_zeroeight.HK_Slap" }
 	fadein 0.2
 	fadeout 0.2
 	fps 38
@@ -153,8 +157,8 @@ $sequence "reload_1hand" {
 $sequence "midreload_1hand" {
 	"v_mp5_anims\midreload_1hand.smd"
 	activity "ACT_VM_SINGLEHAND_MIDRELOAD" 1
-	{ event 5004 0 "tacint_mp5.Insert_Clip-Mid" }
-	{ event 5004 27 "tacint_mp5.HK_Slap" }
+	{ event 5004 0 "tacint_mp5_zeroeight.Insert_Clip-Mid" }
+	{ event 5004 27 "tacint_mp5_zeroeight.HK_Slap" }
 	fadein 0.2
 	fadeout 0.2
 	fps 38
@@ -164,7 +168,7 @@ $sequence "deploy_1hand" {
 	"v_mp5_anims\deploy_1hand.smd"
 	activity "ACT_VM_SINGLEHAND_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 19 "tacint_mp5.Fire_Select" }
+	{ event 5004 19 "tacint_mp5_zeroeight.Fire_Select" }
 	fadein 0.2
 	fadeout 0.2
 	fps 37
@@ -436,13 +440,14 @@ $sequence "halt2" {
 }
 
 $sequence "reload" {
-	"v_mp5_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 8 "tacint_mp5.Bolt_Back" }
-	{ event 5004 30 "tacint_mp5.Remove_Clip" }
-	{ event 5004 46 "tacint_mp5.Insert_Clip" }
-	{ event 5004 73 "tacint_mp5.HK_Slap" }
+	{ event 5004 8 "tacint_mp5_zeroeight.Bolt_Back" }
+	{ event 5004 30 "tacint_mp5_zeroeight.Remove_Clip" }
+	{ event 5004 46 "tacint_mp5_zeroeight.Insert_Clip" }
+	{ event 5004 52 "tacint_mp5_zeroeight.Insert_Clip2" }
+	{ event 5004 73 "tacint_mp5_zeroeight.HK_Slap" }
 	fadein 0.2
 	fadeout 0.2
 	fps 38
@@ -451,8 +456,8 @@ $sequence "reload" {
 $sequence "midreload" {
 	"v_mp5_anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 0 "tacint_mp5.Insert_Clip-Mid" }
-	{ event 5004 27 "tacint_mp5.HK_Slap" }
+	{ event 5004 0 "tacint_mp5_zeroeight.Insert_Clip-Mid" }
+	{ event 5004 27 "tacint_mp5_zeroeight.HK_Slap" }
 	fadein 0.2
 	fadeout 0.2
 	fps 38
@@ -462,7 +467,7 @@ $sequence "deploy" {
 	"v_mp5_anims\deploy.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_GenericRifle.Jingle" }
-	{ event 5004 19 "tacint_mp5.Fire_Select" }
+	{ event 5004 19 "tacint_mp5_zeroeight.Fire_Select" }
 	fadein 0.2
 	fadeout 0.2
 	fps 34
@@ -471,7 +476,7 @@ $sequence "deploy" {
 $sequence "deploy2" {
 	"v_mp5_anims\deploy2.smd"
 	activity "ACT_VM_DRAW" 4
-	{ event 5004 8 "tacint_mp5.Buttstock_Back" }
+	{ event 5004 8 "tacint_mp5_zeroeight.Buttstock_Back" }
 	fadein 0.2
 	fadeout 0.2
 	fps 34
