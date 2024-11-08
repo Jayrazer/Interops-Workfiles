@@ -615,7 +615,7 @@ $sequence "blind_idle" {
 }
 
 $sequence "blind_fire1" {
-	"v_sg551_anims\blind_fire1.smd"
+	"anims\blind_fire1.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_V" }
 	{ event 6001 2 "1" }
@@ -626,7 +626,7 @@ $sequence "blind_fire1" {
 }
 
 $sequence "blind_fire2" {
-	"v_sg551_anims\blind_fire2.smd"
+	"anims\blind_fire2.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_V" }
 	{ event 6001 2 "1" }
@@ -637,7 +637,7 @@ $sequence "blind_fire2" {
 }
 
 $sequence "blind_fire3" {
-	"v_sg551_anims\blind_fire3.smd"
+	"anims\blind_fire3.smd"
 	activity "ACT_VM_BLINDATTACK_1" 1
 	{ event 9001 0 "TI_MuzzleFlash_V" }
 	{ event 6001 2 "1" }
