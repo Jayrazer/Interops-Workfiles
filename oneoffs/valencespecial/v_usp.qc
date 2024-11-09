@@ -4,13 +4,21 @@ $modelname "weapons\tacint_shark\v_usp_valencespecial.mdl"
 
 $bodygroup "gun"
 {
-	studio "usp_new.smd"
+	studio "usp_v3.smd"
 }
 $bodygroup "sights"
 {
 	studio "sights.smd"
 	studio "reddot_mount.smd"
 	blank
+}
+$bodygroup "parts"
+{
+	studio "tarkov_parts.smd"
+}
+$bodygroup "funnel"
+{
+	studio "jetfunnel.smd"
 }
 
 
@@ -329,7 +337,7 @@ $sequence "draw" {
 }
 
 $sequence "reload" {
-	"v_usp_anims\reload.smd"
+	"anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 5 "tacint_extras_usp.Clip_Out" }
 	{ event 5004 21 "tacint_extras_usp.Clip_In" }
