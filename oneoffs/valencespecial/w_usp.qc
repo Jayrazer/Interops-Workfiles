@@ -1,15 +1,10 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\tacint_extras\w_usp.mdl"
+$modelname "weapons\tacint_shark\w_usp_valencespecial.mdl"
 
 $bodygroup "gun"
 {
-	studio "w_ref.smd"
-}
-$bodygroup "comp"
-{
-	blank
-	studio "comp.smd"
+	studio "w_usp_v3.smd"
 }
 
 
@@ -20,6 +15,7 @@ $contents "solid"
 $illumposition -0.04 -4.971 0.474
 
 $cdmaterials "models\tacint_extras\usp\"
+$cdmaterials "models\tacint_shark\weapons\usp_valencespecial\"
 
 $attachment "muzzle_flash" "ValveBiped.Bip01_R_Hand" 10.7 -1.2 -4.3 rotate 0 0 -90
 $attachment "bolt" "ValveBiped.Bip01_R_Hand" 6 -1.3 -4 rotate 77 90 -90
@@ -97,7 +93,7 @@ $sequence "attack2" {
 	fps 13
 }
 
-$collisionmodel "w_usp_physics.smd"
+$collisionmodel "w_usp_v3.smd"
 {
 	$mass 1.3
 	$inertia 1
