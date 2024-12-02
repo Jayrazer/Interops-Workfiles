@@ -6,6 +6,11 @@ $bodygroup "gun"
 {
 	studio "v_coachgun.smd"
 }
+$bodygroup "barrel"
+{
+	studio "v_coachgun_barrel.smd"
+	studio "v_coachgun_barrel_short.smd"
+}
 
 $surfaceprop "default"
 
@@ -140,9 +145,42 @@ $sequence "reload" {
 	fadeout 0.2
 	fps 32
 }
+$sequence "reload_1" {
+	"anims\reload_coachgun_1.smd"
+	activity "ACT_VM_RELOAD" 1
+	{ event 5004 8 "tacint_coachgun.open" }
+	{ event 5004 11 "tacint_coachgun.magout" }
+	{ event 5004 28 "tacint_coachgun.magin" }
+	{ event 5004 41 "tacint_coachgun.magin" }
+	{ event 5004 52 "tacint_coachgun.close" }
+	{ event 5004 65 "tacint_coachgun.hammer" }
+	fadein 0.2
+	fadeout 0.2
+	fps 32
+}
 
-$sequence "draw" {
+$sequence "deploy" {
 	"anims\deploy.smd"
+	activity "ACT_VM_DRAW" 1
+	{ event 5004 1 "tacint_coachgun.deploy" }
+	{ event 5004 24 "tacint_coachgun.close" }
+	fadein 0.2
+	fadeout 0.2
+	fps 32
+}
+
+$sequence "deploy_1" {
+	"anims\deploy_1.smd"
+	activity "ACT_VM_DRAW" 1
+	{ event 5004 1 "tacint_coachgun.deploy" }
+	{ event 5004 24 "tacint_coachgun.close" }
+	fadein 0.2
+	fadeout 0.2
+	fps 32
+}
+
+$sequence "deploy_2" {
+	"anims\deploy_2.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "tacint_coachgun.deploy" }
 	{ event 5004 24 "tacint_coachgun.close" }
@@ -168,6 +206,23 @@ $sequence "holster" {
 	fadeout 0.2
 	fps 33
 }
+$sequence "holster_1" {
+	"anims\holster_1.smd"
+	activity "ACT_VM_HOLSTER" 1
+	{ event 5004 1 "tacint_coachgun.holster" }
+	fadein 0.2
+	fadeout 0.2
+	fps 33
+}
+$sequence "holster_2" {
+	"anims\holster_2.smd"
+	activity "ACT_VM_HOLSTER" 1
+	{ event 5004 1 "tacint_coachgun.holster" }
+	fadein 0.2
+	fadeout 0.2
+	fps 33
+}
+
 
 $sequence "unholster" {
 	"anims\unholster.smd"
@@ -186,9 +241,41 @@ $sequence "prime_grenade" {
 	fadeout 0.2
 	fps 45
 }
+$sequence "prime_grenade_1" {
+	"anims\prime_grenade_1.smd"
+	activity "ACT_VM_PRIME_GRENADE" 1
+	{ event 5004 7 "Grenade.PullPin" }
+	fadein 0.2
+	fadeout 0.2
+	fps 45
+}
+$sequence "prime_grenade_2" {
+	"anims\prime_grenade_2.smd"
+	activity "ACT_VM_PRIME_GRENADE" 1
+	{ event 5004 7 "Grenade.PullPin" }
+	fadein 0.2
+	fadeout 0.2
+	fps 45
+}
 
 $sequence "throw_grenade" {
 	"anims\throwgrenade_overhand.smd"
+	activity "ACT_VM_THROW_GRENADE" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+$sequence "throw_grenade_1" {
+	"anims\throwgrenade_overhand_1.smd"
+	activity "ACT_VM_THROW_GRENADE" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+$sequence "throw_grenade_2" {
+	"anims\throwgrenade_overhand_2.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -204,18 +291,41 @@ $sequence "throw_grenade_underhand" {
 	fadeout 0.2
 	fps 36
 }
-
-$sequence "melee1" {
-	"anims\melee1.smd"
-	activity "ACT_VM_SECONDARYATTACK" 1
-	{ event 5004 2 "Weapon.Swing" }
+$sequence "throw_grenade_underhand_1" {
+	"anims\throwgrenade_underhand_1.smd"
+	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
+	{ event 5004 2 "Grenade.Throw" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+$sequence "throw_grenade_underhand_2" {
+	"anims\throwgrenade_underhand_2.smd"
+	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
+	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
 	fadeout 0.2
 	fps 36
 }
 
-$sequence "melee2" {
+$sequence "melee" {
 	"anims\melee2.smd"
+	activity "ACT_VM_SECONDARYATTACK2" 1
+	{ event 5004 2 "Weapon.Swing" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+$sequence "melee_1" {
+	"anims\melee2_1.smd"
+	activity "ACT_VM_SECONDARYATTACK2" 1
+	{ event 5004 2 "Weapon.Swing" }
+	fadein 0.2
+	fadeout 0.2
+	fps 36
+}
+$sequence "melee_2" {
+	"anims\melee2_2.smd"
 	activity "ACT_VM_SECONDARYATTACK2" 1
 	{ event 5004 2 "Weapon.Swing" }
 	fadein 0.2
