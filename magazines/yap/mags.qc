@@ -1,26 +1,19 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\93r.mdl"
+$modelname "weapons\tacint_shark\magazines\svu.mdl"
 
 $bodygroup "studio"
 {
-	studio "Raffica.smd"
+	studio "svu.smd"
 }
 
 $surfaceprop "weapon"
 
 $contents "solid"
 
-$illumposition 0.12 2.14 0.42
-
-$cdmaterials "models\tacint_shark\weapons\93r\"
-
-$cbox 0 0 0 0 0 0
-
-$bbox -8.443 -0.688 -4.813 4.413 0.955 5.486
+$cdmaterials "models\tacint_extras\svu\"
 
 $definebone "Object01" "" 0.232997 8.442959 5.486441 0 0 0 0 0 0 0 0 0
-
 
 $sequence "idle" {
 	"ak47_anims\idle.smd"
@@ -29,21 +22,11 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "Raffica.smd"
+$collisionmodel "svu.smd"
 {
 	$mass 5
 	$inertia 1
 	$damping 0
 	$rotdamping 0
 	$rootbone " "
-
-}
-
-$keyvalues
-{
-	prop_data 
-	{
-		"base"		"Metal.Small"
-	}
-	qc_path models\weapons\magazines\ak47.qc
 }
