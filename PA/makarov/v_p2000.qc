@@ -390,7 +390,8 @@ $sequence "draw" {
 	"v_p2000_anims\draw.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 0 "Player.RevolverDeploy" }
-	{ event 5004 16 "tacint_p2000.Slide_Action" }
+	{ event 5004 16 "tacint_makarov.Slide_Action" }
+	{ event 5004 24 "tacint_makarov.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.9
 	fps 48
@@ -399,9 +400,10 @@ $sequence "draw" {
 $sequence "reload" {
 	"v_p2000_anims\reload.smd"
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 5 "tacint_p2000.Clip_Out" }
-	{ event 5004 21 "tacint_p2000.Clip_In" }
-	{ event 5004 42 "tacint_p2000.Slide_Shut" }
+	{ event 5004 5 "tacint_makarov.Clip_Out" }
+	{ event 5004 19 "tacint_makarov.Clip_In-Mid" }
+	{ event 5004 28 "tacint_makarov.Clip_In" }
+	{ event 5004 42 "tacint_makarov.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 40
@@ -410,8 +412,8 @@ $sequence "reload" {
 $sequence "midreload" {
 	"v_p2000_anims\midreload.smd"
 	activity "ACT_VM_MIDRELOAD" 1
-	{ event 5004 0 "tacint_p2000.Clip_In-Mid" }
-	{ event 5004 13 "tacint_p2000.Slide_Shut" }
+	{ event 5004 0 "tacint_makarov.Clip_In-Mid" }
+	{ event 5004 13 "tacint_makarov.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 40
@@ -420,9 +422,9 @@ $sequence "midreload" {
 $sequence "sh_reload" {
 	"v_p2000_anims\sh_reload.smd"
 	activity "ACT_VM_SINGLEHAND_RELOAD" 1
-	{ event 5004 5 "tacint_p2000.Clip_Out" }
-	{ event 5004 21 "tacint_p2000.Clip_In" }
-	{ event 5004 42 "tacint_p2000.Slide_Shut" }
+	{ event 5004 5 "tacint_makarov.Clip_Out" }
+	{ event 5004 21 "tacint_makarov.Clip_In" }
+	{ event 5004 42 "tacint_makarov.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 40
@@ -431,8 +433,8 @@ $sequence "sh_reload" {
 $sequence "sh_midreload" {
 	"v_p2000_anims\sh_midreload.smd"
 	activity "ACT_VM_SINGLEHAND_MIDRELOAD" 1
-	{ event 5004 0 "tacint_p2000.Clip_In-Mid" }
-	{ event 5004 13 "tacint_p2000.Slide_Shut" }
+	{ event 5004 0 "tacint_makarov.Clip_In-Mid" }
+	{ event 5004 13 "tacint_makarov.Slide_Shut" }
 	fadein 0.2
 	fadeout 0.2
 	fps 40
