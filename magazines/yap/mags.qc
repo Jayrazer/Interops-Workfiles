@@ -1,17 +1,17 @@
 // Created by Crowbar 0.71
 
-$modelname "weapons\tacint_shark\magazines\svu.mdl"
+$modelname "weapons\tacint_shark\magazines\automag3.mdl"
 
 $bodygroup "studio"
 {
-	studio "svu.smd"
+	studio "automag3.smd"
 }
 
 $surfaceprop "weapon"
 
 $contents "solid"
 
-$cdmaterials "models\tacint_extras\svu\"
+$cdmaterials "models\tacint_extras\automag3\"
 
 $definebone "Object01" "" 0.232997 8.442959 5.486441 0 0 0 0 0 0 0 0 0
 
@@ -22,7 +22,7 @@ $sequence "idle" {
 	fps 30
 }
 
-$collisionmodel "svu.smd"
+$collisionmodel "automag3.smd"
 {
 	$mass 5
 	$inertia 1
