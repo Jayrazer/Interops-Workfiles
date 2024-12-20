@@ -17,7 +17,7 @@ $cdmaterials "models\tacint_extras\thatgun\"
 $cdmaterials "models\tacint\weapons\v_models\mr96\"
 
 $attachment "muzzleflash" "ValveBiped.Bip01" -4.45 -4.8 30 rotate -90 0 0
-#$attachment "muzzle" "ValveBiped.ejector_rod" 0 5 -0.5 rotate 0 90 -90
+$attachment "laser" "Cylinder_Ejector" 0.85 0.8 3 rotate -90 0 0
 $attachment "muzzleflash_blind" "ValveBiped.Bip01" -1.15 2.2 28 rotate -85 0 0
 
 $bonemerge "ValveBiped.HandControlPosParentL"
