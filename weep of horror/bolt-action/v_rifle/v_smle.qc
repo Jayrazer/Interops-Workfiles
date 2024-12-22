@@ -237,7 +237,7 @@ $sequence "holster" {
 }
 
 $sequence "shoot1" {
-	"anims\shoot1.smd"
+	"anims\shoot1_smle.smd"
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event AE_MUZZLEFLASH 0 "Pistol muzzle" }
 	{ event AE_CLIENT_EFFECT_ATTACH 24 "EjectBrass_762Nato 2 100" }
@@ -250,7 +250,7 @@ $sequence "shoot1" {
 }
 
 $sequence "reload_start" {
-	"anims\reload_start.smd"
+	"anims\reload_start_smle.smd"
 	activity "ACT_SHOTGUN_RELOAD_START" 1
 	{ event AE_CLIENT_EFFECT_ATTACH 12 "EjectBrass_762Nato 2 100" }
 	{ event 5004 8 "tacint_smle.CockBack" }
@@ -260,7 +260,7 @@ $sequence "reload_start" {
 }
 
 $sequence "reload_insert" {
-	"anims\reload_insert_3_fix.smd"
+	"anims\reload_insert_3_fix_smle.smd"
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 10 "tacint_smle.InsertShell" }
 	{ event 5004 35 "tacint_smle.InsertShell" }
@@ -272,7 +272,7 @@ $sequence "reload_insert" {
 }
 
 $sequence "reload_end" {
-	"v_rifle_anims\reload_end.smd"
+	"anims\reload_end_smle.smd"
 	activity "ACT_SHOTGUN_RELOAD_FINISH" 1
 	{ event 5004 2 "tacint_smle.CockForward" }
 	fadein 0.2
