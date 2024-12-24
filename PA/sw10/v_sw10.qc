@@ -270,6 +270,16 @@ $sequence "unholster" {
 	fps 60
 }
 
+$sequence "shoot4" {
+	"anims\shoot4.smd"
+	activity "ACT_VM_PRIMARYATTACK_1" 1
+	{ event 9001 0 "TI_MuzzleFlash2" }
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 47
+}
+
 $sequence "shoot1" {
 	"v_mr96_anims\shoot1.smd"
 	activity "ACT_VM_PRIMARYATTACK_1" 1
