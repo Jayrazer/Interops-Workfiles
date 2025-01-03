@@ -88,16 +88,28 @@ $sequence "swag_to_idle" {
 }
 
 $sequence "reload" {
-	"anims\reload_new.smd"
-	{ event 5004 15 "tacint_contender.open" }
-	{ event 5004 40 "tacint_contender.magin" }
-	{ event 5004 53 "tacint_contender.close" }
-	{ event 5004 68 "tacint_contender.hammer" }
+	"anims\reload_swag.smd"
+	{ event 5004 8 "tacint_contender.open" }
+	{ event 5004 25 "tacint_contender.magin" }
+	{ event 5004 40 "tacint_contender.close" }
+	{ event 5004 52 "tacint_contender.hammer" }
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 36
 }
+
+// $sequence "reload" {
+// 	"anims\reload_new.smd"
+// 	{ event 5004 15 "tacint_contender.open" }
+// 	{ event 5004 40 "tacint_contender.magin" }
+// 	{ event 5004 53 "tacint_contender.close" }
+// 	{ event 5004 68 "tacint_contender.hammer" }
+// 	activity "ACT_VM_RELOAD" 1
+// 	fadein 0.2
+// 	fadeout 0.2
+// 	fps 36
+// }
 
 $sequence "fire" {
 	"anims\shoot.smd"
