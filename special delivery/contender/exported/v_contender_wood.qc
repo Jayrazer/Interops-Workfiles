@@ -89,22 +89,22 @@ $sequence "swag_to_idle" {
 
 $sequence "reload" {
 	"anims\reload_swag.smd"
-	{ event 5004 8 "tacint_contender.open" }
-	{ event 5004 25 "tacint_contender.magin" }
-	{ event 5004 40 "tacint_contender.close" }
-	{ event 5004 52 "tacint_contender.hammer" }
+	{ event 5004 12 "tacint_contender2.open" }
+	{ event 5004 36 "tacint_contender2.magin" }
+	{ event 5004 48 "tacint_contender2.close" }
+	{ event 5004 56 "tacint_contender2.hammer" }
 	activity "ACT_VM_RELOAD" 1
 	fadein 0.2
 	fadeout 0.2
-	fps 36
+	fps 33
 }
 
 // $sequence "reload" {
 // 	"anims\reload_new.smd"
-// 	{ event 5004 15 "tacint_contender.open" }
-// 	{ event 5004 40 "tacint_contender.magin" }
-// 	{ event 5004 53 "tacint_contender.close" }
-// 	{ event 5004 68 "tacint_contender.hammer" }
+// 	{ event 5004 15 "tacint_contender2.open" }
+// 	{ event 5004 40 "tacint_contender2.magin" }
+// 	{ event 5004 53 "tacint_contender2.close" }
+// 	{ event 5004 68 "tacint_contender2.hammer" }
 // 	activity "ACT_VM_RELOAD" 1
 // 	fadein 0.2
 // 	fadeout 0.2
@@ -134,17 +134,17 @@ $sequence "fire_swag" {
 }
 
 $sequence "deploy" {
-	"anims\deploy.smd"
+	"anims\draw_swag.smd"
 	activity "ACT_VM_DRAW" 1
-	{ event 5004 1 "tacint_contender.draw" }
-	{ event 5004 8 "tacint_contender.close" }
+	{ event 5004 1 "tacint_contender2.draw" }
+	{ event 5004 8 "tacint_contender2.close" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
 }
 
 $sequence "holster" {
-	"anims\holster.smd"
+	"anims\holster_swag.smd"
 	activity "ACT_VM_HOLSTER" 1
 	{ event 5004 1 "tacint_GenericPistol.holster" }
 	fadein 0.2
@@ -153,9 +153,9 @@ $sequence "holster" {
 }
 
 $sequence "unholster" {
-	"anims\unholster.smd"
+	"anims\unholster_swag.smd"
 	activity "ACT_VM_UNHOLSTER" 1
-	{ event 5004 1 "tacint_contender.draw" }
+	{ event 5004 1 "tacint_contender2.draw" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
@@ -238,9 +238,9 @@ $sequence "throw_grenade_underhand" {
 
 $sequence "jam" {
 	"anims\fix.smd"
-	{ event 5004 15 "tacint_contender.open" }
-	{ event 5004 30 "tacint_contender.close" }
-	{ event 5004 45 "tacint_contender.hammer" }
+	{ event 5004 15 "tacint_contender2.open" }
+	{ event 5004 30 "tacint_contender2.close" }
+	{ event 5004 45 "tacint_contender2.hammer" }
 	fadein 0.2
 	fadeout 0.5
 	snap
