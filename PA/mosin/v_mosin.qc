@@ -319,7 +319,7 @@ $sequence "prime_grenade" {
 }
 
 $sequence "throw_grenade" {
-	"v_mosin_anims\throw_tweak.smd"
+	"v_mosin_anims\throw_grenade.smd"
 	activity "ACT_VM_THROW_GRENADE" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
@@ -329,7 +329,7 @@ $sequence "throw_grenade" {
 }
 
 $sequence "throw_grenade_underhand" {
-	"v_mosin_anims\throw_underhand_tweak.smd"
+	"v_mosin_anims\throw_grenade_underhand.smd"
 	activity "ACT_VM_THROW_GRENADE_UNDERHAND" 1
 	{ event 5004 2 "Grenade.Throw" }
 	fadein 0.2
