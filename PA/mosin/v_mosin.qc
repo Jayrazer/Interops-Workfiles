@@ -310,7 +310,7 @@ $sequence "blind_dryfire" {
 }
 
 $sequence "prime_grenade" {
-	"v_mosin_anims\primenade.smd"
+	"v_mosin_anims\prime_grenade.smd"
 	activity "ACT_VM_PRIME_GRENADE" 1
 	{ event 5004 14 "Grenade.PullPin" }
 	fadein 0.2
